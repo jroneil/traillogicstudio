@@ -9,13 +9,14 @@ interface ProductCardProps {
 
 export function ProductCard({ product }: ProductCardProps) {
   const isComingSoon = product.status === "coming-soon";
+  const badgeClassName = product.region?.includes("Adirondacks") ? "max-w-[140px] truncate" : "";
 
   const containerClasses =
     "block h-full overflow-hidden rounded-xl border border-primary bg-surface shadow-md transition duration-200";
 
   const cardContent = (
     <div className="flex h-full flex-col">
-      <div className="relative aspect-[4/3] overflow-hidden rounded-t-xl bg-background">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-t-xl bg-[#FAFAF8]">
         {product.image && (
           <Image
             src={product.image}
@@ -31,17 +32,25 @@ export function ProductCard({ product }: ProductCardProps) {
           </div>
         )}
       </div>
-      <div className="flex flex-1 flex-col gap-2 p-5">
+      <div className="flex flex-1 flex-col gap-3 p-4">
         <div className="flex items-center justify-between gap-2">
-          <h3 className="text-lg font-semibold tracking-tight text-primary">{product.name}</h3>
+          <h3 className="text-lg font-semibold tracking-tight text-[#2F4F3A]">{product.name}</h3>
           {product.price && !isComingSoon && (
-            <span className="text-sm font-semibold text-accent">{product.price}</span>
+            <span className="text-sm font-semibold text-[#C5A45A]">{product.price}</span>
           )}
         </div>
-        <p className="text-sm text-text/80">{product.subtitle}</p>
-        <div className="mt-auto flex max-w-[160px] flex-wrap gap-1 text-xs text-primary">
-          {product.region && <Badge variant="outline">{product.region}</Badge>}
-          {product.activity && <Badge variant="outline">{product.activity}</Badge>}
+        <p className="text-sm text-[#2A2A2A]">{product.subtitle}</p>
+        <div className="mt-auto flex flex-wrap gap-2 text-xs text-[#2A2A2A]">
+          {product.region && (
+            <Badge variant="outline" className={badgeClassName}>
+              {product.region}
+            </Badge>
+          )}
+          {product.activity && (
+            <Badge variant="outline" className={badgeClassName}>
+              {product.activity}
+            </Badge>
+          )}
         </div>
       </div>
     </div>
@@ -49,7 +58,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
   if (isComingSoon) {
     return (
-      <div className={`${containerClasses} opacity-90`}>
+      <div className="overflow-hidden rounded-xl border border-[#2F4F3A] bg-[#FAFAF8] shadow-card">
         {cardContent}
       </div>
     );
@@ -58,7 +67,7 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Link
       href={`/products/${product.slug}`}
-      className={`${containerClasses} hover:-translate-y-1 hover:shadow-lg`}
+      className="block overflow-hidden rounded-xl border border-[#2F4F3A] bg-[#FAFAF8] shadow-sm transition duration-200 hover:-translate-y-1 hover:border-[#C5A45A] hover:shadow-lg"
     >
       {cardContent}
     </Link>
