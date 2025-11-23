@@ -17,10 +17,10 @@ export default function ProductsPage() {
   return (
     <div className="min-h-screen bg-[#F4F1EB]">
       <section
-        className="relative h-[260px] w-full overflow-hidden bg-[#1F3325]"
-        style={{ backgroundImage: "url(/hero-banner.jpg)", backgroundSize: "cover", backgroundPosition: "center" }}
+        className="relative h-[260px] w-full overflow-hidden bg-[#1F3325] bg-center bg-[length:1200px_auto] md:bg-cover"
+        style={{ backgroundImage: "url(/branding/TrailLogic_Section_1500x600.png)" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1F3325]/90 via-[#1F3325]/75 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0F1F14]/90 via-[#0F1F14]/75 to-[#0F1F14]/40" />
         <div className="container relative flex h-full flex-col items-start justify-center gap-4 text-[#FAFAF8]">
           <div className="space-y-2">
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-[#C5A45A]">
@@ -38,7 +38,7 @@ export default function ProductsPage() {
             <Button
               href="/"
               variant="secondary"
-              className="border border-[#C5A45A] bg-transparent text-[#FAFAF8] hover:border-[#FAFAF8] hover:bg-[#2F4F3A]/50"
+              className="border border-[#C5A45A] bg-[#C5A45A] text-[#1F3325] hover:border-[#C5A45A] hover:bg-[#B9903E]"
             >
               Back to Home
             </Button>
