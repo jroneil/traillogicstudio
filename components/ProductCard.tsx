@@ -10,6 +10,9 @@ interface ProductCardProps {
 export function ProductCard({ product }: ProductCardProps) {
   const isComingSoon = product.status === "coming-soon";
 
+  const containerClasses =
+    "block h-full overflow-hidden rounded-xl border border-primary bg-surface shadow-md transition duration-200";
+
   const cardContent = (
     <div className="flex h-full flex-col">
       <div className="relative aspect-[4/3] overflow-hidden rounded-t-xl bg-background">
@@ -28,15 +31,15 @@ export function ProductCard({ product }: ProductCardProps) {
           </div>
         )}
       </div>
-      <div className="flex flex-1 flex-col gap-2 p-4">
+      <div className="flex flex-1 flex-col gap-2 p-5">
         <div className="flex items-center justify-between gap-2">
-          <h3 className="text-lg font-semibold text-text">{product.name}</h3>
+          <h3 className="text-lg font-semibold tracking-tight text-primary">{product.name}</h3>
           {product.price && !isComingSoon && (
-            <span className="text-sm font-semibold text-primary">{product.price}</span>
+            <span className="text-sm font-semibold text-accent">{product.price}</span>
           )}
         </div>
-        <p className="text-sm text-slate-700">{product.subtitle}</p>
-        <div className="mt-auto flex flex-wrap gap-2 text-xs text-slate-600">
+        <p className="text-sm text-text/80">{product.subtitle}</p>
+        <div className="mt-auto flex max-w-[160px] flex-wrap gap-1 text-xs text-primary">
           {product.region && <Badge variant="outline">{product.region}</Badge>}
           {product.activity && <Badge variant="outline">{product.activity}</Badge>}
         </div>
@@ -46,7 +49,7 @@ export function ProductCard({ product }: ProductCardProps) {
 
   if (isComingSoon) {
     return (
-      <div className="overflow-hidden rounded-xl border border-border bg-white shadow-card opacity-90">
+      <div className={`${containerClasses} opacity-90`}>
         {cardContent}
       </div>
     );
@@ -55,7 +58,7 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Link
       href={`/products/${product.slug}`}
-      className="block overflow-hidden rounded-xl border border-border bg-white shadow-card transition hover:-translate-y-1 hover:shadow-lg"
+      className={`${containerClasses} hover:-translate-y-1 hover:shadow-lg`}
     >
       {cardContent}
     </Link>

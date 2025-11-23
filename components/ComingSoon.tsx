@@ -5,12 +5,12 @@ export function ComingSoon({ products }: { products: Product[] }) {
   if (!products.length) return null;
 
   return (
-    <section className="section bg-white/60">
+    <section className="section bg-surface">
       <div className="container space-y-6">
         <div className="flex flex-col gap-2">
-          <p className="text-sm font-semibold text-primary">On the horizon</p>
-          <h2 className="text-3xl font-bold text-text">Coming Soon</h2>
-          <p className="max-w-2xl text-slate-700">
+          <p className="text-sm font-semibold uppercase tracking-wide text-primary">On the horizon</p>
+          <h2 className="text-3xl font-semibold tracking-tight text-primary">Coming Soon</h2>
+          <p className="max-w-2xl text-text/80">
             New regions, activities, and seasons are in development. Tell us what you want to see next.
           </p>
         </div>

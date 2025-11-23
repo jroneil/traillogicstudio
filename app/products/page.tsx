@@ -14,22 +14,22 @@ export const metadata = {
 
 export default function ProductsPage() {
   return (
-    <div className="section">
+    <div className="section bg-surface">
       <div className="container space-y-8">
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
-            <p className="text-sm font-semibold text-primary">Products</p>
-            <h1 className="text-3xl font-bold text-text">Planners & Guides</h1>
-            <p className="max-w-2xl text-slate-700">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary">Products</p>
+            <h1 className="text-3xl font-semibold tracking-tight text-primary">Planners & Guides</h1>
+            <p className="max-w-2xl text-text/80">
               Digital downloads for hikers who want structured, confidence-building planning tools.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2 text-sm text-slate-700">
+          <div className="flex flex-wrap gap-2 text-sm text-primary">
             <Badge variant="outline">Filters coming soon</Badge>
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-3 text-xs text-slate-600">
+        <div className="flex flex-wrap gap-2 text-xs text-primary">
           {regions.map((region) => (
             <Badge key={region}>{region}</Badge>
           ))}

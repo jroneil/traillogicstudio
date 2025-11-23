@@ -11,14 +11,14 @@ type ButtonProps = {
 } & ButtonHTMLAttributes<HTMLButtonElement>;
 
 const baseStyles =
-  "inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2";
+  "inline-flex items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold tracking-tight transition-transform transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2";
 
 const variantStyles: Record<Variant, string> = {
   primary:
-    "bg-primary text-white hover:bg-primary-dark focus-visible:outline-primary shadow-sm",
+    "bg-primary text-surface hover:bg-primary-dark focus-visible:outline-accent shadow-md shadow-primary/10",
   secondary:
-    "bg-white text-primary border border-border hover:text-primary-dark focus-visible:outline-primary",
-  ghost: "text-primary hover:text-primary-dark focus-visible:outline-primary",
+    "bg-surface text-primary border border-accent hover:bg-background hover:text-primary-dark focus-visible:outline-accent",
+  ghost: "text-primary hover:text-primary-dark focus-visible:outline-accent",
 };
 
 export function Button({

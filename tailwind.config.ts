@@ -10,12 +10,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#2D5A4A",
-        "primary-dark": "#23463A",
-        accent: "#F6AD55",
-        background: "#F7FAFC",
-        text: "#1F2933",
-        border: "#E2E8F0",
+        primary: "#2F4F3A",
+        "primary-dark": "#1F3325",
+        accent: "#C5A45A",
+        background: "#F4F1EB",
+        surface: "#FAFAF8",
+        text: "#2A2A2A",
+        border: "#C5A45A",
       },
       boxShadow: {
         card: "0 10px 30px rgba(0,0,0,0.06)",

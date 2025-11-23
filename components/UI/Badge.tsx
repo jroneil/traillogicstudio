@@ -7,11 +7,11 @@ type BadgeProps = {
 };
 
 export function Badge({ children, variant = "default", className = "" }: BadgeProps) {
-  const base = "inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold";
+  const base = "inline-flex items-center rounded-md px-2 py-1 text-xs font-semibold tracking-tight";
   const styles =
     variant === "outline"
-      ? "border border-border text-primary"
-      : "bg-primary/10 text-primary";
+      ? "border border-accent bg-surface text-primary"
+      : "border border-accent bg-accent/20 text-primary";
 
   return <span className={`${base} ${styles} ${className}`}>{children}</span>;
 }

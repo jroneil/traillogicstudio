@@ -22,17 +22,17 @@ export default function HomePage() {
     <>
       <Hero
         title="Trail Logic Studio"
-        subtitle="Outdoor Planners, Guides & Resources"
+        subtitle="Backpacking Planners, Guides & Outdoor Resources"
         primaryCta={{ label: "View Products", href: "/products" }}
-        secondaryCta={{ label: "Buy Planner", href: featured?.etsyUrl ?? "/products" }}
+        secondaryCta={{ label: "Learn More", href: "/about" }}
       />
 
-      <section className="section">
+      <section className="section bg-surface">
         <div className="container grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
           <div className="space-y-4">
-            <p className="text-sm font-semibold text-primary">Featured Planner</p>
-            <h2 className="text-3xl font-bold text-text">White Mountains Overnight Planner</h2>
-            <p className="text-slate-700">
+            <p className="text-sm font-semibold uppercase tracking-wide text-primary">Featured Planner</p>
+            <h2 className="text-3xl font-semibold tracking-tight text-primary">White Mountains Overnight Planner</h2>
+            <p className="text-text/80">
               A 45-page printable planner crafted for first-time overnight hikers in New Hampshire&apos;s White Mountains.
               Plan your route, dial in your gear, and hike with confidence.
             </p>
@@ -49,14 +49,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section bg-white">
+      <section className="section bg-background">
         <div className="container space-y-6">
           <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-sm font-semibold text-primary">Collections</p>
-              <h2 className="text-3xl font-bold text-text">Regions & Activities</h2>
+              <p className="text-sm font-semibold uppercase tracking-wide text-primary">Collections</p>
+              <h2 className="text-3xl font-semibold tracking-tight text-primary">Regions & Activities</h2>
             </div>
-            <p className="max-w-xl text-slate-700">
+            <p className="max-w-xl text-text/80">
               Browse by region or activity. More editions are on the way for Vermont, Maine, Adirondacks, and beyond.
             </p>
           </div>
@@ -64,11 +64,11 @@ export default function HomePage() {
             {regions.map((region) => (
               <div
                 key={region}
-                className="flex items-center justify-between rounded-xl border border-border bg-background p-4"
+                className="flex items-center justify-between rounded-xl border border-accent/70 bg-surface p-4"
               >
                 <div>
-                  <p className="text-sm font-semibold text-primary">Region</p>
-                  <p className="text-base font-semibold text-text">{region}</p>
+                  <p className="text-sm font-semibold uppercase tracking-wide text-primary">Region</p>
+                  <p className="text-base font-semibold tracking-tight text-primary">{region}</p>
                 </div>
                 <Badge variant="outline">Planner</Badge>
               </div>
@@ -76,11 +76,11 @@ export default function HomePage() {
             {activities.map((activity) => (
               <div
                 key={activity}
-                className="flex items-center justify-between rounded-xl border border-border bg-background p-4"
+                className="flex items-center justify-between rounded-xl border border-accent/70 bg-surface p-4"
               >
                 <div>
-                  <p className="text-sm font-semibold text-primary">Activity</p>
-                  <p className="text-base font-semibold text-text">{activity}</p>
+                  <p className="text-sm font-semibold uppercase tracking-wide text-primary">Activity</p>
+                  <p className="text-base font-semibold tracking-tight text-primary">{activity}</p>
                 </div>
                 <Badge variant="outline">Guide</Badge>
               </div>
@@ -89,12 +89,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section bg-surface">
         <div className="container space-y-6">
           <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-sm font-semibold text-primary">Trail Logic Favorites</p>
-              <h2 className="text-3xl font-bold text-text">Featured Products</h2>
+              <p className="text-sm font-semibold uppercase tracking-wide text-primary">Trail Logic Favorites</p>
+              <h2 className="text-3xl font-semibold tracking-tight text-primary">Featured Products</h2>
             </div>
             <Button href="/products" variant="secondary">
               View All

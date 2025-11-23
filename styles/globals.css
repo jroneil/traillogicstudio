@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #f7fafc;
-  color: #1f2933;
+  background-color: #f4f1eb;
+  color: #2a2a2a;
   font-family: var(--font-geist-sans, "Inter", system-ui, -apple-system, sans-serif);
   line-height: 1.6;
   min-height: 100vh;
@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #2d5a4a;
+  color: #2f4f3a;
 }
 
 img {
