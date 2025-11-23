@@ -10,6 +10,7 @@ interface ProductCardProps {
 export function ProductCard({ product }: ProductCardProps) {
   const isComingSoon = product.status === "coming-soon";
   const badgeClassName = product.region?.includes("Adirondacks") ? "max-w-[140px] truncate" : "";
+  const imageClassName = isComingSoon ? "object-contain p-4" : "object-cover";
 
   const cardContent = (
     <div className="flex h-full flex-col">
@@ -19,7 +20,7 @@ export function ProductCard({ product }: ProductCardProps) {
             src={product.image}
             alt={product.name}
             fill
-            className="object-cover"
+            className={imageClassName}
             sizes="(max-width: 768px) 100vw, 400px"
           />
         )}
