@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+  <defs>
+    <style>
+      .section-title { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 18px; font-weight: 700; fill: #0E5B35; }
+      .label { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 16px; fill: #000; }
+      .small { font-family: 'Helvetica', 'Arial', sans-serif; font-size: 14px; fill: #000; }
+      .soft-bar { fill: #83A98D; }
+      .border { stroke: #DDDDDD; fill: none; }
+    </style>
+  </defs>
+  <rect width="800" height="1120" fill="#ffffff"/>
+
+  <!-- Header -->
+  <g transform="translate(40,32)">
+    <text class="section-title" y="0" x="0">TrailLogic Daily Trip Planner</text>
+    <text class="label" y="36" x="0">DAY ____</text>
+    <text class="label" y="36" x="180">DATE: __________</text>
+    <text class="label" y="70" x="0">Starting Point: ____________________</text>
+    <text class="label" y="100" x="0">Ending Point: _____________________</text>
+    <text class="label" y="130" x="0">Goal Camp Arrival: 5:00–6:00 PM</text>
+  </g>
+
+  <!-- Morning Checklist -->
+  <g transform="translate(40,170)">
+    <rect class="soft-bar" width="720" height="24" y="-18" rx="4"/>
+    <text class="section-title" x="8" y="0">Morning Checklist</text>
+    <g class="small" transform="translate(0,18)">
+      <g transform="translate(0,0)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Check weather (wind, storms, visibility)</text></g>
+      <g transform="translate(0,22)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Confirm water sources</text></g>
+      <g transform="translate(0,44)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Eat full breakfast</text></g>
+      <g transform="translate(0,66)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Pack gear in same order</text></g>
+      <g transform="translate(0,88)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Check headlamp battery</text></g>
+      <g transform="translate(0,110)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Start hiking by 7–8 AM</text></g>
+    </g>
+  </g>
+
+  <!-- Route Details -->
+  <g transform="translate(40,300)">
+    <rect class="soft-bar" width="720" height="24" y="-18" rx="4"/>
+    <text class="section-title" x="8" y="0">Route Details</text>
+    <rect class="border" x="0" y="12" width="720" height="180" rx="6"/>
+    <g class="label" transform="translate(12,36)">
+      <text y="0">Total Mileage: _________</text>
+      <text y="26">Elevation Gain: ________</text>
+      <text y="52">Estimated Time: ________</text>
+      <text y="78">Key Landmarks:</text>
+      <text y="102">________________________________________</text>
+      <text y="126">________________________________________</text>
+      <text y="150">________________________________________</text>
+      <text y="174">Bailout Trail for Today: __________________</text>
+      <text y="198">Alternate Route if Needed: _______________</text>
+    </g>
+  </g>
+
+  <!-- Water Plan -->
+  <g transform="translate(40,510)">
+    <rect class="soft-bar" width="720" height="24" y="-18" rx="4"/>
+    <text class="section-title" x="8" y="0">Water Plan</text>
+    <g class="label" transform="translate(0,20)">
+      <text y="24">Start with: ____ L</text>
+      <text y="52">Refill at:</text>
+      <text y="78">1) __________________</text>
+      <text y="106">2) __________________</text>
+      <text y="134">3) __________________</text>
+      <text y="162">Backup source: __________________</text>
+    </g>
+  </g>
+
+  <!-- Pacing & Weather -->
+  <g transform="translate(40,700)">
+    <rect class="soft-bar" width="720" height="24" y="-18" rx="4"/>
+    <text class="section-title" x="8" y="0">Pacing &amp; Weather</text>
+    <rect class="border" x="0" y="12" width="340" height="150" rx="6"/>
+    <text class="section-title" x="12" y="40">Pacing</text>
+    <g class="small" transform="translate(12,56)">
+      <text y="0">Goal Pace:</text>
+      <text y="22">Uphill: ~1,000 ft/hour</text>
+      <text y="44">Flat: 1.5–2 mph</text>
+      <text y="66">50/10: 50 min hike / 10 min rest</text>
+    </g>
+    <rect class="border" x="360" y="12" width="360" height="150" rx="6"/>
+    <text class="section-title" x="372" y="40">Weather Checks</text>
+    <g class="small" transform="translate(372,56)">
+      <text y="0">10:00 AM: __________</text>
+      <text y="24">12:00 PM: __________</text>
+      <text y="48">2:00 PM: __________</text>
+      <text y="72">4:00 PM: __________</text>
+    </g>
+  </g>
+
+  <!-- Meals, Camp, and End Notes Row -->
+  <g transform="translate(40,890)">
+    <rect class="soft-bar" width="720" height="24" y="-18" rx="4"/>
+    <text class="section-title" x="8" y="0">Meals, Camp &amp; End Notes</text>
+
+    <rect class="border" x="0" y="12" width="230" height="180" rx="6"/>
+    <text class="section-title" x="12" y="40">Meals &amp; Snacks</text>
+    <g class="label" transform="translate(12,58)">
+      <text y="0">9:00: __________</text>
+      <text y="26">10:30: __________</text>
+      <text y="52">12:00: __________</text>
+      <text y="78">1:30: __________</text>
+      <text y="104">3:00: __________</text>
+      <text y="130">Dinner: __________________</text>
+    </g>
+
+    <rect class="border" x="250" y="12" width="230" height="180" rx="6"/>
+    <text class="section-title" x="262" y="40">Camp Setup</text>
+    <g class="small" transform="translate(262,58)">
+      <g transform="translate(0,0)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Rainfly tight</text></g>
+      <g transform="translate(0,18)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">No dead trees overhead</text></g>
+      <g transform="translate(0,36)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Refill all water</text></g>
+      <g transform="translate(0,54)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Change into dry layers</text></g>
+      <g transform="translate(0,72)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Hang food</text></g>
+      <g transform="translate(0,90)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Check tomorrow’s weather</text></g>
+      <g transform="translate(0,108)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Review route &amp; bailout</text></g>
+      <g transform="translate(0,126)"><rect class="border" width="14" height="14" rx="2"/><text x="24" y="12">Stretch 5–10 minutes</text></g>
+    </g>
+
+    <rect class="border" x="500" y="12" width="220" height="180" rx="6"/>
+    <text class="section-title" x="512" y="40">End of Day Notes</text>
+    <g class="label" transform="translate(512,58)">
+      <text y="0">Energy (1–10): ______</text>
+      <text y="28">Issues / Hotspots: ____________</text>
+      <text y="56">What worked well: _____________</text>
+      <text y="84">Adjustments for tomorrow: ______</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text class="small" x="400" y="1110" text-anchor="middle">TrailLogic Studio – Daily Trip Planner</text>
+</svg>
