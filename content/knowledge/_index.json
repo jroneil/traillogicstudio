@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "backpacking-basics",
+    "title": "Backpacking Basics for New Trail Travelers",
+    "summary": "A foundational playbook covering planning, packing, movement, camp routines, and reflection for first-time backpackers."
+  },
+  {
+    "slug": "white-mountains-planning",
+    "title": "White Mountains Planning Blueprint",
+    "summary": "Step-by-step guidance for tackling New Hampshire's rugged peaks with smart routes, weather calls, and hut or camp logistics."
+  },
+  {
+    "slug": "adirondacks-planning",
+    "title": "Adirondacks Planning Guide",
+    "summary": "Key considerations for navigating New York's Adirondack Park with flexible itineraries and low-impact camps."
+  },
+  {
+    "slug": "seasonal-spring",
+    "title": "Spring Travel Strategy",
+    "summary": "How to handle mud, lingering snow, and variable temperatures during shoulder-season trips."
+  },
+  {
+    "slug": "seasonal-summer",
+    "title": "Summer Travel Strategy",
+    "summary": "Planning for heat, storms, and crowds while keeping hydration and pacing steady in peak season."
+  },
+  {
+    "slug": "seasonal-fall",
+    "title": "Fall Travel Strategy",
+    "summary": "Travel tips for colorful but cooler months, including daylight management and frost readiness."
+  },
+  {
+    "slug": "seasonal-winter",
+    "title": "Winter Travel Strategy",
+    "summary": "Building safe cold-weather objectives with traction, insulation, and avalanche-aware habits."
+  },
+  {
+    "slug": "route-planning",
+    "title": "Route Planning Mastery",
+    "summary": "A repeatable framework for designing routes, bailouts, and camp matrices for any terrain."
+  },
+  {
+    "slug": "gear-selection",
+    "title": "Gear Selection Framework",
+    "summary": "How to choose adaptable layers, shelter, and footwear plus maintain them between trips."
+  },
+  {
+    "slug": "safety-risk-management",
+    "title": "Safety and Risk Management",
+    "summary": "Hazard assessment, decision thresholds, and communication habits that keep teams safer."
+  },
+  {
+    "slug": "food-meal-prep",
+    "title": "Trail Food and Meal Prep",
+    "summary": "Meal planning, calorie targets, and cooking systems that make fueling reliable."
+  },
+  {
+    "slug": "navigation-skills",
+    "title": "Navigation Skills Deep Dive",
+    "summary": "Building map, compass, and GPS fluency with routines that prevent getting off-route."
+  },
+  {
+    "slug": "elevation-gain-planning",
+    "title": "Elevation Gain Planning",
+    "summary": "Strategies for pacing big climbs, protecting knees on descents, and budgeting energy."
+  },
+  {
+    "slug": "weather-prep",
+    "title": "Weather Preparedness",
+    "summary": "Interpreting forecasts and field signs to adapt plans and gear in changing conditions."
+  },
+  {
+    "slug": "multi-day-trips",
+    "title": "Multi-Day Trip Systems",
+    "summary": "Layered systems for sleep, food, and navigation that keep longer itineraries on track."
+  },
+  {
+    "slug": "lightweight-packing",
+    "title": "Lightweight Packing Playbook",
+    "summary": "Applying ultralight principles without sacrificing safety or comfort."
+  },
+  {
+    "slug": "beginner-mistakes",
+    "title": "Common Beginner Mistakes",
+    "summary": "Frequent pitfalls new backpackers face and how to avoid them with checklists."
+  },
+  {
+    "slug": "trail-etiquette",
+    "title": "Trail Etiquette and Community",
+    "summary": "Guidance for sharing trails courteously, from passing rules to noise discipline."
+  },
+  {
+    "slug": "campsite-selection",
+    "title": "Campsite Selection Strategy",
+    "summary": "Picking durable, safe overnight spots that respect land regulations and weather."
+  },
+  {
+    "slug": "water-treatment",
+    "title": "Water Treatment Options",
+    "summary": "Comparing filtration, chemical, and boiling methods with redundancy tips."
+  },
+  {
+    "slug": "first-aid-essentials",
+    "title": "First-Aid Essentials",
+    "summary": "Building a trail-ready medical kit and practicing responses to common injuries."
+  },
+  {
+    "slug": "stove-fuel-management",
+    "title": "Stove and Fuel Management",
+    "summary": "Choosing stoves, estimating fuel, and cooking efficiently in varied conditions."
+  },
+  {
+    "slug": "group-leadership",
+    "title": "Group Leadership on Trail",
+    "summary": "Keeping teams aligned through communication rhythms, delegation, and feedback loops."
+  },
+  {
+    "slug": "leave-no-trace-advanced",
+    "title": "Leave No Trace in Depth",
+    "summary": "Detailed ethics and actions for minimizing impact beyond the basics."
+  },
+  {
+    "slug": "river-crossings",
+    "title": "River and Stream Crossings",
+    "summary": "Techniques, risk checks, and equipment for safely moving through water."
+  },
+  {
+    "slug": "night-hiking",
+    "title": "Night Hiking Skills",
+    "summary": "Navigating and pacing in darkness with lighting strategies and hazard awareness."
+  },
+  {
+    "slug": "snow-travel",
+    "title": "Snow Travel and Traction",
+    "summary": "Using traction, layering, and avalanche-aware choices for safe winter movement."
+  },
+  {
+    "slug": "desert-travel",
+    "title": "Desert Travel Essentials",
+    "summary": "Managing heat, scarce water, and fragile soils during dryland trips."
+  },
+  {
+    "slug": "wildlife-encounters",
+    "title": "Wildlife Encounters",
+    "summary": "Coexisting with animals through food storage, spacing, and behavior cues."
+  },
+  {
+    "slug": "conditioning-training",
+    "title": "Conditioning and Training",
+    "summary": "Building strength, endurance, and mobility that translate to trail resilience."
+  },
+  {
+    "slug": "digital-tools-navigation",
+    "title": "Digital Tools for Navigation",
+    "summary": "Setting up apps, devices, and data management for reliable off-grid navigation."
+  },
+  {
+    "slug": "family-backpacking",
+    "title": "Family Backpacking",
+    "summary": "Planning multi-age trips with kid-friendly pacing, comfort items, and safety nets."
+  },
+  {
+    "slug": "solo-travel",
+    "title": "Solo Travel Considerations",
+    "summary": "Mindset, risk checks, and communication habits for independent backpackers."
+  },
+  {
+    "slug": "trail-running-crossover",
+    "title": "Trail Running to Backpacking Crossover",
+    "summary": "Leveraging running fitness while adapting to pack weight and slower pacing."
+  },
+  {
+    "slug": "urban-to-wild-transition",
+    "title": "Urban-to-Wild Transition Planning",
+    "summary": "Steps for leaving the city smoothly, from gear staging to transport backups."
+  },
+  {
+    "slug": "emergency-communication",
+    "title": "Emergency Communication Options",
+    "summary": "Understanding PLBs, satellite messengers, and radio basics for backcountry use."
+  }
+]
