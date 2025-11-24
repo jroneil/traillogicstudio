@@ -12,6 +12,14 @@ const RESOURCE_ITEMS = [
     href: "#route-planning-basics",
   },
   {
+    slug: "trail-logic-safety-decision-system",
+    title: "TrailLogic Safety Decision System",
+    description:
+      "Clean, vertical flowchart for go/hold safety calls from pre-trip checks through end-of-day review (printable A4).",
+    category: "Checklists",
+    href: "/resources/trail-logic-safety-decision-system",
+  },
+  {
     slug: "white-mountains-hut-planning",
     title: "White Mountains hut planning",
     description: "Booking timelines, packing advice, and route tips tailored for AMC and RMC hut overnights in New Hampshire.",
