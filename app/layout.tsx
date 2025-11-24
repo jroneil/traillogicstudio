@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { MaintenanceBanner } from "@/components/MaintenanceBanner";
+import { maintenanceConfig } from "@/config/maintenance";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +36,9 @@ export default function RootLayout({
       >
         <div className="flex min-h-screen flex-col">
           <Header />
+          {maintenanceConfig.enabled ? (
+            <MaintenanceBanner message={maintenanceConfig.message} />
+          ) : null}
           <main className="flex-1">{children}</main>
           <Footer />
         </div>
