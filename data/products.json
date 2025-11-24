@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "slug": "white-mountains-overnight-planner",
+    "title": "Overnight Backpacking Planner — White Mountain NH Edition",
+    "description": "45-page printable hiking planner. Perfect for first overnight hikers in the White Mountains.",
+    "price": "$14.99",
+    "gumroadUrl": null,
+    "thumbnailPath": "/products/white-mountains/wm-1.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "adirondacks-overnight-planner",
+    "title": "Overnight Backpacking Planner — Adirondacks Edition",
+    "description": "Coming soon…",
+    "price": null,
+    "gumroadUrl": null,
+    "thumbnailPath": "/branding/trail_logic_logo_badge.png"
+  }
+]
