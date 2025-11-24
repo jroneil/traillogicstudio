@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" fill="none">
+  <style>
+    .title { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; font-weight: 700; }
+    .subtitle { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #444; font-weight: 400; }
+    .header-bar { fill: #83A98D; }
+    .header-text { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; font-weight: 700; }
+    .label { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; font-size: 16px; }
+    .line { stroke: #DDDDDD; stroke-width: 1.2; }
+    .box { stroke: #DDDDDD; stroke-width: 1.2; rx: 10; ry: 10; fill: none; }
+    .table-header { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; font-weight: 700; font-size: 15px; }
+    .table-cell { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #555555; font-size: 14px; }
+    .footer { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #777777; font-size: 12px; }
+    .checkbox { stroke: #0E5B35; stroke-width: 1.4; fill: none; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="1120" fill="#FFFFFF"/>
+
+  <!-- Title Area -->
+  <text x="400" y="80" text-anchor="middle" class="title" font-size="28">TrailLogic Pre-Trip Planner</text>
+  <text x="400" y="110" text-anchor="middle" class="subtitle" font-size="16">White Mountains 2–3 Day Backpacking Trip</text>
+
+  <!-- Trip Overview Section -->
+  <rect class="header-bar" x="60" y="140" width="680" height="30" rx="6" ry="6"/>
+  <text class="header-text" x="400" y="161" text-anchor="middle" font-size="16">Trip Overview</text>
+  <rect class="box" x="60" y="175" width="680" height="150"/>
+
+  <text class="label" x="80" y="210">Trip Name:</text>
+  <line class="line" x1="170" y1="206" x2="700" y2="206"/>
+
+  <text class="label" x="80" y="245">Start Date:</text>
+  <line class="line" x1="170" y1="241" x2="320" y2="241"/>
+  <text class="label" x="350" y="245">End Date:</text>
+  <line class="line" x1="430" y1="241" x2="580" y2="241"/>
+
+  <text class="label" x="80" y="280">Total Days:</text>
+  <line class="line" x1="175" y1="276" x2="260" y2="276"/>
+
+  <text class="label" x="80" y="315">Planned Route:</text>
+  <line class="line" x1="195" y1="311" x2="700" y2="311"/>
+
+  <text class="label" x="80" y="350">Bailout Options (2–3):</text>
+  <line class="line" x1="270" y1="346" x2="700" y2="346"/>
+
+  <!-- Daily Mileage Table -->
+  <rect class="header-bar" x="60" y="370" width="680" height="30" rx="6" ry="6"/>
+  <text class="header-text" x="400" y="391" text-anchor="middle" font-size="16">Daily Mileage &amp; Elevation</text>
+
+  <!-- Table Grid -->
+  <rect class="box" x="60" y="405" width="680" height="160"/>
+  <!-- Columns positions: Day (60-160), Miles (160-300), Elevation (300-480), Time (480-620), Notes (620-740) -->
+  <line class="line" x1="160" y1="405" x2="160" y2="565"/>
+  <line class="line" x1="300" y1="405" x2="300" y2="565"/>
+  <line class="line" x1="480" y1="405" x2="480" y2="565"/>
+  <line class="line" x1="620" y1="405" x2="620" y2="565"/>
+
+  <line class="line" x1="60" y1="435" x2="740" y2="435"/>
+  <line class="line" x1="60" y1="470" x2="740" y2="470"/>
+  <line class="line" x1="60" y1="505" x2="740" y2="505"/>
+  <line class="line" x1="60" y1="540" x2="740" y2="540"/>
+
+  <text class="table-header" x="110" y="427" text-anchor="middle">Day</text>
+  <text class="table-header" x="230" y="427" text-anchor="middle">Miles</text>
+  <text class="table-header" x="390" y="427" text-anchor="middle">Elevation Gain</text>
+  <text class="table-header" x="550" y="427" text-anchor="middle">Est. Time</text>
+  <text class="table-header" x="680" y="427" text-anchor="middle">Notes</text>
+
+  <text class="table-cell" x="110" y="462" text-anchor="middle">Day 1</text>
+  <text class="table-cell" x="110" y="497" text-anchor="middle">Day 2</text>
+  <text class="table-cell" x="110" y="532" text-anchor="middle">Day 3</text>
+  <text class="table-cell" x="110" y="567" text-anchor="middle">Day 4</text>
+
+  <!-- Water Plan Section -->
+  <rect class="header-bar" x="60" y="585" width="680" height="30" rx="6" ry="6"/>
+  <text class="header-text" x="400" y="606" text-anchor="middle" font-size="16">Water Plan</text>
+  <rect class="box" x="60" y="620" width="680" height="120"/>
+
+  <text class="label" x="80" y="655">Water Source 1:</text>
+  <line class="line" x1="220" y1="651" x2="700" y2="651"/>
+  <text class="label" x="80" y="690">Water Source 2:</text>
+  <line class="line" x1="220" y1="686" x2="700" y2="686"/>
+  <text class="label" x="80" y="725">Camp Water Source:</text>
+  <line class="line" x1="250" y1="721" x2="700" y2="721"/>
+  <text class="label" x="80" y="760">Backup Source:</text>
+  <line class="line" x1="210" y1="756" x2="700" y2="756"/>
+
+  <!-- Weather Window Section -->
+  <rect class="header-bar" x="60" y="780" width="680" height="30" rx="6" ry="6"/>
+  <text class="header-text" x="400" y="801" text-anchor="middle" font-size="16">Weather Window</text>
+  <rect class="box" x="60" y="815" width="680" height="120"/>
+
+  <text class="label" x="80" y="850">Ridge Wind:</text>
+  <line class="line" x1="190" y1="846" x2="380" y2="846"/>
+  <text class="label" x="420" y="850">Rain Forecast:</text>
+  <line class="line" x1="540" y1="846" x2="700" y2="846"/>
+
+  <text class="label" x="80" y="885">Temperature Range:</text>
+  <line class="line" x1="250" y1="881" x2="450" y2="881"/>
+  <text class="label" x="500" y="885">Sunrise / Sunset:</text>
+  <line class="line" x1="650" y1="881" x2="700" y2="881"/>
+
+  <!-- Gear Checklist Section -->
+  <rect class="header-bar" x="60" y="910" width="680" height="30" rx="6" ry="6"/>
+  <text class="header-text" x="400" y="931" text-anchor="middle" font-size="16">Gear Checklist</text>
+  <rect class="box" x="60" y="945" width="680" height="125"/>
+
+  <!-- Left Column -->
+  <rect class="checkbox" x="80" y="970" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="105" y="981">Shelter</text>
+  <rect class="checkbox" x="80" y="1000" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="105" y="1011">Sleep system</text>
+  <rect class="checkbox" x="80" y="1030" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="105" y="1041">Clothing layers</text>
+  <rect class="checkbox" x="80" y="1060" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="105" y="1071">Stove + fuel</text>
+  <rect class="checkbox" x="80" y="1090" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="105" y="1101">Water filter + tablets</text>
+
+  <!-- Right Column -->
+  <rect class="checkbox" x="420" y="970" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="445" y="981">Map + GPS</text>
+  <rect class="checkbox" x="420" y="1000" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="445" y="1011">First-aid kit</text>
+  <rect class="checkbox" x="420" y="1030" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="445" y="1041">Food packed</text>
+  <rect class="checkbox" x="420" y="1060" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="445" y="1071">Electronics charged</text>
+  <rect class="checkbox" x="420" y="1090" width="14" height="14" rx="2" ry="2"/>
+  <text class="label" x="445" y="1101">Bear hang kit</text>
+
+  <!-- Footer -->
+  <text class="footer" x="400" y="1105" text-anchor="middle">TrailLogic Studio • Confidence. Clarity. Adventure.</text>
+</svg>
