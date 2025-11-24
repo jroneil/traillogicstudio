@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Holiday Sale Badge</title>
+  <desc id="desc">Circular badge with topo lines, trees, and snow accents in holiday palette.</desc>
+  <circle cx="160" cy="160" r="152" fill="#1F3325" stroke="#C5A45A" stroke-width="8" />
+  <circle cx="160" cy="160" r="128" fill="none" stroke="#FAFAF8" stroke-width="4" opacity="0.8" />
+  <path d="M64 210c24-18 52-28 80-28s56 10 84 0 52-36 96-36" fill="none" stroke="#C5A45A" stroke-width="3" stroke-linecap="round" />
+  <path d="M48 232c30-10 58-6 82 4s44 10 72-2 66-12 88-8 32 8 42 14" fill="none" stroke="#FAFAF8" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+  <path d="M110 196 150 126 184 176 210 146 238 188" fill="none" stroke="#FAFAF8" stroke-width="4" stroke-linecap="round" />
+  <path d="m96 236 10-36 10 36zm34-4 10-30 10 30zm34-2 10-32 10 32zm34-2 10-30 10 30z" fill="#FAFAF8" />
+  <path d="M84 114c14-8 30-18 48-18s38 10 54 8 30-12 44-18 30-4 46 6" fill="none" stroke="#C5A45A" stroke-width="3" stroke-linecap="round" />
+  <path d="M66 130c20-8 36-10 50-8s26 8 38 6 24-12 42-16 44-4 68 8" fill="none" stroke="#FAFAF8" stroke-width="2" opacity="0.7" />
+  <circle cx="234" cy="84" r="16" fill="#C5A45A" />
+  <path d="M226 84h16m-8-8v16" stroke="#FAFAF8" stroke-width="3" stroke-linecap="round" />
+</svg>

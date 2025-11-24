@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Snowy Topographic Background</title>
+  <desc id="desc">Topo-inspired snowy landscape with sweeping lines and peaks.</desc>
+  <rect width="1200" height="360" fill="#1F3325" />
+  <path d="M0 240c70-12 134-52 212-62s164 18 234 8 116-52 184-74 156-12 214 26 114 46 170 32 118-64 186-70v260H0Z" fill="#2F4F3A" opacity="0.8" />
+  <path d="M0 274c82-22 142-66 224-72s170 32 244 26 138-56 206-76 132-4 190 30 102 46 162 28 118-66 174-74v224H0Z" fill="#2F4F3A" opacity="0.6" />
+  <path d="M36 210c72-20 150-14 212 0s100 34 158 22 140-62 196-76 104-6 156 22 110 60 178 34" fill="none" stroke="#FAFAF8" stroke-width="3" stroke-linecap="round" opacity="0.9" />
+  <path d="M64 244c56-18 98-22 156-8s128 36 204 12 148-78 232-70 162 84 248 70c60-10 114-64 180-72" fill="none" stroke="#C5A45A" stroke-width="3" stroke-linecap="round" opacity="0.75" />
+  <path d="M88 278c48-18 92-18 142-6s118 36 190 18 152-82 248-72 166 88 236 84 122-70 184-80" fill="none" stroke="#FAFAF8" stroke-width="2" opacity="0.65" />
+  <path d="M222 246 292 152 350 230 404 196 454 238 512 182 576 246 632 210 676 238 712 210 770 250 820 212 882 254 948 208 1008 240" fill="none" stroke="#FAFAF8" stroke-width="3" stroke-linecap="round" />
+  <path d="m188 280 16-54 16 54zm70 0 16-52 16 52zm74-4 18-56 18 56zm82 4 16-52 16 52zm78-2 18-54 18 54zm82 0 16-50 16 50zm90-2 16-48 16 48z" fill="#FAFAF8" opacity="0.9" />
+  <path d="M100 320c68-14 130-22 198-12s124 32 192 22 132-56 206-52 152 58 212 48 100-50 176-66" fill="none" stroke="#C5A45A" stroke-width="2" opacity="0.55" />
+  <path d="M40 340c80-18 152-28 220-18s134 36 214 26 152-68 230-58 144 72 212 62 116-66 184-78" fill="none" stroke="#FAFAF8" stroke-width="2" opacity="0.5" />
+</svg>

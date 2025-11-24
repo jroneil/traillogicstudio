@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Holiday Banner</title>
+  <desc id="desc">Mountain silhouette with topo lines and evergreen trees in holiday palette.</desc>
+  <rect width="1200" height="420" fill="#1F3325" rx="24" />
+  <path d="M0 290c80-24 140-60 220-68s150 18 220 14c90-4 150-56 230-92s168-42 260 20 160 48 270-18v274H0Z" fill="#2F4F3A" opacity="0.9" />
+  <path d="M0 330c96-26 170-86 264-96s150 40 240 38c86-2 140-64 222-92s184-10 254 32 120 36 220-12v220H0Z" fill="#2F4F3A" opacity="0.6" />
+  <path d="M80 302c60-10 102-42 150-50 58-10 130 16 188 10 70-6 122-52 190-74s140-6 186 18 92 30 154-2" fill="none" stroke="#C5A45A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.7" />
+  <path d="M150 340c64-18 116-64 194-72 74-8 138 36 216 30s136-64 212-84 154 2 200 22 72 24 128-6" fill="none" stroke="#FAFAF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.6" />
+  <path d="M340 278 410 170 470 250 520 210 570 260 620 210 700 300" fill="none" stroke="#FAFAF8" stroke-width="3" stroke-linecap="round" />
+  <path d="m230 308 18-56 18 56zm64 4 16-48 16 48zm84 2 18-52 18 52zm70-6 14-44 14 44z" fill="#FAFAF8" opacity="0.9" />
+  <path d="m840 326 18-58 18 58zm70-4 16-52 16 52zm74-6 18-50 18 50z" fill="#FAFAF8" opacity="0.85" />
+  <path d="M102 356c12-20 30-44 50-44s40 24 52 42" fill="none" stroke="#C5A45A" stroke-width="3" stroke-linecap="round" />
+  <circle cx="1040" cy="94" r="28" fill="#C5A45A" />
+  <path d="M1020 94h40m-20-20v40" stroke="#FAFAF8" stroke-width="4" stroke-linecap="round" />
+  <path d="M48 380c60-22 124-30 192-22s124 12 196 0 140-18 224-6 168 42 234 46 116-6 184-26" fill="none" stroke="#FAFAF8" stroke-width="2" opacity="0.55" />
+  <path d="M80 400c82-20 150-18 230-8s140 14 214 6 140-26 214-24 146 22 202 18 92-30 160-40" fill="none" stroke="#C5A45A" stroke-width="2" opacity="0.4" />
+</svg>
