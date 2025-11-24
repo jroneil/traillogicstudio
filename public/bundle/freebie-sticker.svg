@@ -1,0 +1,10 @@
+<svg width="400" height="260" viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="260" rx="20" fill="#F4F1EB" stroke="#2F4F3A" stroke-width="4"/>
+  <circle cx="90" cy="90" r="60" fill="#2F4F3A"/>
+  <text x="60" y="98" fill="#FAFAF8" font-family="'Inter', sans-serif" font-size="18" font-weight="700">Trail</text>
+  <text x="62" y="120" fill="#C5A45A" font-family="'Inter', sans-serif" font-size="12" font-weight="600">Stickers</text>
+  <path d="M210 70H340V90H210V70Z" fill="#C5A45A" opacity="0.45"/>
+  <path d="M210 120H320V140H210V120Z" fill="#2F4F3A" opacity="0.4"/>
+  <path d="M210 170H300V190H210V170Z" fill="#C5A45A" opacity="0.45"/>
+  <text x="210" y="60" fill="#2F4F3A" font-family="'Inter', sans-serif" font-size="16" font-weight="700">Sticker Pack</text>
+</svg>
