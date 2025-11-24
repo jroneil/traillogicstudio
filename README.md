@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Maintenance banner
+
+Enable a site-wide maintenance banner during deployments by setting the following environment variables:
+
+```
+NEXT_PUBLIC_MAINTENANCE_ENABLED=true
+NEXT_PUBLIC_MAINTENANCE_MESSAGE="Custom message to display while the site is being prepared"
+```
+
+Set `NEXT_PUBLIC_MAINTENANCE_ENABLED` to `false` (or omit it) to hide the banner. A default message is shown when `NEXT_PUBLIC_MAINTENANCE_MESSAGE` is not provided.
