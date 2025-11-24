@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 220" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Holiday Gift Tag</title>
+  <desc id="desc">Rectangular gift tag with hole punch, topo lines, and evergreen accents.</desc>
+  <rect x="12" y="12" width="356" height="196" rx="18" fill="#1F3325" stroke="#C5A45A" stroke-width="6" />
+  <circle cx="330" cy="56" r="14" fill="#FAFAF8" stroke="#C5A45A" stroke-width="4" />
+  <path d="M44 178c36-18 70-18 108-10s74 18 118 4 92-18 126-6" fill="none" stroke="#FAFAF8" stroke-width="2.5" opacity="0.85" />
+  <path d="M40 150c40-22 80-32 124-22s90 44 140 24 82-64 118-66" fill="none" stroke="#C5A45A" stroke-width="3" stroke-linecap="round" opacity="0.8" />
+  <path d="M54 124c30-14 56-22 84-18s62 26 98 18 76-46 122-38 68 40 96 40" fill="none" stroke="#FAFAF8" stroke-width="2" opacity="0.65" />
+  <path d="M70 162c10-22 30-50 54-52s44 26 62 52" fill="none" stroke="#C5A45A" stroke-width="3" stroke-linecap="round" />
+  <path d="m82 180 12-40 12 40zm48-6 12-36 12 36zm48-4 12-34 12 34zm54-2 12-36 12 36z" fill="#FAFAF8" />
+  <path d="M96 102 138 52 166 92 190 70 218 112 242 82 272 126" fill="none" stroke="#FAFAF8" stroke-width="3" stroke-linecap="round" />
+  <path d="M306 56c0 6-4 10-10 10s-10-4-10-10 4-10 10-10 10 4 10 10Z" fill="#2F4F3A" />
+  <path d="M250 182c16-10 34-18 52-14s32 16 48 14" fill="none" stroke="#C5A45A" stroke-width="2" opacity="0.6" />
+</svg>
