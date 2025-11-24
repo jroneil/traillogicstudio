@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#1F3325"/>
+  <image href="/branding/trail_logic_logo_badge-75.png" x="1020" y="40" height="90" width="90"/>
+  <rect x="70" y="60" width="940" height="160" fill="none" stroke="white" stroke-width="6" rx="12"/>
+  <text x="100" y="150" fill="white" font-family="'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700">Trip Packlist</text>
+  <rect x="70" y="240" width="940" height="140" fill="none" stroke="white" stroke-width="4" rx="10"/>
+  <text x="100" y="320" fill="white" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36">Checklists for gear, food, and safety essentials.</text>
+  <rect x="950" y="420" width="180" height="180" fill="none" stroke="white" stroke-width="5" rx="16"/>
+  <text x="1040" y="520" text-anchor="middle" fill="white" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="600">Icon</text>
+  <text x="70" y="570" fill="white" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="500">Trail Logic Studio Planner Series</text>
+</svg>
