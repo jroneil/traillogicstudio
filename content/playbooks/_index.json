@@ -1,0 +1,32 @@
+[
+  {
+    "title": "White Mountains 3-Day Planning Playbook",
+    "summary": "Three-day White Mountains blueprint with staged itineraries, weather thresholds, gear systems, and decision checklists for ridge-focused trips.",
+    "slug": "white-mountains-3-day-planning-playbook"
+  },
+  {
+    "title": "Adirondacks Canoe Camping Playbook",
+    "summary": "Route logic, portage strategy, weather calls, and campsite operations for multi-day Adirondack canoe trips.",
+    "slug": "adirondacks-canoe-camping-playbook"
+  },
+  {
+    "title": "Beginner Backpacking Playbook",
+    "summary": "Step-by-step systems for new backpackers covering packing, pacing, camp setup, and troubleshooting common issues.",
+    "slug": "beginner-backpacking-playbook"
+  },
+  {
+    "title": "Lightweight Packing Playbook",
+    "summary": "Responsible weight-cutting framework with gear audits, swap decisions, and field routines to stay fast without losing safety margins.",
+    "slug": "lightweight-packing-playbook"
+  },
+  {
+    "title": "All-Season Overnight Planning Playbook",
+    "summary": "Season-aware overnight planning guide with gear adaptations, pacing strategies, and risk controls for spring through winter trips.",
+    "slug": "all-season-overnight-planning-playbook"
+  },
+  {
+    "title": "Navigation, Weather, Elevation Playbook",
+    "summary": "Integrated navigation, weather, and elevation management system with thresholds, drills, and decision gates for reliable backcountry travel.",
+    "slug": "navigation-weather-elevation-playbook"
+  }
+]
