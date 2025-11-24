@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAFAF8" />
+      <stop offset="100%" stop-color="#F3F2EC" />
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C5A45A" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#C5A45A" stop-opacity="0.5" />
+    </linearGradient>
+    <clipPath id="frame">
+      <rect width="1500" height="600" rx="28" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1500" height="600" fill="url(#sky)" />
+    <circle cx="1250" cy="140" r="90" fill="url(#sun)" />
+    <path d="M-40 420 Q200 370 360 410 T760 400 T1140 370 T1540 410 L1540 620 L-40 620 Z" fill="#E9E7E0" />
+    <path d="M-60 430 Q220 360 420 400 T820 360 T1160 340 T1540 380 L1540 620 L-60 620 Z" fill="#D8D2C3" />
+    <path d="M-80 460 Q180 380 420 430 T820 370 T1190 390 T1540 360 L1540 620 L-80 620 Z" fill="#2F4F3A" opacity="0.9" />
+    <path d="M-100 490 Q200 420 470 450 T880 430 T1230 450 T1540 420 L1540 620 L-100 620 Z" fill="#1F3325" />
+    <g stroke="#C5A45A" stroke-width="2.5" stroke-opacity="0.7" fill="none">
+      <path d="M180 170 q120 30 200 -20 t160 -30" />
+      <path d="M220 230 q150 40 230 -10 t150 -20" />
+      <path d="M260 280 q160 50 230 10 t140 -10" />
+      <path d="M1080 190 q-120 40 -210 0 t-190 -10" />
+      <path d="M1120 250 q-130 50 -210 10 t-180 0" />
+      <path d="M1160 300 q-120 60 -220 30 t-200 10" />
+    </g>
+    <g fill="#1F3325">
+      <polygon points="240,430 260,380 280,430" />
+      <polygon points="300,450 320,400 340,450" />
+      <polygon points="360,430 380,380 400,430" />
+      <polygon points="1280,440 1300,390 1320,440" />
+      <polygon points="1340,470 1360,410 1380,470" />
+    </g>
+    <path d="M620 520 q50 -60 110 0 q-30 -40 -55 -40 q-25 0 -55 40" fill="#C5A45A" fill-opacity="0.9" />
+  </g>
+</svg>
