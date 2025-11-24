@@ -1,6 +1,6 @@
 import { ComingSoon } from "@/components/ComingSoon";
 import { FeatureGrid } from "@/components/FeatureGrid";
-import { HeroBanner } from "@/components/HeroBanner";
+import { Hero } from "@/components/Hero";
 import { ProductCard } from "@/components/ProductCard";
 import { Button } from "@/components/UI/Button";
 import { Badge } from "@/components/UI/Badge";
@@ -20,25 +20,12 @@ export default function HomePage() {
 
   return (
     <>
-      <HeroBanner
-        eyebrow="OUTDOOR PLANNERS, GUIDES & RESOURCES"
+      <Hero
         title="Trail Logic Studio"
         subtitle="Outdoor Planners, Guides & Resources"
-        image="/branding/TrailLogic_Section.png"
-      >
-        <Button href="/products" className="bg-[#2F4F3A] text-white hover:bg-[#1F3325]">
-          View Products
-        </Button>
-        {featured?.etsyUrl && (
-          <Button
-            href={featured.etsyUrl}
-            variant="secondary"
-            className="border border-[#C5A45A] bg-[#C5A45A] text-[#1F3325] hover:border-[#C5A45A] hover:bg-[#B9903E]"
-          >
-            Buy Planner
-          </Button>
-        )}
-      </HeroBanner>
+        primaryCta={{ label: "View Products", href: "/products" }}
+        secondaryCta={{ label: "Buy Planner", href: featured?.etsyUrl ?? "/products" }}
+      />
 
       <section className="section">
         <div className="container grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
