@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Icon</title>
+  <desc id="desc">Circular icon with a stylized trail and star representing navigation and clarity.</desc>
+  <rect width="200" height="200" rx="28" fill="#0E1726" />
+  <path d="M50 140 Q90 80 130 120 Q155 140 170 120" fill="none" stroke="#1DC1B0" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="50" cy="140" r="10" fill="#F2AE2E" />
+  <circle cx="130" cy="120" r="10" fill="#1DC1B0" />
+  <g fill="#F2E9DA" transform="translate(30 32)">
+    <path d="M76 12 L80 24 L92 24 L82 32 L86 44 L76 36 L66 44 L70 32 L60 24 L72 24 Z" />
+  </g>
+</svg>

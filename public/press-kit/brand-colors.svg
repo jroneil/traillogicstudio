@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Brand Colors</title>
+  <desc id="desc">Swatches and hex codes for the Trail Logic Studio brand palette.</desc>
+  <rect width="100%" height="100%" fill="#F8FAFB" rx="18" />
+  <style>
+    text { font-family: 'Inter', 'Segoe UI', sans-serif; }
+    .label { font-size: 16px; font-weight: 600; fill: #0E1726; }
+    .code { font-size: 14px; font-weight: 500; fill: #3B4C61; }
+  </style>
+  <g transform="translate(36 40)">
+    <rect x="0" y="0" width="110" height="110" rx="12" fill="#1A2A6C" />
+    <text x="0" y="140" class="label">Deep Trail</text>
+    <text x="0" y="160" class="code">#1A2A6C</text>
+  </g>
+  <g transform="translate(166 40)">
+    <rect x="0" y="0" width="110" height="110" rx="12" fill="#1DC1B0" />
+    <text x="0" y="140" class="label">Summit Mint</text>
+    <text x="0" y="160" class="code">#1DC1B0</text>
+  </g>
+  <g transform="translate(296 40)">
+    <rect x="0" y="0" width="110" height="110" rx="12" fill="#F24F13" />
+    <text x="0" y="140" class="label">Signal Ember</text>
+    <text x="0" y="160" class="code">#F24F13</text>
+  </g>
+  <g transform="translate(426 40)">
+    <rect x="0" y="0" width="110" height="110" rx="12" fill="#1F2933" />
+    <text x="0" y="140" class="label">Ridgeline Slate</text>
+    <text x="0" y="160" class="code">#1F2933</text>
+  </g>
+  <g transform="translate(556 40)">
+    <rect x="0" y="0" width="110" height="110" rx="12" fill="#F2E9DA" />
+    <text x="0" y="140" class="label">Trail Sand</text>
+    <text x="0" y="160" class="code">#F2E9DA</text>
+  </g>
+  <text x="36" y="250" class="code">Accessible contrast pairings: Deep Trail on Trail Sand; Summit Mint on Deep Trail; Signal Ember on Trail Sand.</text>
+</svg>
