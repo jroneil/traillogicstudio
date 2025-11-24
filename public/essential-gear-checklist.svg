@@ -1,0 +1,58 @@
+<svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Essential Gear Checklist – TrailLogic Studio</title>
+  <desc id="desc">Quick reference card listing beginner gear for White Mountains 2-3 day trips.</desc>
+  <style>
+    text { font-family: 'Inter', Arial, sans-serif; fill: #0E5B35; }
+    .subtitle { font-size: 20px; fill: #2F6E45; }
+    .title { font-size: 32px; font-weight: 700; }
+    .section-label { font-size: 17px; font-weight: 700; text-transform: uppercase; }
+    .item { font-size: 17px; font-weight: 500; fill: #1E472E; }
+    .footer { font-size: 16px; font-weight: 600; fill: #2F6E45; }
+  </style>
+  <rect width="800" height="900" fill="#FFFFFF"/>
+
+  <text class="title" x="400" y="80" text-anchor="middle">Essential Gear Checklist</text>
+  <text class="subtitle" x="400" y="110" text-anchor="middle">White Mountains 2–3 Day Trips</text>
+
+  <rect x="70" y="140" width="660" height="720" rx="18" ry="18" fill="none" stroke="#83A98D" stroke-width="3"/>
+
+  <!-- Shelter Section -->
+  <rect x="90" y="160" width="620" height="32" rx="10" ry="10" fill="#83A98D" opacity="0.55"/>
+  <text class="section-label" x="400" y="182" text-anchor="middle">Shelter</text>
+  <text class="item" x="110" y="210">• 50–60L internal frame backpack</text>
+  <text class="item" x="110" y="234">• Tent OR hammock system</text>
+  <text class="item" x="110" y="258">• Tarp / stakes</text>
+  <text class="item" x="110" y="282">• Sleeping bag (20–30°F)</text>
+  <text class="item" x="110" y="306">• Sleeping pad (R ≥ 3.0)</text>
+  <text class="item" x="110" y="330">• Dry bags</text>
+
+  <!-- Clothing Section -->
+  <rect x="90" y="354" width="620" height="32" rx="10" ry="10" fill="#83A98D" opacity="0.55"/>
+  <text class="section-label" x="400" y="376" text-anchor="middle">Clothing</text>
+  <text class="item" x="110" y="402">• Rain jacket + pants</text>
+  <text class="item" x="110" y="426">• Fleece + puffy</text>
+  <text class="item" x="110" y="450">• Merino layers</text>
+  <text class="item" x="110" y="474">• Extra socks ×2</text>
+  <text class="item" x="110" y="498">• Warm hat / gloves</text>
+
+  <!-- Water & Food Section -->
+  <rect x="90" y="522" width="620" height="32" rx="10" ry="10" fill="#83A98D" opacity="0.55"/>
+  <text class="section-label" x="400" y="544" text-anchor="middle">Water &amp; Food</text>
+  <text class="item" x="110" y="570">• Sawyer filter + tablets</text>
+  <text class="item" x="110" y="594">• 2–2.5 L water carry</text>
+  <text class="item" x="110" y="618">• Stove + fuel</text>
+  <text class="item" x="110" y="642">• Food for 3 days</text>
+  <text class="item" x="110" y="666">• Bear hang kit</text>
+
+  <!-- Safety Section -->
+  <rect x="90" y="690" width="620" height="32" rx="10" ry="10" fill="#83A98D" opacity="0.55"/>
+  <text class="section-label" x="400" y="712" text-anchor="middle">Safety</text>
+  <text class="item" x="110" y="738">• Map + GPS</text>
+  <text class="item" x="110" y="762">• Headlamp + batteries</text>
+  <text class="item" x="110" y="786">• First-aid kit</text>
+  <text class="item" x="110" y="810">• Whistle</text>
+  <text class="item" x="110" y="834">• Knife/multitool</text>
+  <text class="item" x="110" y="858">• Emergency blanket</text>
+
+  <text class="footer" x="400" y="890" text-anchor="middle">TrailLogic Studio • Confidence. Clarity. Adventure.</text>
+</svg>
