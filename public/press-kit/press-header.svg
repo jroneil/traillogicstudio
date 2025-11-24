@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="260" viewBox="0 0 880 260" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Press Header</title>
+  <desc id="desc">Banner illustration with mountains, sun, and a guiding path.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1A2A6C" />
+      <stop offset="100%" stop-color="#0E1726" />
+    </linearGradient>
+    <linearGradient id="path" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#1DC1B0" />
+      <stop offset="100%" stop-color="#F2AE2E" />
+    </linearGradient>
+  </defs>
+  <rect width="880" height="260" rx="24" fill="url(#sky)" />
+  <circle cx="720" cy="70" r="32" fill="#F2AE2E" opacity="0.9" />
+  <path d="M40 210 Q160 160 260 190 T460 160 T720 200" fill="#1F2933" />
+  <path d="M120 190 Q220 120 320 150 T520 120 Q640 160 760 130" fill="#243447" opacity="0.9" />
+  <path d="M360 210 Q420 170 520 190 T720 180" fill="#0E1726" opacity="0.8" />
+  <path d="M140 230 C240 190 360 230 460 180 S700 170 760 200" fill="none" stroke="url(#path)" stroke-width="14" stroke-linecap="round" />
+  <text x="60" y="90" font-family="'Inter', 'Segoe UI', sans-serif" font-size="40" font-weight="700" fill="#F2E9DA">Trail Logic Studio</text>
+  <text x="60" y="124" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" font-weight="500" fill="#C8D2E0">Press Kit — visuals, copy, and guidance for your story.</text>
+</svg>

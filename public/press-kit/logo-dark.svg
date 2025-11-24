@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="180" viewBox="0 0 520 180" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Logic Studio Logo - Dark</title>
+  <desc id="desc">Wordmark for Trail Logic Studio with trail path motif on a light background.</desc>
+  <rect width="100%" height="100%" fill="#ffffff" rx="16" />
+  <path d="M40 120 C80 70 140 150 200 90 S320 70 380 115" fill="none" stroke="#1DC1B0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="40" cy="120" r="8" fill="#1A2A6C" />
+  <circle cx="200" cy="90" r="8" fill="#1DC1B0" />
+  <circle cx="380" cy="115" r="8" fill="#F24F13" />
+  <text x="40" y="70" font-family="'Inter', 'Segoe UI', sans-serif" font-size="46" font-weight="700" fill="#1A2A6C">Trail Logic Studio</text>
+  <text x="42" y="98" font-family="'Inter', 'Segoe UI', sans-serif" font-size="18" font-weight="500" fill="#1F2933">Designing thoughtful journeys through code.</text>
+</svg>
