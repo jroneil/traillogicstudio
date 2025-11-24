@@ -11,8 +11,8 @@ export function Hero({ title, subtitle, primaryCta, secondaryCta }: HeroProps) {
   return (
     <section className="relative overflow-hidden">
       <div
-        className="absolute inset-0 bg-center bg-[length:1200px_auto] md:bg-cover"
-        style={{ backgroundImage: "url(/branding/TrailLogic_Hub_1920x720.png)" }}
+        className="absolute inset-0 bg-center bg-cover"
+        style={{ backgroundImage: "url(/branding/TrailLogic_Hub.png)" }}
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#0F1F14]/95 via-[#0F1F14]/85 to-[#0F1F14]/60" />
 
