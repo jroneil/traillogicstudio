@@ -1,0 +1,54 @@
+<svg width="800" height="650" viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Weather Decision Checklist – TrailLogic Studio</title>
+  <desc id="desc">Quick decision card for evaluating whether it's safe to hike above treeline in the White Mountains.</desc>
+  <style>
+    :root { color: #0E5B35; }
+    text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #1d2a22; }
+    .title { font-size: 28px; font-weight: 700; fill: #0E5B35; }
+    .subtitle { font-size: 16px; fill: #3a4a3f; }
+    .box { fill: #f9f9f7; stroke: #0E5B35; stroke-width: 1.5; rx: 16; }
+    .header { fill: #83A98D; rx: 12; }
+    .header-text { font-size: 16px; font-weight: 700; fill: #0E5B35; }
+    .bullet { font-size: 14px; line-height: 1.6; }
+    .accent { fill: #0E5B35; }
+    .footer { font-size: 13px; fill: #3a4a3f; }
+  </style>
+  <rect width="800" height="650" fill="white" rx="18" />
+  <text x="400" y="70" text-anchor="middle" class="title">Weather Decision Checklist</text>
+  <text x="400" y="98" text-anchor="middle" class="subtitle">For White Mountains 2–3 Day Trips</text>
+
+  <g transform="translate(70,125)">
+    <rect class="box" width="660" height="130" />
+    <rect class="header" width="660" height="38" />
+    <text x="20" y="25" class="header-text">Wind Check</text>
+    <g transform="translate(24,60)" class="bullet">
+      <text y="0">• Above treeline wind &gt; 30–40 mph = unsafe</text>
+      <text y="26">• Gusts &gt; 50 mph = turn back</text>
+      <text y="52">• High wind + fog = stay below treeline</text>
+    </g>
+  </g>
+
+  <g transform="translate(70,285)">
+    <rect class="box" width="660" height="130" />
+    <rect class="header" width="660" height="38" />
+    <text x="20" y="25" class="header-text">Storm Check</text>
+    <g transform="translate(24,60)" class="bullet">
+      <text y="0">• Thunderstorms in forecast = avoid ridges</text>
+      <text y="26">• Afternoon storms common in summer</text>
+      <text y="52">• Dark clouds building? Turn around early</text>
+    </g>
+  </g>
+
+  <g transform="translate(70,445)">
+    <rect class="box" width="660" height="130" />
+    <rect class="header" width="660" height="38" />
+    <text x="20" y="25" class="header-text">Temperature Check</text>
+    <g transform="translate(24,60)" class="bullet">
+      <text y="0">• Ridge temps can be 20–30° colder</text>
+      <text y="26">• Bring layers even in July</text>
+      <text y="52">• Sleeping bag must match nightly low</text>
+    </g>
+  </g>
+
+  <text x="400" y="610" text-anchor="middle" class="footer">TrailLogic Studio • Confidence. Clarity. Adventure.</text>
+</svg>
