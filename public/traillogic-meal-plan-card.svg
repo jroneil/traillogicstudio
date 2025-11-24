@@ -1,0 +1,47 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#FFFFFF" rx="12"/>
+  <text x="400" y="60" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#0E5B35">TrailLogic Meal Plan Card (3-Day Trip)</text>
+  <text x="400" y="86" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#2E4235">Daily Target: 2,200–2,600 calories • +100 cal per 1,000 ft gain</text>
+
+  <!-- Day Boxes -->
+  <g transform="translate(35 120)">
+    <rect width="230" height="280" rx="16" fill="#F7F9F6" stroke="#0E5B35" stroke-width="1.5"/>
+    <rect width="230" height="40" rx="12" fill="#83A98D"/>
+    <text x="115" y="26" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#0E5B35">Day 1</text>
+    <g transform="translate(18 70)" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#1F2A23">
+      <text y="0">• Lunch: Tortilla + sausage + cheese</text>
+      <text y="26">• Snacks: Trail mix, bar, fruit, electrolytes</text>
+      <text y="52">• Dinner: Knorr + 2 oz oil OR Ramen + chicken</text>
+    </g>
+    <text x="115" y="255" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#4A5C52">~2,200 calories</text>
+  </g>
+
+  <g transform="translate(285 120)">
+    <rect width="230" height="280" rx="16" fill="#F7F9F6" stroke="#0E5B35" stroke-width="1.5"/>
+    <rect width="230" height="40" rx="12" fill="#83A98D"/>
+    <text x="115" y="26" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#0E5B35">Day 2</text>
+    <g transform="translate(18 70)" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#1F2A23">
+      <text y="0">• Breakfast: Oatmeal ×2 + PB + coffee</text>
+      <text y="26">• Lunch: PB + honey tortilla</text>
+      <text y="52">• Snacks: Almonds, bar, chocolate</text>
+      <text y="78">• Dinner: Freeze-dried meal</text>
+    </g>
+    <text x="115" y="255" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#4A5C52">~2,300 calories</text>
+  </g>
+
+  <g transform="translate(535 120)">
+    <rect width="230" height="280" rx="16" fill="#F7F9F6" stroke="#0E5B35" stroke-width="1.5"/>
+    <rect width="230" height="40" rx="12" fill="#83A98D"/>
+    <text x="115" y="26" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#0E5B35">Day 3</text>
+    <g transform="translate(18 70)" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#1F2A23">
+      <text y="0">• Breakfast: Oatmeal + nut butter</text>
+      <text y="26">• Lunch: Tuna + mayo tortilla</text>
+      <text y="52">• Snacks: Bar, gummies, trail mix</text>
+    </g>
+    <text x="115" y="255" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#4A5C52">~2,000–2,200 calories</text>
+  </g>
+
+  <!-- Bottom Bar -->
+  <rect x="0" y="460" width="800" height="40" fill="#0E5B35"/>
+  <text x="400" y="485" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#FFFFFF">TrailLogic Studio • Confidence. Clarity. Adventure.</text>
+</svg>
