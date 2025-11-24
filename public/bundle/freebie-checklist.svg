@@ -1,0 +1,11 @@
+<svg width="400" height="260" viewBox="0 0 400 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="260" rx="18" fill="#FAFAF8" stroke="#2F4F3A" stroke-width="4"/>
+  <rect x="50" y="50" width="140" height="160" rx="12" fill="#E7E4D9" stroke="#2F4F3A" stroke-width="3"/>
+  <path d="M70 80H160" stroke="#2F4F3A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70 110H160" stroke="#2F4F3A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M70 140H140" stroke="#C5A45A" stroke-width="6" stroke-linecap="round"/>
+  <rect x="220" y="80" width="120" height="20" rx="10" fill="#2F4F3A" opacity="0.9"/>
+  <rect x="220" y="120" width="140" height="20" rx="10" fill="#C5A45A" opacity="0.85"/>
+  <rect x="220" y="160" width="110" height="20" rx="10" fill="#3A6349" opacity="0.8"/>
+  <text x="220" y="70" fill="#2F4F3A" font-family="'Inter', sans-serif" font-size="16" font-weight="700">Holiday Checklist</text>
+</svg>
