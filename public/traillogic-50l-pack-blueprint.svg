@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+      text { font-family: 'Inter', 'Segoe UI', sans-serif; fill: #1F2933; }
+      .title { font-size: 32px; font-weight: 700; }
+      .subtitle { font-size: 18px; font-weight: 500; }
+      .label-title { font-size: 16px; font-weight: 700; }
+      .label-body { font-size: 14px; font-weight: 500; }
+    </style>
+  </defs>
+  <rect width="800" height="1120" fill="#F7F7F7"/>
+
+  <!-- Title -->
+  <text x="400" y="70" text-anchor="middle" class="title">TrailLogic 50L Pack Blueprint</text>
+  <text x="400" y="98" text-anchor="middle" class="subtitle">How to pack for a 2–3 day White Mountains trip</text>
+
+  <!-- Backpack silhouette -->
+  <g id="pack" transform="translate(260,140)">
+    <rect x="0" y="40" width="280" height="760" rx="60" ry="60" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="4"/>
+    <!-- Top lid -->
+    <rect x="30" y="10" width="220" height="100" rx="30" fill="#D9E8DF" stroke="#2A2A2A" stroke-width="3"/>
+    <!-- Upper compartment -->
+    <rect x="30" y="130" width="220" height="170" rx="20" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="3"/>
+    <!-- Middle compartment -->
+    <rect x="30" y="320" width="220" height="190" rx="20" fill="#DDE9E2" stroke="#2A2A2A" stroke-width="3"/>
+    <!-- Bottom compartment -->
+    <rect x="30" y="530" width="220" height="150" rx="20" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="3"/>
+    <!-- Front mesh pocket -->
+    <rect x="55" y="350" width="170" height="180" rx="25" fill="none" stroke="#0E5B35" stroke-width="3" stroke-dasharray="10 8"/>
+    <!-- Side pockets -->
+    <rect x="-36" y="300" width="60" height="200" rx="20" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="3"/>
+    <rect x="256" y="300" width="60" height="200" rx="20" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="3"/>
+    <!-- Hip belt -->
+    <rect x="-50" y="690" width="380" height="80" rx="40" ry="40" fill="#D9E8DF" stroke="#2A2A2A" stroke-width="4"/>
+    <!-- Hip belt pockets -->
+    <rect x="-40" y="700" width="100" height="60" rx="18" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="3"/>
+    <rect x="220" y="700" width="100" height="60" rx="18" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="3"/>
+  </g>
+
+  <!-- Label lines and text -->
+  <!-- Top Lid -->
+  <line x1="400" y1="180" x2="580" y2="150" stroke="#2A2A2A" stroke-width="2"/>
+  <g transform="translate(590,120)">
+    <text class="label-title">Top Lid / Brain</text>
+    <text y="20" class="label-body">• Map &amp; compass</text>
+    <text y="38" class="label-body">• Snacks for the day</text>
+    <text y="56" class="label-body">• Small first-aid kit</text>
+    <text y="74" class="label-body">• Headlamp</text>
+    <text y="92" class="label-body">• Gloves / hat</text>
+  </g>
+
+  <!-- Upper main -->
+  <line x1="400" y1="260" x2="170" y2="230" stroke="#2A2A2A" stroke-width="2"/>
+  <g transform="translate(40,190)">
+    <text class="label-title">Upper Main Compartment</text>
+    <text y="20" class="label-body">• Puffy jacket</text>
+    <text y="38" class="label-body">• Fleece layer</text>
+    <text y="56" class="label-body">• Rain jacket</text>
+    <text y="74" class="label-body">• Extra warm layers in dry bag</text>
+  </g>
+
+  <!-- Middle main -->
+  <line x1="400" y1="380" x2="620" y2="360" stroke="#2A2A2A" stroke-width="2"/>
+  <g transform="translate(630,320)">
+    <text class="label-title">Middle Main Compartment</text>
+    <text y="20" class="label-body">• Heaviest items close to spine</text>
+    <text y="38" class="label-body">• Food bag</text>
+    <text y="56" class="label-body">• Cook kit</text>
+    <text y="74" class="label-body">• Bear hang rope</text>
+  </g>
+
+  <!-- Bottom compartment -->
+  <line x1="400" y1="620" x2="180" y2="610" stroke="#2A2A2A" stroke-width="2"/>
+  <g transform="translate(40,570)">
+    <text class="label-title">Bottom Compartment</text>
+    <text y="20" class="label-body">• Sleeping bag in dry bag</text>
+    <text y="38" class="label-body">• Sleeping clothes only</text>
+  </g>
+
+  <!-- Side pockets -->
+  <line x1="290" y1="420" x2="110" y2="430" stroke="#0E5B35" stroke-width="2"/>
+  <g transform="translate(30,410)">
+    <text class="label-title">Side Pockets</text>
+    <text y="20" class="label-body">• Water bottles</text>
+    <text y="38" class="label-body">• Tent poles</text>
+    <text y="56" class="label-body">• Stake bag</text>
+  </g>
+
+  <!-- Front mesh pocket -->
+  <line x1="460" y1="480" x2="620" y2="500" stroke="#0E5B35" stroke-width="2"/>
+  <g transform="translate(630,470)">
+    <text class="label-title">Front Mesh Pocket</text>
+    <text y="20" class="label-body">• Rain gear</text>
+    <text y="38" class="label-body">• Wet items</text>
+    <text y="56" class="label-body">• Toilet kit</text>
+    <text y="74" class="label-body">• Sit pad</text>
+  </g>
+
+  <!-- Hip belt pockets -->
+  <line x1="400" y1="770" x2="610" y2="780" stroke="#2A2A2A" stroke-width="2"/>
+  <g transform="translate(620,740)">
+    <text class="label-title">Hip Belt Pockets</text>
+    <text y="20" class="label-body">• Snacks</text>
+    <text y="38" class="label-body">• Lip balm / sunscreen</text>
+    <text y="56" class="label-body">• Mini first-aid</text>
+    <text y="74" class="label-body">• Multi-tool</text>
+  </g>
+
+  <!-- Optional tips box -->
+  <rect x="120" y="950" width="560" height="120" rx="12" fill="#E6F0EA" stroke="#2A2A2A" stroke-width="2"/>
+  <text x="140" y="980" class="label-title">Packing Tips:</text>
+  <text x="140" y="1005" class="label-body">• Keep heavy items centered &amp; close to your back</text>
+  <text x="140" y="1025" class="label-body">• Keep essentials accessible without unpacking</text>
+  <text x="140" y="1045" class="label-body">• Use dry bags for insulation and sleep system</text>
+</svg>
