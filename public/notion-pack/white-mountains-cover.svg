@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600" fill="none">
+  <defs>
+    <linearGradient id="wm-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAFAF8" />
+      <stop offset="100%" stop-color="#ECEBE3" />
+    </linearGradient>
+    <clipPath id="wm-frame">
+      <rect width="1500" height="600" rx="28" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#wm-frame)">
+    <rect width="1500" height="600" fill="url(#wm-sky)" />
+    <path d="M-40 420 Q260 340 520 380 T1020 360 T1540 400 L1540 620 L-40 620 Z" fill="#E8E5DC" />
+    <path d="M-60 450 Q240 350 520 390 T1040 350 T1540 410 L1540 620 L-60 620 Z" fill="#DAD5C7" />
+    <path d="M80 450 L260 250 L420 440 L520 310 L720 460 L920 270 L1120 440 L1320 320 L1520 470 L1520 620 L80 620 Z" fill="#2F4F3A" />
+    <path d="M240 330 L260 250 L340 360 L300 350 Z" fill="#FAFAF8" />
+    <path d="M520 330 L540 290 L600 360 L560 350 Z" fill="#FAFAF8" />
+    <path d="M920 330 L940 280 L1000 360 L960 350 Z" fill="#FAFAF8" />
+    <path d="M1320 370 L1340 320 L1400 390 L1360 380 Z" fill="#FAFAF8" />
+    <path d="M-60 500 Q260 450 560 470 T1160 430 T1540 480 L1540 620 L-60 620 Z" fill="#1F3325" />
+    <g stroke="#C5A45A" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M180 190 q160 40 280 -10 t230 -20" />
+      <path d="M220 240 q180 50 280 0 t220 -5" />
+      <path d="M260 290 q190 60 280 20 t210 10" />
+      <path d="M1100 220 q-150 40 -260 -10 t-240 -10" />
+      <path d="M1140 270 q-160 60 -260 10 t-220 10" />
+    </g>
+    <g fill="#1F3325">
+      <polygon points="180,520 200,470 220,520" />
+      <polygon points="240,540 260,480 280,540" />
+      <polygon points="300,520 320,470 340,520" />
+      <polygon points="1260,510 1280,460 1300,510" />
+      <polygon points="1320,540 1340,480 1360,540" />
+    </g>
+  </g>
+</svg>

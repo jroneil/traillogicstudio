@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600" fill="none">
+  <defs>
+    <linearGradient id="winter-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAFAF8" />
+      <stop offset="100%" stop-color="#EDEDE8" />
+    </linearGradient>
+    <clipPath id="winter-frame">
+      <rect width="1500" height="600" rx="28" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#winter-frame)">
+    <rect width="1500" height="600" fill="url(#winter-sky)" />
+    <path d="M-40 420 Q220 350 440 380 T980 360 T1540 400 L1540 620 L-40 620 Z" fill="#E6E4DC" />
+    <path d="M-60 450 Q240 360 520 390 T1040 360 T1540 420 L1540 620 L-60 620 Z" fill="#D4CEC0" />
+    <path d="M100 460 L280 270 L420 450 L560 310 L760 460 L940 300 L1140 450 L1340 320 L1520 470 L1520 620 L100 620 Z" fill="#2F4F3A" />
+    <path d="M260 340 L280 270 L360 380 L320 370 Z" fill="#FAFAF8" />
+    <path d="M560 340 L580 300 L640 380 L600 370 Z" fill="#FAFAF8" />
+    <path d="M940 330 L960 290 L1020 370 L980 360 Z" fill="#FAFAF8" />
+    <path d="M1340 360 L1360 320 L1420 390 L1380 380 Z" fill="#FAFAF8" />
+    <path d="M-60 500 Q240 460 520 480 T1120 460 T1540 490 L1540 620 L-60 620 Z" fill="#1F3325" />
+    <g stroke="#C5A45A" stroke-width="2.4" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M200 190 q170 50 290 0 t230 -10" />
+      <path d="M240 240 q190 60 290 20 t220 10" />
+      <path d="M280 290 q200 70 290 40 t220 20" />
+      <path d="M1120 220 q-170 50 -280 0 t-240 0" />
+      <path d="M1160 270 q-170 60 -280 20 t-230 10" />
+    </g>
+    <g fill="#FAFAF8" opacity="0.85">
+      <circle cx="260" cy="160" r="4" />
+      <circle cx="320" cy="120" r="5" />
+      <circle cx="380" cy="150" r="3" />
+      <circle cx="760" cy="160" r="5" />
+      <circle cx="820" cy="110" r="4" />
+      <circle cx="880" cy="140" r="3" />
+      <circle cx="1180" cy="150" r="4" />
+      <circle cx="1240" cy="120" r="3" />
+      <circle cx="1300" cy="160" r="4" />
+    </g>
+    <g fill="#1F3325">
+      <polygon points="200,520 220,470 240,520" />
+      <polygon points="260,540 280,480 300,540" />
+      <polygon points="320,520 340,470 360,520" />
+      <polygon points="1260,520 1280,470 1300,520" />
+      <polygon points="1320,540 1340,480 1360,540" />
+    </g>
+  </g>
+</svg>

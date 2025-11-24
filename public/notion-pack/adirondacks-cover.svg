@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600" fill="none">
+  <defs>
+    <linearGradient id="adk-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FAFAF8" />
+      <stop offset="100%" stop-color="#EFEDE6" />
+    </linearGradient>
+    <clipPath id="adk-frame">
+      <rect width="1500" height="600" rx="28" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#adk-frame)">
+    <rect width="1500" height="600" fill="url(#adk-sky)" />
+    <path d="M-40 430 Q200 360 420 390 T920 370 T1540 410 L1540 620 L-40 620 Z" fill="#E6E3DA" />
+    <path d="M-60 450 Q220 370 460 400 T960 380 T1540 430 L1540 620 L-60 620 Z" fill="#D4CDBE" />
+    <path d="M-80 480 Q220 410 500 430 T1040 410 T1540 450 L1540 620 L-80 620 Z" fill="#2F4F3A" />
+    <path d="M-60 520 Q240 470 520 490 T1100 470 T1540 500 L1540 620 L-60 620 Z" fill="#1F3325" />
+    <path d="M300 540 q180 -60 360 0 q-120 30 -180 30 q-60 0 -180 -30" fill="#C5A45A" fill-opacity="0.85" />
+    <path d="M980 530 q160 -50 320 0 q-100 28 -160 28 q-60 0 -160 -28" fill="#C5A45A" fill-opacity="0.7" />
+    <path d="M240 480 q160 -30 280 0 t220 0 t240 0 t280 0" stroke="#FAFAF8" stroke-width="3" stroke-linecap="round" opacity="0.65" />
+    <g fill="#1F3325">
+      <polygon points="190,500 210,450 230,500" />
+      <polygon points="250,520 270,460 290,520" />
+      <polygon points="310,500 330,450 350,500" />
+      <polygon points="1220,500 1240,450 1260,500" />
+      <polygon points="1280,520 1300,460 1320,520" />
+      <polygon points="1340,500 1360,450 1380,500" />
+    </g>
+    <g stroke="#C5A45A" stroke-width="2.3" stroke-linecap="round" fill="none" opacity="0.8">
+      <path d="M200 210 q170 50 280 0 t230 -10" />
+      <path d="M240 260 q190 60 280 20 t220 10" />
+      <path d="M280 310 q200 70 280 40 t210 20" />
+      <path d="M1100 230 q-150 50 -260 0 t-230 0" />
+      <path d="M1140 280 q-160 60 -260 20 t-220 10" />
+    </g>
+  </g>
+</svg>
