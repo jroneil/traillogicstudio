@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" fill="none">
+  <defs>
+    <style>
+      .title { font-family: 'Inter', 'Helvetica', sans-serif; fill: #0E5B35; font-size: 28px; font-weight: 700; }
+      .section-title { font-family: 'Inter', 'Helvetica', sans-serif; fill: #FFFFFF; font-size: 16px; font-weight: 700; }
+      .node-text { font-family: 'Inter', 'Helvetica', sans-serif; fill: #2A2A2A; font-size: 14px; font-weight: 600; }
+      .small-text { font-family: 'Inter', 'Helvetica', sans-serif; fill: #2A2A2A; font-size: 13px; font-weight: 500; }
+      .section-bar { fill: #0E5B35; opacity: 0.9; }
+      .node { fill: #FFFFFF; stroke: #83A98D; stroke-width: 2; rx: 12; }
+      .small-node { fill: #F2F7F3; stroke: #83A98D; stroke-width: 1.5; rx: 10; }
+      .arrow { stroke: #2A2A2A; stroke-width: 2; }
+      .final { fill: #0E5B35; stroke: #0E5B35; stroke-width: 2; rx: 16; }
+      .final-text { font-family: 'Inter', 'Helvetica', sans-serif; fill: #FFFFFF; font-size: 14px; font-weight: 600; }
+      .label { font-family: 'Inter', 'Helvetica', sans-serif; fill: #2A2A2A; font-size: 12px; font-weight: 700; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" fill="#2A2A2A">
+      <path d="M0 0 L10 5 L0 10 Z" />
+    </marker>
+  </defs>
+  <rect width="800" height="1120" fill="#F7F7F7" />
+  <text x="400" y="60" text-anchor="middle" class="title">TrailLogic Beginner Decision Tree</text>
+  <!-- Route Choice -->
+  <rect x="60" y="70" width="680" height="300" fill="#FFFFFF" stroke="#83A98D" stroke-width="1.5" rx="16" />
+  <rect x="60" y="70" width="680" height="32" class="section-bar" rx="16" />
+  <text x="80" y="92" class="section-title">Route Choice</text>
+  <rect class="node" x="300" y="105" width="200" height="46" />
+  <text class="node-text" x="400" y="133" text-anchor="middle">Done hikes &gt; 5 miles with elevation?</text>
+  <rect class="small-node" x="90" y="155" width="220" height="40" />
+  <text class="small-text" x="200" y="181" text-anchor="middle">Choose 5–7 mi/day, ≤ 2,000 ft gain.</text>
+  <line class="arrow" x1="330" y1="150" x2="220" y2="155" marker-end="url(#arrowhead)" />
+  <text class="label" x="260" y="146">NO</text>
+  <rect class="node" x="300" y="195" width="200" height="46" />
+  <text class="node-text" x="400" y="223" text-anchor="middle">Comfortable with rocky terrain?</text>
+  <rect class="small-node" x="500" y="245" width="230" height="40" />
+  <text class="small-text" x="615" y="271" text-anchor="middle">Choose smoother trails (Ethan Pond, Lincoln Woods).</text>
+  <line class="arrow" x1="500" y1="235" x2="615" y2="245" marker-end="url(#arrowhead)" />
+  <text class="label" x="510" y="229">NO</text>
+  <rect class="node" x="300" y="245" width="200" height="46" />
+  <text class="node-text" x="400" y="273" text-anchor="middle">Want a summit?</text>
+  <rect class="small-node" x="90" y="295" width="230" height="40" />
+  <text class="small-text" x="205" y="321" text-anchor="middle">Garfield / Jackson / Pierce.</text>
+  <rect class="small-node" x="480" y="295" width="230" height="40" />
+  <text class="small-text" x="595" y="321" text-anchor="middle">Scenic: Ethan Pond, Thirteen Falls, Nancy Pond.</text>
+  <line class="arrow" x1="400" y1="289" x2="205" y2="295" marker-end="url(#arrowhead)" />
+  <line class="arrow" x1="400" y1="289" x2="595" y2="295" marker-end="url(#arrowhead)" />
+  <text class="label" x="330" y="285">YES</text>
+  <text class="label" x="470" y="285">NO</text>
+  <!-- Shelter Choice -->
+  <rect x="60" y="390" width="680" height="110" fill="#FFFFFF" stroke="#83A98D" stroke-width="1.5" rx="16" />
+  <rect x="60" y="390" width="680" height="32" class="section-bar" rx="16" />
+  <text x="80" y="412" class="section-title">Shelter Choice</text>
+  <rect class="node" x="110" y="430" width="190" height="40" />
+  <text class="node-text" x="205" y="455" text-anchor="middle">Comfortable with tent platforms?</text>
+  <rect class="small-node" x="110" y="472" width="190" height="32" />
+  <text class="small-text" x="205" y="494" text-anchor="middle">Hammock recommended.</text>
+  <line class="arrow" x1="205" y1="466" x2="205" y2="472" marker-end="url(#arrowhead)" />
+  <text class="label" x="170" y="462">NO</text>
+  <rect class="node" x="320" y="430" width="170" height="40" />
+  <text class="node-text" x="405" y="455" text-anchor="middle">Going above treeline?</text>
+  <rect class="small-node" x="320" y="472" width="170" height="32" />
+  <text class="small-text" x="405" y="494" text-anchor="middle">Tent required.</text>
+  <line class="arrow" x1="405" y1="466" x2="405" y2="472" marker-end="url(#arrowhead)" />
+  <text class="label" x="370" y="462">YES</text>
+  <rect class="node" x="530" y="430" width="170" height="40" />
+  <text class="node-text" x="615" y="455" text-anchor="middle">Rain in forecast?</text>
+  <rect class="small-node" x="530" y="472" width="170" height="32" />
+  <text class="small-text" x="615" y="494" text-anchor="middle">Hammock + tarp with doors ideal.</text>
+  <line class="arrow" x1="615" y1="466" x2="615" y2="472" marker-end="url(#arrowhead)" />
+  <text class="label" x="580" y="462">YES</text>
+  <!-- Weather Decision -->
+  <rect x="60" y="510" width="680" height="110" fill="#FFFFFF" stroke="#83A98D" stroke-width="1.5" rx="16" />
+  <rect x="60" y="510" width="680" height="32" class="section-bar" rx="16" />
+  <text x="80" y="532" class="section-title">Weather Decision</text>
+  <rect class="node" x="110" y="550" width="190" height="40" />
+  <text class="node-text" x="205" y="575" text-anchor="middle">Ridgeline winds &gt; 30 mph?</text>
+  <rect class="small-node" x="110" y="592" width="190" height="32" />
+  <text class="small-text" x="205" y="614" text-anchor="middle">Stay below treeline.</text>
+  <line class="arrow" x1="205" y1="586" x2="205" y2="592" marker-end="url(#arrowhead)" />
+  <text class="label" x="170" y="582">YES</text>
+  <rect class="node" x="320" y="550" width="170" height="40" />
+  <text class="node-text" x="405" y="575" text-anchor="middle">Thunderstorms forecasted?</text>
+  <rect class="small-node" x="320" y="592" width="170" height="32" />
+  <text class="small-text" x="405" y="614" text-anchor="middle">Avoid exposed routes.</text>
+  <line class="arrow" x1="405" y1="586" x2="405" y2="592" marker-end="url(#arrowhead)" />
+  <text class="label" x="370" y="582">YES</text>
+  <rect class="node" x="530" y="550" width="170" height="40" />
+  <text class="node-text" x="615" y="575" text-anchor="middle">Temps below sleep system rating?</text>
+  <rect class="small-node" x="530" y="592" width="170" height="32" />
+  <text class="small-text" x="615" y="614" text-anchor="middle">Add insulation or lower elevation.</text>
+  <line class="arrow" x1="615" y1="586" x2="615" y2="592" marker-end="url(#arrowhead)" />
+  <text class="label" x="580" y="582">YES</text>
+  <!-- Fitness & Timing -->
+  <rect x="60" y="630" width="680" height="110" fill="#FFFFFF" stroke="#83A98D" stroke-width="1.5" rx="16" />
+  <rect x="60" y="630" width="680" height="32" class="section-bar" rx="16" />
+  <text x="80" y="652" class="section-title">Fitness & Timing</text>
+  <rect class="node" x="110" y="670" width="190" height="40" />
+  <text class="node-text" x="205" y="695" text-anchor="middle">Can hike 1.5–2 mph?</text>
+  <rect class="small-node" x="110" y="712" width="190" height="32" />
+  <text class="small-text" x="205" y="734" text-anchor="middle">Reduce mileage.</text>
+  <line class="arrow" x1="205" y1="706" x2="205" y2="712" marker-end="url(#arrowhead)" />
+  <text class="label" x="170" y="702">NO</text>
+  <rect class="node" x="320" y="670" width="170" height="40" />
+  <text class="node-text" x="405" y="695" text-anchor="middle">Pack weight &gt; 25 lbs?</text>
+  <rect class="small-node" x="320" y="712" width="170" height="32" />
+  <text class="small-text" x="405" y="734" text-anchor="middle">Reduce distance by 1–2 miles.</text>
+  <line class="arrow" x1="405" y1="706" x2="405" y2="712" marker-end="url(#arrowhead)" />
+  <text class="label" x="370" y="702">YES</text>
+  <rect class="node" x="530" y="670" width="170" height="40" />
+  <text class="node-text" x="615" y="695" text-anchor="middle">Comfortable with 1,000 ft climb in 45–60 min?</text>
+  <rect class="small-node" x="530" y="712" width="170" height="32" />
+  <text class="small-text" x="615" y="734" text-anchor="middle">Choose easier grade.</text>
+  <line class="arrow" x1="615" y1="706" x2="615" y2="712" marker-end="url(#arrowhead)" />
+  <text class="label" x="580" y="702">NO</text>
+  <!-- Gear Check -->
+  <rect x="60" y="750" width="680" height="120" fill="#FFFFFF" stroke="#83A98D" stroke-width="1.5" rx="16" />
+  <rect x="60" y="750" width="680" height="32" class="section-bar" rx="16" />
+  <text x="80" y="772" class="section-title">Gear Check</text>
+  <rect class="node" x="90" y="790" width="170" height="36" />
+  <text class="node-text" x="175" y="813" text-anchor="middle">20–30°F sleep system?</text>
+  <rect class="small-node" x="90" y="830" width="170" height="30" />
+  <text class="small-text" x="175" y="850" text-anchor="middle">Upgrade before trip.</text>
+  <line class="arrow" x1="175" y1="824" x2="175" y2="830" marker-end="url(#arrowhead)" />
+  <text class="label" x="140" y="820">NO</text>
+  <rect class="node" x="280" y="790" width="150" height="36" />
+  <text class="node-text" x="355" y="813" text-anchor="middle">Rain jacket + pants?</text>
+  <rect class="small-node" x="280" y="830" width="150" height="30" />
+  <text class="small-text" x="355" y="850" text-anchor="middle">Essential.</text>
+  <line class="arrow" x1="355" y1="824" x2="355" y2="830" marker-end="url(#arrowhead)" />
+  <text class="label" x="320" y="820">NO</text>
+  <rect class="node" x="460" y="790" width="140" height="36" />
+  <text class="node-text" x="530" y="813" text-anchor="middle">Filter + backup tablets?</text>
+  <rect class="small-node" x="460" y="830" width="140" height="30" />
+  <text class="small-text" x="530" y="850" text-anchor="middle">Unsafe.</text>
+  <line class="arrow" x1="530" y1="824" x2="530" y2="830" marker-end="url(#arrowhead)" />
+  <text class="label" x="495" y="820">NO</text>
+  <rect class="node" x="640" y="790" width="120" height="36" />
+  <text class="node-text" x="700" y="813" text-anchor="middle">Headlamp with full battery?</text>
+  <rect class="small-node" x="640" y="830" width="120" height="30" />
+  <text class="small-text" x="700" y="850" text-anchor="middle">Required.</text>
+  <line class="arrow" x1="700" y1="824" x2="700" y2="830" marker-end="url(#arrowhead)" />
+  <text class="label" x="665" y="820">NO</text>
+  <!-- Safety & Route Commitment -->
+  <rect x="60" y="880" width="680" height="90" fill="#FFFFFF" stroke="#83A98D" stroke-width="1.5" rx="16" />
+  <rect x="60" y="880" width="680" height="32" class="section-bar" rx="16" />
+  <text x="80" y="902" class="section-title">Safety & Route Commitment</text>
+  <rect class="node" x="120" y="920" width="170" height="32" />
+  <text class="node-text" x="205" y="941" text-anchor="middle">Know bailout routes?</text>
+  <rect class="small-node" x="120" y="956" width="170" height="26" />
+  <text class="small-text" x="205" y="974" text-anchor="middle">Review map before trip.</text>
+  <line class="arrow" x1="205" y1="950" x2="205" y2="956" marker-end="url(#arrowhead)" />
+  <text class="label" x="170" y="946">NO</text>
+  <rect class="node" x="320" y="920" width="170" height="32" />
+  <text class="node-text" x="405" y="941" text-anchor="middle">Plan to reach camp before 6 PM?</text>
+  <rect class="small-node" x="320" y="956" width="170" height="26" />
+  <text class="small-text" x="405" y="974" text-anchor="middle">Start earlier or shorten trip.</text>
+  <line class="arrow" x1="405" y1="950" x2="405" y2="956" marker-end="url(#arrowhead)" />
+  <text class="label" x="370" y="946">NO</text>
+  <rect class="node" x="520" y="920" width="170" height="32" />
+  <text class="node-text" x="605" y="941" text-anchor="middle">Know reliable water sources?</text>
+  <rect class="small-node" x="520" y="956" width="170" height="26" />
+  <text class="small-text" x="605" y="974" text-anchor="middle">Confirm water locations.</text>
+  <line class="arrow" x1="605" y1="950" x2="605" y2="956" marker-end="url(#arrowhead)" />
+  <text class="label" x="570" y="946">NO</text>
+  <!-- Final Recommendation -->
+  <rect class="final" x="90" y="980" width="620" height="120" />
+  <text class="section-title" x="400" y="1004" text-anchor="middle">Recommended Plan</text>
+  <text class="final-text" x="110" y="1030">Beginner-Approved Plan:</text>
+  <text class="final-text" x="110" y="1050">• Below treeline in bad weather</text>
+  <text class="final-text" x="110" y="1070">• Mileage matched to fitness</text>
+  <text class="final-text" x="110" y="1090">• Gear checks complete</text>
+  <text class="final-text" x="370" y="1030">• Bailout routes known</text>
+  <text class="final-text" x="370" y="1050">• Water plan confirmed</text>
+  <text class="final-text" x="370" y="1070">• Camp arrival before dark</text>
+  <text class="final-text" x="370" y="1090">• Safe, enjoyable beginner trip</text>
+</svg>
