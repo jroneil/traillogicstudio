@@ -14,12 +14,14 @@ export default function ContactContent() {
 
   return (
     <>
-      <HeroBanner
-        eyebrow="CONTACT"
-        title="Get in Touch"
-        subtitle="We’d love to hear from you. Whether you have a question about our products, need support, or want to discuss a collaboration, our team is here to help."
-        showImage={false}
-      >
+     <HeroBanner
+  eyebrow="CONTACT"
+  title="Get in Touch"
+  subtitle="We’d love to hear from you. Whether you have a question about our products, need support, or want to discuss a collaboration, our team is here to help."
+  showImage={true}
+  image="/branding/TrailLogic_Section.png"
+  imageHeight={150}
+>
         <p className="text-sm md:text-base text-[#E7E4D9]">
           Share feedback, product requests, or partnership ideas below. We&apos;ll get back to you within two business days.
         </p>

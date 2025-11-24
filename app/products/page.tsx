@@ -4,9 +4,11 @@ import { Badge } from "@/components/UI/Badge";
 import { Button } from "@/components/UI/Button";
 import { PRODUCTS } from "@/config/products";
 
-const regions = Array.from(new Set(PRODUCTS.map((product) => product.region).filter(Boolean) as string[]));
+const regions = Array.from(
+  new Set(PRODUCTS.map((product) => product.region).filter(Boolean) as string[])
+);
 const activities = Array.from(
-  new Set(PRODUCTS.map((product) => product.activity).filter(Boolean) as string[]),
+  new Set(PRODUCTS.map((product) => product.activity).filter(Boolean) as string[])
 );
 
 export const metadata = {
@@ -16,17 +18,23 @@ export const metadata = {
 
 export default function ProductsPage() {
   return (
-    <div className="min-h-screen bg-[#F4F1EB]">
+    <div className=" bg-[#F4F1EB]">
+
       <HeroBanner
         eyebrow="TRAIL LOGIC STUDIO — BACKPACKING PLANNERS"
         title="Find your next guide."
         subtitle="Purpose-built planners, guides, and resources crafted for confident backcountry travel."
         image="/branding/TrailLogic_Section.png"
+        imageHeight={300}  // 👍 now consistently sized
       >
         <div className="flex flex-wrap gap-3">
-          <Button className="bg-[#2F4F3A] text-white hover:bg-[#1F3325]" href="/products">
+          <Button
+            className="bg-[#2F4F3A] text-white hover:bg-[#1F3325]"
+            href="/products"
+          >
             View All Products
           </Button>
+
           <Button
             href="/"
             variant="secondary"
@@ -55,10 +63,14 @@ export default function ProductsPage() {
 
           <div className="flex flex-wrap gap-3 text-xs text-[#2A2A2A]">
             {regions.map((region) => (
-              <Badge key={region} className="bg-[#FAFAF8] text-[#2F4F3A]">{region}</Badge>
+              <Badge key={region} className="bg-[#FAFAF8] text-[#2F4F3A]">
+                {region}
+              </Badge>
             ))}
             {activities.map((activity) => (
-              <Badge key={activity} className="bg-[#FAFAF8] text-[#2F4F3A]">{activity}</Badge>
+              <Badge key={activity} className="bg-[#FAFAF8] text-[#2F4F3A]">
+                {activity}
+              </Badge>
             ))}
           </div>
 
@@ -69,6 +81,7 @@ export default function ProductsPage() {
           </div>
         </div>
       </section>
+
     </div>
   );
 }
