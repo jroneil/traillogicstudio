@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">15 Beginner Mistakes – TrailLogic Studio</title>
+  <desc id="desc">Quick-reference card showing the top 15 beginner mistakes for White Mountains backpacking.</desc>
+  <style>
+    .bg { fill: #FFFFFF; }
+    .title { font: 700 32px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .subtitle { font: 500 18px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #375844; }
+    .panel { fill: #F7F9F8; stroke: #83A98D; stroke-width: 2; rx: 18; ry: 18; }
+    .section-header { fill: #83A98D; }
+    .header-text { font: 700 18px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; }
+    .item-number { font: 700 15px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .item-text { font: 600 15px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #1F3328; }
+    .footer { fill: #83A98D; }
+    .footer-text { font: 700 16px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; letter-spacing: 0.4px; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="800" height="1100" />
+
+  <text class="title" x="400" y="80" text-anchor="middle">15 Beginner Mistakes</text>
+  <text class="subtitle" x="400" y="115" text-anchor="middle">White Mountains Beginner Backpacking</text>
+
+  <rect class="panel" x="60" y="150" width="680" height="830" />
+  <rect class="section-header" x="60" y="150" width="680" height="52" rx="18" ry="18" />
+  <text class="header-text" x="400" y="182" text-anchor="middle">Trail Ready? Avoid these common missteps</text>
+
+  <!-- Two-column layout -->
+  <g transform="translate(90 230)">
+    <!-- Left Column -->
+    <g>
+      <g transform="translate(0 0)">
+        <text class="item-number" x="0" y="0">1.</text>
+        <text class="item-text" x="24" y="0">Starting too late</text>
+      </g>
+      <g transform="translate(0 46)">
+        <text class="item-number" x="0" y="0">2.</text>
+        <text class="item-text" x="24" y="0">Underestimating elevation</text>
+      </g>
+      <g transform="translate(0 92)">
+        <text class="item-number" x="0" y="0">3.</text>
+        <text class="item-text" x="24" y="0">Packing too much weight</text>
+      </g>
+      <g transform="translate(0 138)">
+        <text class="item-number" x="0" y="0">4.</text>
+        <text class="item-text" x="24" y="0">Not drinking enough water</text>
+      </g>
+      <g transform="translate(0 184)">
+        <text class="item-number" x="0" y="0">5.</text>
+        <text class="item-text" x="24" y="0">Ignoring electrolytes</text>
+      </g>
+      <g transform="translate(0 230)">
+        <text class="item-number" x="0" y="0">6.</text>
+        <text class="item-text" x="24" y="0">Wearing cotton</text>
+      </g>
+      <g transform="translate(0 276)">
+        <text class="item-number" x="0" y="0">7.</text>
+        <text class="item-text" x="24" y="0">Not testing gear beforehand</text>
+      </g>
+      <g transform="translate(0 322)">
+        <text class="item-number" x="0" y="0">8.</text>
+        <text class="item-text" x="24" y="0">Not checking ridge wind speeds</text>
+      </g>
+    </g>
+
+    <!-- Right Column -->
+    <g transform="translate(330 0)">
+      <g transform="translate(0 0)">
+        <text class="item-number" x="0" y="0">9.</text>
+        <text class="item-text" x="24" y="0">Hiking above treeline in bad weather</text>
+      </g>
+      <g transform="translate(0 46)">
+        <text class="item-number" x="0" y="0">10.</text>
+        <text class="item-text" x="24" y="0">Underestimating rocky terrain</text>
+      </g>
+      <g transform="translate(0 92)">
+        <text class="item-number" x="0" y="0">11.</text>
+        <text class="item-text" x="24" y="0">Not bringing warm layers in summer</text>
+      </g>
+      <g transform="translate(0 138)">
+        <text class="item-number" x="0" y="0">12.</text>
+        <text class="item-text" x="24" y="0">Poor water source planning</text>
+      </g>
+      <g transform="translate(0 184)">
+        <text class="item-number" x="0" y="0">13.</text>
+        <text class="item-text" x="24" y="0">Not checking for bailout routes</text>
+      </g>
+      <g transform="translate(0 230)">
+        <text class="item-number" x="0" y="0">14.</text>
+        <text class="item-text" x="24" y="0">Skipping dinner or snacks</text>
+      </g>
+      <g transform="translate(0 276)">
+        <text class="item-number" x="0" y="0">15.</text>
+        <text class="item-text" x="24" y="0">Finishing after dark</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <rect class="footer" x="0" y="1020" width="800" height="80" />
+  <text class="footer-text" x="400" y="1070" text-anchor="middle">TrailLogic Studio • Confidence. Clarity. Adventure.</text>
+</svg>
