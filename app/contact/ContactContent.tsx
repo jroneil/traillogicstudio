@@ -14,30 +14,6 @@ export default function ContactContent() {
   return (
     <div className="section">
       <div className="container space-y-10">
-        <div className="overflow-hidden rounded-3xl bg-gradient-to-r from-[#2F4F3A] via-[#2F4F3A] to-[#1F3325] text-white shadow-xl">
-          <div className="grid gap-10 p-8 md:grid-cols-2 md:p-12">
-            <div className="space-y-4">
-              <p className="text-sm uppercase tracking-[0.2em] text-[#C5A45A]">Contact</p>
-              <h1 className="text-4xl font-extrabold md:text-5xl">Get in Touch</h1>
-              <p className="max-w-xl text-lg text-white/80">
-                We&apos;d love to hear from you. Whether you have a question about our products, need support, or want to
-                discuss a collaboration, our team is here to help.
-              </p>
-            </div>
-            <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-md backdrop-blur">
-              <p className="text-lg font-semibold text-[#C5A45A]">We’d love to hear from you.</p>
-              <p className="mt-2 text-sm text-white/80">
-                Share feedback, product requests, or partnership ideas below. We&apos;ll get back to you within two
-                business days.
-              </p>
-              <div className="mt-6 space-y-3 text-sm text-white/90">
-                <p className="flex items-center gap-2"><span className="font-semibold text-[#C5A45A]">Email:</span> info@TrailLogicStudio.com</p>
-                <p className="flex items-center gap-2"><span className="font-semibold text-[#C5A45A]">Hours:</span> Mon–Fri, 9am–6pm PT</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="grid gap-8 lg:grid-cols-[1.3fr_0.7fr]">
           <form
             onSubmit={handleSubmit}
