@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HeroBanner } from "@/components/HeroBanner";
 
 export const metadata = {
   title: "About Trail Logic Studio",
@@ -14,12 +15,12 @@ const bodyClass = "text-[#2A2A2A] leading-relaxed";
 export default function AboutPage() {
   return (
     <main className="bg-[#F4F1EB] text-[#2A2A2A]">
-      <section className="flex min-h-[250px] max-h-[300px] items-center justify-center bg-[#2F4F3A] px-4 text-center text-white">
-        <div className="space-y-3 py-12 md:py-16">
-          <h1 className="text-4xl font-semibold tracking-tight">About Trail Logic Studio</h1>
-          <p className="text-lg md:text-xl">Backpacking Guides Built for Real People</p>
-        </div>
-      </section>
+      <HeroBanner
+        eyebrow="ABOUT"
+        title="About Trail Logic Studio"
+        subtitle="Backpacking Guides Built for Real People"
+        showImage={false}
+      />
 
       <section className="mx-auto max-w-5xl space-y-8 px-4 py-12 md:py-16">
         <div className={`${cardClass} space-y-4`}>
