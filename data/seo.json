@@ -1,0 +1,101 @@
+[
+  {
+    "page": "Home",
+    "title": "Trail Logic Studio | Navigate Adventures with Precision",
+    "description": "Discover Trail Logic Studio for expertly crafted outdoor routes, planning tools, and community knowledge to elevate every adventure.",
+    "keywords": ["trail planning", "route design", "outdoor navigation", "adventure tools", "hiking resources"],
+    "canonical_path": "/",
+    "og:title": "Trail Logic Studio Home",
+    "og:description": "Plan and explore curated outdoor experiences with Trail Logic Studio."
+  },
+  {
+    "page": "Products",
+    "title": "Products | Trail Logic Studio Navigation Tools",
+    "description": "Browse Trail Logic Studio products including premium route libraries, holiday bundles, and planning resources for every journey.",
+    "keywords": ["route products", "navigation tools", "outdoor bundles", "mapping resources", "trail logic products"],
+    "canonical_path": "/products",
+    "og:title": "Trail Logic Studio Products",
+    "og:description": "Shop curated navigation products and bundles to plan your next adventure."
+  },
+  {
+    "page": "About",
+    "title": "About Trail Logic Studio | Our Mission and Story",
+    "description": "Learn about Trail Logic Studio, our passion for precise navigation, and the team crafting tools that empower confident exploration.",
+    "keywords": ["about trail logic", "navigation mission", "outdoor team", "company story", "trail logic studio"],
+    "canonical_path": "/about",
+    "og:title": "About Trail Logic Studio",
+    "og:description": "Get to know the mission, values, and team behind Trail Logic Studio."
+  },
+  {
+    "page": "Contact",
+    "title": "Contact Trail Logic Studio | Get Support",
+    "description": "Reach out to Trail Logic Studio for support, partnership opportunities, or questions about our navigation products and resources.",
+    "keywords": ["contact", "support", "trail logic help", "partnerships", "customer service"],
+    "canonical_path": "/contact",
+    "og:title": "Contact Trail Logic Studio",
+    "og:description": "Connect with our team for assistance, feedback, or collaboration."
+  },
+  {
+    "page": "Freebies",
+    "title": "Freebies | Trail Logic Studio Resources",
+    "description": "Download free Trail Logic Studio resources, sample routes, and planning templates to jumpstart your outdoor adventures.",
+    "keywords": ["free resources", "sample routes", "free downloads", "planning templates", "trail freebies"],
+    "canonical_path": "/freebies",
+    "og:title": "Trail Logic Studio Freebies",
+    "og:description": "Access complimentary downloads and sample routes from Trail Logic Studio."
+  },
+  {
+    "page": "Knowledge Base",
+    "title": "Knowledge Base | Trail Logic Studio Guides",
+    "description": "Explore the Trail Logic Studio knowledge base for tutorials, how-tos, and best practices on navigation and route planning.",
+    "keywords": ["knowledge base", "navigation guides", "how-to", "route planning help", "trail tutorials"],
+    "canonical_path": "/knowledge-base",
+    "og:title": "Trail Logic Studio Knowledge Base",
+    "og:description": "Find articles and guides to master navigation with Trail Logic Studio."
+  },
+  {
+    "page": "Route Library",
+    "title": "Route Library | Curated Trails by Trail Logic Studio",
+    "description": "Browse the Trail Logic Studio route library featuring expertly curated trails and detailed navigation data for every season.",
+    "keywords": ["route library", "trail collection", "curated routes", "navigation data", "seasonal trails"],
+    "canonical_path": "/routes",
+    "og:title": "Trail Logic Studio Route Library",
+    "og:description": "Explore curated routes with precise navigation support from Trail Logic Studio."
+  },
+  {
+    "page": "Christmas Bundle",
+    "title": "Christmas Bundle | Seasonal Routes & Resources",
+    "description": "Celebrate the season with the Trail Logic Studio Christmas Bundle featuring festive routes, maps, and bonus resources.",
+    "keywords": ["christmas bundle", "holiday routes", "festive maps", "seasonal resources", "trail bundle"],
+    "canonical_path": "/bundles/christmas",
+    "og:title": "Trail Logic Studio Christmas Bundle",
+    "og:description": "Get festive navigation resources with the Trail Logic Studio Christmas Bundle."
+  },
+  {
+    "page": "Holiday Page",
+    "title": "Holiday Page | Seasonal Offers from Trail Logic Studio",
+    "description": "Discover holiday promotions, seasonal route highlights, and limited-time offers from Trail Logic Studio.",
+    "keywords": ["holiday offers", "seasonal routes", "trail promotions", "limited time", "holiday navigation"],
+    "canonical_path": "/holiday",
+    "og:title": "Trail Logic Studio Holiday Page",
+    "og:description": "Explore seasonal offers and highlighted routes from Trail Logic Studio."
+  },
+  {
+    "page": "Blog Index",
+    "title": "Blog | Trail Logic Studio Insights",
+    "description": "Read Trail Logic Studio articles on navigation tips, route planning strategies, and stories from the trail.",
+    "keywords": ["trail blog", "navigation tips", "route planning articles", "outdoor stories", "trail logic insights"],
+    "canonical_path": "/blog",
+    "og:title": "Trail Logic Studio Blog",
+    "og:description": "Stay updated with navigation insights and stories from Trail Logic Studio."
+  },
+  {
+    "page": "Blog Post Placeholder",
+    "title": "{{post_title}} | Trail Logic Studio Blog",
+    "description": "{{post_summary}}",
+    "keywords": ["trail blog post", "navigation article", "route planning", "trail tips", "outdoor insights"],
+    "canonical_path": "/blog/{{post_slug}}",
+    "og:title": "{{post_title}} | Trail Logic Studio",
+    "og:description": "{{post_summary}}"
+  }
+]
