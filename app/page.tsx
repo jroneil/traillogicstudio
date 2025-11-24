@@ -1,6 +1,6 @@
 import { ComingSoon } from "@/components/ComingSoon";
 import { FeatureGrid } from "@/components/FeatureGrid";
-import { Hero } from "@/components/Hero";
+import { HeroBanner } from "@/components/HeroBanner";
 import { ProductCard } from "@/components/ProductCard";
 import { Button } from "@/components/UI/Button";
 import { Badge } from "@/components/UI/Badge";
@@ -20,12 +20,27 @@ export default function HomePage() {
 
   return (
     <>
-      <Hero
+      <HeroBanner
+        eyebrow="OUTDOOR PLANNERS, GUIDES & RESOURCES"
         title="Trail Logic Studio"
         subtitle="Outdoor Planners, Guides & Resources"
-        primaryCta={{ label: "View Products", href: "/products" }}
-        secondaryCta={{ label: "Buy Planner", href: featured?.etsyUrl ?? "/products" }}
-      />
+        image="/branding/TrailLogic_Section.png"
+      >
+        <div className="flex flex-wrap gap-3">
+          <Button href="/products" className="bg-[#2F4F3A] text-white hover:bg-[#1F3325]">
+            View Products
+          </Button>
+          {featured?.etsyUrl && (
+            <Button
+              href={featured.etsyUrl}
+              variant="secondary"
+              className="border border-[#C5A45A] text-[#FAFAF8] hover:bg-[#B9903E]/30"
+            >
+              Buy Planner
+            </Button>
+          )}
+        </div>
+      </HeroBanner>
 
       <section className="section">
         <div className="container grid gap-10 lg:grid-cols-[1.2fr_1fr] lg:items-center">
