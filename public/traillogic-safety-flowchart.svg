@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1750" viewBox="0 0 800 1750" style="background:#F7F7F7;font-family: 'Arial','Helvetica',sans-serif; color:#2A2A2A;">
+  <title>TrailLogic Safety Flowchart</title>
+  <defs>
+    <style>
+      .section-title { fill: #0E5B35; font-size: 20px; font-weight: 700; }
+      .section-bar { fill: #83A98D; opacity: 0.9; }
+      .box { fill: #FFFFFF; stroke: #0E5B35; stroke-width: 2; rx: 14; ry: 14; }
+      .box-text { fill: #2A2A2A; font-size: 16px; font-weight: 700; }
+      .subtext { fill: #2A2A2A; font-size: 13px; font-weight: 500; }
+      .small-box { fill: #FFFFFF; stroke: #2A2A2A; stroke-width: 1.5; rx: 10; ry: 10; }
+      .small-text { fill: #2A2A2A; font-size: 13px; font-weight: 600; }
+      .arrow { stroke: #0E5B35; stroke-width: 2.5; marker-end: url(#arrowhead); }
+      .bullet { fill: #2A2A2A; font-size: 14px; font-weight: 600; }
+      .note { fill: #2A2A2A; font-size: 13px; font-weight: 600; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 6 3, 0 6" fill="#0E5B35" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <g text-anchor="middle">
+    <text x="400" y="50" fill="#0E5B35" font-size="30" font-weight="800">TrailLogic Safety Flowchart</text>
+    <text x="400" y="78" fill="#2A2A2A" font-size="16" font-weight="600">White Mountains 2–3 Day Beginner Trips</text>
+  </g>
+
+  <!-- Pre-Trip Check -->
+  <rect x="60" y="110" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="133" class="section-title" text-anchor="middle">Pre-Trip Check</text>
+  <rect x="120" y="155" width="560" height="90" class="box" />
+  <text x="150" y="185" class="box-text">Is the weather safe for the entire route?</text>
+  <text x="150" y="210" class="subtext">Check wind, rain, storms, temps vs gear.</text>
+  <rect x="620" y="175" width="150" height="60" class="small-box" />
+  <text x="635" y="200" class="small-text">Adjust route or</text>
+  <text x="635" y="220" class="small-text">delay trip.</text>
+  <line x1="400" y1="245" x2="400" y2="285" class="arrow" />
+  <line x1="400" y1="185" x2="620" y2="195" class="arrow" />
+
+  <!-- Trailhead Start -->
+  <rect x="60" y="285" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="308" class="section-title" text-anchor="middle">Trailhead Start</text>
+  <rect x="120" y="330" width="560" height="70" class="box" />
+  <text x="150" y="365" class="box-text">Did you start between 6:30–8:30 AM?</text>
+  <rect x="620" y="340" width="150" height="50" class="small-box" />
+  <text x="635" y="365" class="small-text">Shorten route or</text>
+  <text x="635" y="385" class="small-text">move camp closer.</text>
+  <line x1="400" y1="400" x2="400" y2="445" class="arrow" />
+  <line x1="400" y1="365" x2="620" y2="365" class="arrow" />
+
+  <!-- On-Trail Conditions -->
+  <rect x="60" y="445" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="468" class="section-title" text-anchor="middle">On-Trail Conditions</text>
+  <rect x="120" y="490" width="560" height="70" class="box" />
+  <text x="150" y="520" class="box-text">Has weather gotten worse? (dark clouds, fog, high wind)</text>
+  <rect x="620" y="500" width="150" height="50" class="small-box" />
+  <text x="635" y="525" class="small-text">Drop below treeline</text>
+  <text x="635" y="545" class="small-text">or take bailout route.</text>
+  <line x1="400" y1="560" x2="400" y2="600" class="arrow" />
+  <line x1="400" y1="520" x2="620" y2="525" class="arrow" />
+
+  <rect x="120" y="600" width="560" height="70" class="box" />
+  <text x="150" y="630" class="box-text">Hydration check: drinking ~1L every 2 hours?</text>
+  <rect x="620" y="610" width="150" height="50" class="small-box" />
+  <text x="635" y="635" class="small-text">Drink now + add</text>
+  <text x="635" y="655" class="small-text">electrolytes.</text>
+  <line x1="400" y1="670" x2="400" y2="710" class="arrow" />
+  <line x1="400" y1="630" x2="620" y2="630" class="arrow" />
+
+  <rect x="120" y="710" width="560" height="70" class="box" />
+  <text x="150" y="740" class="box-text">Eating every 60–90 minutes?</text>
+  <rect x="620" y="720" width="150" height="50" class="small-box" />
+  <text x="635" y="745" class="small-text">Stop for a snack.</text>
+  <line x1="400" y1="780" x2="400" y2="825" class="arrow" />
+  <line x1="400" y1="740" x2="620" y2="745" class="arrow" />
+
+  <!-- Elevation & Timing -->
+  <rect x="60" y="825" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="848" class="section-title" text-anchor="middle">Elevation &amp; Timing</text>
+  <rect x="120" y="870" width="560" height="70" class="box" />
+  <text x="150" y="900" class="box-text">At halfway point, are you &gt;1 hour behind plan?</text>
+  <rect x="620" y="880" width="150" height="50" class="small-box" />
+  <text x="635" y="905" class="small-text">Use bailout or</text>
+  <text x="635" y="925" class="small-text">closer campsite.</text>
+  <line x1="400" y1="940" x2="400" y2="985" class="arrow" />
+  <line x1="400" y1="900" x2="620" y2="905" class="arrow" />
+
+  <!-- Ridgeline Exposure -->
+  <rect x="60" y="985" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="1008" class="section-title" text-anchor="middle">Ridgeline Exposure</text>
+  <rect x="120" y="1030" width="560" height="70" class="box" />
+  <text x="150" y="1060" class="box-text">Are winds &gt; 30–40 mph or visibility poor above treeline?</text>
+  <rect x="620" y="1040" width="150" height="50" class="small-box" />
+  <text x="635" y="1065" class="small-text">Stay below treeline.</text>
+  <text x="635" y="1085" class="small-text">Avoid exposed ridges.</text>
+  <rect x="120" y="1110" width="210" height="50" class="small-box" />
+  <text x="135" y="1135" class="small-text">Proceed carefully and</text>
+  <text x="135" y="1155" class="small-text">re-check often.</text>
+  <line x1="400" y1="1100" x2="400" y2="1145" class="arrow" />
+  <line x1="400" y1="1060" x2="620" y2="1065" class="arrow" />
+  <line x1="400" y1="1060" x2="120" y2="1135" class="arrow" />
+
+  <!-- Injury / Issue -->
+  <rect x="60" y="1145" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="1168" class="section-title" text-anchor="middle">Injury / Issue</text>
+  <rect x="120" y="1190" width="560" height="90" class="box" />
+  <text x="150" y="1220" class="box-text">Any worsening injury or dizziness?</text>
+  <text x="150" y="1245" class="subtext">Twisted ankle, bad blisters, balance issues, hypothermia signs.</text>
+  <rect x="620" y="1210" width="150" height="70" class="small-box" />
+  <text x="635" y="1235" class="small-text">Turn back or take</text>
+  <text x="635" y="1255" class="small-text">shortest path to trailhead.</text>
+  <text x="635" y="1275" class="small-text">Use communicator if needed.</text>
+  <line x1="400" y1="1280" x2="400" y2="1325" class="arrow" />
+  <line x1="400" y1="1220" x2="620" y2="1240" class="arrow" />
+
+  <!-- Camp Arrival -->
+  <rect x="60" y="1325" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="1348" class="section-title" text-anchor="middle">Camp Arrival</text>
+  <rect x="120" y="1370" width="560" height="70" class="box" />
+  <text x="150" y="1400" class="box-text">Will you reach camp before 6 PM?</text>
+  <rect x="620" y="1380" width="150" height="60" class="small-box" />
+  <text x="635" y="1405" class="small-text">Choose earlier safe</text>
+  <text x="635" y="1425" class="small-text">campsite. Avoid night hiking.</text>
+  <line x1="400" y1="1440" x2="400" y2="1485" class="arrow" />
+  <line x1="400" y1="1400" x2="620" y2="1405" class="arrow" />
+
+  <!-- Nightly Safety Review -->
+  <rect x="60" y="1485" width="680" height="34" class="section-bar" rx="8" />
+  <text x="400" y="1508" class="section-title" text-anchor="middle">Nightly Safety Review</text>
+  <rect x="120" y="1530" width="560" height="170" class="box" />
+  <text x="150" y="1560" class="box-text">At camp: Did you...</text>
+  <text x="170" y="1585" class="bullet">• Refill all water</text>
+  <text x="170" y="1605" class="bullet">• Check batteries</text>
+  <text x="170" y="1625" class="bullet">• Check tomorrow's weather</text>
+  <text x="170" y="1645" class="bullet">• Review bailout routes</text>
+  <text x="170" y="1665" class="bullet">• Hang food properly</text>
+  <text x="150" y="1690" class="note">If any NO → fix before sleeping.</text>
+</svg>
