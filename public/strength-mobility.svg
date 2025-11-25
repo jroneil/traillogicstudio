@@ -1,0 +1,119 @@
+<svg width="800" height="1120" viewBox="0 0 800 1120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Strength &amp; Mobility – Trail Prep</title>
+  <desc id="desc">Simple exercise reference sheet with six boxes showing backpacking preparation movements.</desc>
+  <style>
+    text { font-family: 'Inter', 'Helvetica', 'Arial', sans-serif; fill: #0E5B35; }
+    .subtitle { font-size: 18px; fill: #333; }
+    .box-title { font-size: 18px; font-weight: 700; }
+    .box-text { font-size: 14px; fill: #333; line-height: 1.4; }
+    .outline { stroke: #0E5B35; fill: none; stroke-width: 2; rx: 12; ry: 12; }
+    .grid-line { stroke: #DDDDDD; stroke-width: 2; }
+    .icon { stroke: #0E5B35; stroke-width: 4; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect width="800" height="1120" fill="white" />
+
+  <text x="400" y="80" text-anchor="middle" font-size="30" font-weight="700">TrailLogic Strength &amp; Mobility</text>
+  <text x="400" y="110" text-anchor="middle" class="subtitle">Simple Exercises for Backpacking Prep</text>
+
+  <line x1="400" y1="150" x2="400" y2="1000" class="grid-line" />
+  <line x1="80" y1="380" x2="720" y2="380" class="grid-line" />
+  <line x1="80" y1="610" x2="720" y2="610" class="grid-line" />
+
+  <g transform="translate(80,180)">
+    <rect width="640" height="820" rx="16" ry="16" stroke="#0E5B35" fill="none" stroke-width="3" />
+  </g>
+
+  <g transform="translate(100,200)">
+    <rect width="260" height="180" class="outline" />
+    <text x="20" y="32" class="box-title">Bodyweight Squats</text>
+    <g class="icon" transform="translate(80,70)">
+      <circle cx="0" cy="-20" r="10" />
+      <line x1="0" y1="-10" x2="0" y2="30" />
+      <line x1="0" y1="10" x2="-20" y2="30" />
+      <line x1="0" y1="10" x2="20" y2="30" />
+      <line x1="0" y1="30" x2="-18" y2="60" />
+      <line x1="0" y1="30" x2="18" y2="60" />
+    </g>
+    <text x="20" y="120" class="box-text">3 sets of 8–15 reps</text>
+    <text x="20" y="140" class="box-text">Focus on control, knees over toes.</text>
+  </g>
+
+  <g transform="translate(440,200)">
+    <rect width="260" height="180" class="outline" />
+    <text x="20" y="32" class="box-title">Step-Ups</text>
+    <g class="icon" transform="translate(90,90)">
+      <rect x="30" y="20" width="50" height="20" fill="none" stroke="#0E5B35" stroke-width="4" />
+      <line x1="0" y1="40" x2="30" y2="40" />
+      <line x1="30" y1="40" x2="50" y2="10" />
+      <line x1="50" y1="10" x2="70" y2="40" />
+      <line x1="70" y1="40" x2="80" y2="40" />
+    </g>
+    <text x="20" y="120" class="box-text">3 sets of 8–12 per leg</text>
+    <text x="20" y="140" class="box-text">Use a stair or sturdy box.</text>
+  </g>
+
+  <g transform="translate(100,430)">
+    <rect width="260" height="180" class="outline" />
+    <text x="20" y="32" class="box-title">Wall Sit</text>
+    <g class="icon" transform="translate(90,90)">
+      <line x1="60" y1="-10" x2="60" y2="60" />
+      <line x1="10" y1="60" x2="60" y2="60" />
+      <line x1="10" y1="60" x2="10" y2="20" />
+      <circle cx="10" cy="0" r="10" />
+      <line x1="10" y1="10" x2="10" y2="40" />
+      <line x1="10" y1="40" x2="-10" y2="60" />
+      <line x1="10" y1="40" x2="30" y2="60" />
+    </g>
+    <text x="20" y="120" class="box-text">Hold 20–40 seconds</text>
+    <text x="20" y="140" class="box-text">Build up gradually.</text>
+  </g>
+
+  <g transform="translate(440,430)">
+    <rect width="260" height="180" class="outline" />
+    <text x="20" y="32" class="box-title">Glute Bridges</text>
+    <g class="icon" transform="translate(80,100)">
+      <line x1="-20" y1="30" x2="60" y2="-10" />
+      <line x1="60" y1="-10" x2="100" y2="30" />
+      <line x1="-30" y1="30" x2="-10" y2="30" />
+      <circle cx="-30" cy="30" r="10" />
+      <line x1="100" y1="30" x2="120" y2="30" />
+      <circle cx="120" cy="30" r="10" />
+      <circle cx="20" cy="-20" r="10" />
+    </g>
+    <text x="20" y="120" class="box-text">3 sets of 10–15 reps</text>
+    <text x="20" y="140" class="box-text">Squeeze glutes at top.</text>
+  </g>
+
+  <g transform="translate(100,660)">
+    <rect width="260" height="180" class="outline" />
+    <text x="20" y="32" class="box-title">Plank</text>
+    <g class="icon" transform="translate(80,90)">
+      <line x1="-20" y1="20" x2="80" y2="-10" />
+      <line x1="80" y1="-10" x2="120" y2="0" />
+      <line x1="-30" y1="20" x2="-10" y2="20" />
+      <circle cx="-30" cy="20" r="10" />
+      <line x1="120" y1="0" x2="140" y2="0" />
+      <circle cx="140" cy="0" r="10" />
+      <circle cx="0" cy="-10" r="10" />
+    </g>
+    <text x="20" y="120" class="box-text">Hold 20–45 seconds</text>
+    <text x="20" y="140" class="box-text">Keep body in straight line.</text>
+  </g>
+
+  <g transform="translate(440,660)">
+    <rect width="260" height="180" class="outline" />
+    <text x="20" y="32" class="box-title">Stretching</text>
+    <g class="icon" transform="translate(90,90)">
+      <line x1="0" y1="30" x2="40" y2="-10" />
+      <line x1="40" y1="-10" x2="70" y2="30" />
+      <line x1="0" y1="30" x2="-20" y2="60" />
+      <line x1="70" y1="30" x2="90" y2="60" />
+      <circle cx="40" cy="-25" r="10" />
+      <line x1="40" y1="-15" x2="40" y2="20" />
+    </g>
+    <text x="20" y="120" class="box-text">Calf, hamstring, hip flexor</text>
+    <text x="20" y="140" class="box-text">10–20 seconds each side.</text>
+  </g>
+
+  <text x="400" y="1030" text-anchor="middle" class="subtitle">TrailLogic Studio • Strong legs and core protect your knees on trail.</text>
+</svg>
