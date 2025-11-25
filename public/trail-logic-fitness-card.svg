@@ -1,0 +1,36 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Fitness Card</title>
+  <desc id="desc">Quick reference fitness plan with goal, weekly rhythm, and reminders.</desc>
+  <rect x="15" y="15" width="770" height="420" rx="18" fill="#FFFFFF" stroke="#0E5B35" stroke-width="3" />
+  <text x="400" y="45" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="28" fill="#0E5B35" font-weight="700">TrailLogic Fitness Card</text>
+
+  <g font-family="'Inter', Arial, sans-serif" fill="#0E5B35">
+    <g transform="translate(40,70)">
+      <text x="0" y="0" font-size="22" font-weight="700">Goal</text>
+      <line x1="0" y1="10" x2="200" y2="10" stroke="#0E5B35" stroke-width="1.5" />
+      <text x="0" y="36" font-size="18" font-weight="600">Walk/hike 2–3 hours</text>
+      <text x="0" y="62" font-size="18" font-weight="600">with hills and a pack</text>
+      <text x="0" y="88" font-size="18" font-weight="600">and feel okay the next day.</text>
+    </g>
+
+    <g transform="translate(40,195)">
+      <text x="0" y="0" font-size="22" font-weight="700">Weekly Rhythm</text>
+      <line x1="0" y1="10" x2="200" y2="10" stroke="#0E5B35" stroke-width="1.5" />
+      <text x="0" y="38" font-size="18">• 2x walks/hikes</text>
+      <text x="0" y="64" font-size="18">• 2x strength sessions</text>
+      <text x="0" y="90" font-size="18">• 1x longer hike</text>
+      <text x="0" y="116" font-size="18">• 2x rest/easy days</text>
+    </g>
+
+    <g transform="translate(40,335)">
+      <text x="0" y="0" font-size="22" font-weight="700">Reminders</text>
+      <line x1="0" y1="10" x2="200" y2="10" stroke="#0E5B35" stroke-width="1.5" />
+      <text x="0" y="38" font-size="18">• Increase time/pack gradually</text>
+      <text x="0" y="64" font-size="18">• Don’t ignore pain</text>
+      <text x="0" y="90" font-size="18">• Sleep and hydration matter</text>
+      <text x="0" y="116" font-size="18">• Rest is part of training</text>
+    </g>
+  </g>
+
+  <text x="400" y="420" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#0E5B35">TrailLogic Studio • Train smart, enjoy the trip.</text>
+</svg>
