@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" fill="none" stroke="#0b0b0b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <title>Condensation Control in Winter</title>
+  <!-- Ground line -->
+  <line x1="50" y1="440" x2="850" y2="440" />
+
+  <!-- Tent body -->
+  <polygon points="200,420 450,120 700,420" stroke="#0b0b0b" fill="none" />
+  <line x1="325" y1="270" x2="575" y2="270" />
+  <line x1="450" y1="120" x2="450" y2="420" />
+  <polyline points="200,420 150,470 250,470 200,420" />
+  <polyline points="700,420 650,470 750,470 700,420" />
+  <line x1="200" y1="420" x2="220" y2="440" />
+  <line x1="700" y1="420" x2="680" y2="440" />
+
+  <!-- Door outline -->
+  <path d="M450 420 Q430 320 450 270 Q470 320 450 420" />
+
+  <!-- Vent flaps slightly open -->
+  <polyline points="325,270 340,250 360,270" />
+  <polyline points="575,270 560,250 540,270" />
+
+  <!-- Steam arrow exiting tent -->
+  <path d="M420 200 C410 180 410 150 430 130" />
+  <polyline points="430,130 420,140 440,140" />
+
+  <!-- Towel wiping interior wall -->
+  <rect x="505" y="330" width="60" height="35" rx="6" />
+  <line x1="505" y1="365" x2="470" y2="380" />
+
+  <!-- Callout: Ventilation to Reduce Frost -->
+  <line x1="340" y1="235" x2="180" y2="180" />
+  <circle cx="180" cy="180" r="4" fill="#0b0b0b" />
+  <text x="70" y="165" font-family="'Inter', 'Helvetica', 'Arial', sans-serif" font-size="18" fill="#0b0b0b">Ventilation to Reduce Frost</text>
+
+  <!-- Callout: Release Moisture -->
+  <line x1="430" y1="125" x2="640" y2="90" />
+  <circle cx="640" cy="90" r="4" fill="#0b0b0b" />
+  <text x="660" y="95" font-family="'Inter', 'Helvetica', 'Arial', sans-serif" font-size="18" fill="#0b0b0b">Release Moisture</text>
+
+  <!-- Callout: Remove Frost Before Packing -->
+  <line x1="470" y1="380" x2="640" y2="360" />
+  <circle cx="640" cy="360" r="4" fill="#0b0b0b" />
+  <text x="660" y="365" font-family="'Inter', 'Helvetica', 'Arial', sans-serif" font-size="18" fill="#0b0b0b">Remove Frost Before Packing</text>
+
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="'Inter', 'Helvetica', 'Arial', sans-serif" font-size="26" fill="#0b0b0b">Condensation Control in Winter</text>
+</svg>
