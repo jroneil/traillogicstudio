@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" style="background:white; font-family: 'Helvetica Neue', Arial, sans-serif;">
+  <defs>
+    <style>
+      .title { font-size: 24px; font-weight: 700; fill: #111; }
+      .label { font-size: 14px; font-weight: 600; fill: #111; }
+      .caption { font-size: 12px; fill: #333; }
+      .panel { fill: none; stroke: #111; stroke-width: 2; }
+      .line { fill: none; stroke: #111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <text x="450" y="50" text-anchor="middle" class="title">Winter Shelter Types</text>
+
+  <!-- Panels -->
+  <g transform="translate(45,80)">
+    <!-- Panel 1: 4-Season Tent -->
+    <rect class="panel" x="0" y="0" width="250" height="220" rx="10" />
+    <g transform="translate(25,40)">
+      <path class="line" d="M10 140 L110 10 L210 140 Z" />
+      <line class="line" x1="110" y1="10" x2="110" y2="140" />
+      <line class="line" x1="65" y1="80" x2="155" y2="80" />
+      <line class="line" x1="40" y1="140" x2="180" y2="140" />
+    </g>
+    <text x="125" y="210" text-anchor="middle" class="label">4-Season Tent</text>
+  </g>
+
+  <g transform="translate(325,80)">
+    <!-- Panel 2: 3-Season with Snow Management -->
+    <rect class="panel" x="0" y="0" width="250" height="220" rx="10" />
+    <g transform="translate(25,50)">
+      <path class="line" d="M20 120 L110 30 L200 120 Z" />
+      <line class="line" x1="110" y1="30" x2="110" y2="120" />
+      <path class="line" d="M30 140 Q80 125 110 135 Q140 145 200 125" />
+      <path class="line" d="M55 120 Q60 110 80 110" />
+    </g>
+    <text x="125" y="210" text-anchor="middle" class="label">3-Season + Snow Management</text>
+  </g>
+
+  <g transform="translate(605,80)">
+    <!-- Panel 3: Snow Shelter -->
+    <rect class="panel" x="0" y="0" width="250" height="220" rx="10" />
+    <g transform="translate(25,60)">
+      <path class="line" d="M20 120 Q65 40 125 40 Q185 40 220 120" />
+      <path class="line" d="M85 120 Q105 95 125 95 Q145 95 165 120" />
+      <path class="line" d="M115 120 Q125 108 135 120" />
+      <line class="line" x1="20" y1="120" x2="220" y2="120" />
+    </g>
+    <text x="125" y="210" text-anchor="middle" class="label">Snow Shelter (Advanced)</text>
+  </g>
+
+  <text x="450" y="360" text-anchor="middle" class="caption">Choose shelter based on conditions and experience.</text>
+</svg>
