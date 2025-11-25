@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img">
+  <title>Risk Overlay</title>
+  <desc>Monochrome topo-style mock map with labeled risk zones differentiated by hatching and dashed outlines.</desc>
+  <defs>
+    <pattern id="diag-light" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="12" stroke="#111" stroke-width="1"/>
+    </pattern>
+    <pattern id="diag-dense" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#111" stroke-width="1"/>
+    </pattern>
+    <pattern id="crosshatch" width="10" height="10" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="10" y2="0" stroke="#111" stroke-width="1"/>
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#111" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#111"/>
+    </pattern>
+  </defs>
+
+  <rect x="20" y="20" width="680" height="480" fill="none" stroke="#0f0f0f" stroke-width="2.5"/>
+
+  <!-- contour lines -->
+  <g fill="none" stroke="#2a2a2a" stroke-width="1.4">
+    <path d="M120 140c60-60 200-55 260 10s160 60 220 10"/>
+    <path d="M110 200c70-70 190-60 260 20s160 70 230 0" stroke-dasharray="6 4"/>
+    <path d="M140 260c80-60 170-40 230 30s140 80 210 10"/>
+    <path d="M160 320c60-40 150-20 210 50s120 90 190 30" stroke-dasharray="5 6"/>
+    <path d="M120 360c70-20 140 30 200 90s120 70 190 20"/>
+  </g>
+
+  <!-- hills and ridges -->
+  <g fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round">
+    <path d="M230 170c12-30 38-48 58-46 18 2 32 18 42 40"/>
+    <path d="M420 150c18-22 40-28 58-20 14 6 26 20 34 40"/>
+    <path d="M320 310c16-32 48-54 74-50 20 4 36 24 46 52"/>
+    <path d="M470 260c10-20 32-36 52-34 14 2 26 12 34 28" stroke-dasharray="3 5"/>
+  </g>
+
+  <!-- zones -->
+  <g stroke="#0e0e0e" stroke-width="1.6">
+    <path d="M130 250c80-70 190-80 240-10 30 45 20 90-20 120-60 45-150 40-210-10-40-34-40-70-10-100z" fill="url(#diag-dense)" opacity="0.6"/>
+    <path d="M320 120c60-30 150-10 210 40 22 18 38 46 20 64-30 30-120 34-190-10-62-40-88-80-40-94z" fill="url(#diag-light)" opacity="0.45"/>
+    <path d="M400 300c40-10 90 10 140 60 14 14 12 34-4 48-26 24-82 30-130-10-40-34-58-76-6-98z" fill="url(#dots)" opacity="0.6"/>
+    <path d="M170 340c-20 10-40 40-40 72 0 24 26 40 72 40 62 0 140-30 170-70 16-22 6-40-18-46-66-16-126-22-184 4z" fill="url(#crosshatch)" opacity="0.4"/>
+  </g>
+
+  <!-- labels -->
+  <g fill="#0b0b0b" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" letter-spacing="0.3">
+    <text x="180" y="230">RED — Steep Slopes</text>
+    <text x="390" y="150">YELLOW — Wind Exposed Ridge</text>
+    <text x="450" y="320">BLUE — Stream Crossings</text>
+    <text x="220" y="390">GREEN — Sheltered Forest</text>
+  </g>
+
+  <!-- label guides -->
+  <g stroke="#1a1a1a" stroke-dasharray="4 4" stroke-width="1">
+    <line x1="200" y1="235" x2="240" y2="260"/>
+    <line x1="520" y1="160" x2="500" y2="190"/>
+    <line x1="560" y1="328" x2="540" y2="360"/>
+    <line x1="300" y1="395" x2="320" y2="430"/>
+  </g>
+</svg>
