@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" fill="none">
+  <style>
+    .title { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 28px; font-weight: 700; fill: #111111; }
+    .label { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 16px; fill: #111111; }
+    .axis { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 14px; fill: #111111; }
+  </style>
+
+  <!-- Title -->
+  <text x="480" y="60" text-anchor="middle" class="title">Winter Glove System</text>
+
+  <!-- Glove icons row -->
+  <g stroke="#111111" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Liner Gloves -->
+    <g transform="translate(100,120)">
+      <path d="M50 10c0-6 8-8 12-3l10 12c2 2 3 5 3 8v60c0 9-7 16-16 16h-8c-9 0-16-7-16-16V30c0-4 2-8 5-10l10-9z"/>
+      <path d="M45 56h30"/>
+      <path d="M55 72h20"/>
+      <text x="60" y="130" text-anchor="middle" class="label">Liner Gloves</text>
+    </g>
+
+    <!-- Insulated Gloves -->
+    <g transform="translate(320,120)">
+      <path d="M40 18c0-6 8-9 12-4l12 14c2 2 3 5 3 8v62c0 9-7 16-16 16h-10c-9 0-16-7-16-16V34c0-4 2-8 5-11l10-9z"/>
+      <path d="M32 44h48"/>
+      <path d="M36 64h40"/>
+      <path d="M30 86h52"/>
+      <text x="56" y="140" text-anchor="middle" class="label">Insulated Gloves</text>
+    </g>
+
+    <!-- Shell Mitts -->
+    <g transform="translate(540,120)">
+      <path d="M44 18c0-6 8-8 12-3l12 14c2 2 3 5 3 8v60c0 9-7 16-16 16h-10c-9 0-16-7-16-16V34c0-4 2-8 5-10l10-8z"/>
+      <path d="M28 70c0-6 6-11 12-11h52c7 0 12 5 12 12v30c0 7-5 12-12 12H40c-7 0-12-5-12-12V70z"/>
+      <text x="60" y="150" text-anchor="middle" class="label">Shell Mitts</text>
+    </g>
+
+    <!-- Vapor Barrier -->
+    <g transform="translate(760,120)">
+      <rect x="26" y="22" width="68" height="92" rx="12"/>
+      <path d="M26 58h68"/>
+      <path d="M26 92h68"/>
+      <text x="60" y="150" text-anchor="middle" class="label">Vapor Barrier (Optional)</text>
+    </g>
+  </g>
+
+  <!-- Progression arrow -->
+  <g transform="translate(120,330)" stroke="#111111" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="0" y1="0" x2="640" y2="0" />
+    <polygon points="640,0 628,-10 628,10" fill="#111111" />
+    <text x="0" y="-12" text-anchor="start" class="axis">Light Work / High Output</text>
+    <text x="640" y="-12" text-anchor="end" class="axis">Extreme Cold / Low Movement</text>
+  </g>
+</svg>
