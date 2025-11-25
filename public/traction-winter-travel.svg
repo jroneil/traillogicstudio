@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+  <title id="title">Traction for Winter Travel</title>
+  <desc id="desc">Decision strip showing microspikes, snowshoes, and crampons arranged from left to right with increasing steepness and ice.</desc>
+  <style>
+    text { font-family: "Helvetica Neue", Arial, sans-serif; fill: #111; }
+    .title { font-size: 26px; font-weight: bold; }
+    .label { font-size: 16px; font-weight: 600; }
+    .sub { font-size: 13px; }
+    .icon { fill: none; stroke: #111; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .arrow { stroke: #111; stroke-width: 3; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#111" />
+    </marker>
+  </defs>
+
+  <rect x="20" y="20" width="920" height="240" fill="none" stroke="#ccc" stroke-width="1" />
+
+  <text class="title" x="480" y="56" text-anchor="middle">Traction for Winter Travel</text>
+
+  <!-- Microspikes -->
+  <g transform="translate(160,120)">
+    <g class="icon" transform="translate(-50,-20)">
+      <path d="M20 70 q10 -35 34 -35 h38 q8 0 8 9 v54 q0 10 -8 12 l-50 12 q-10 2 -15 -7 l-15 -26 z" />
+      <path d="M30 90 l-10 16 m18 -12 l-10 16 m20 -12 l-10 16 m22 -12 l-10 16 m22 -12 l-10 16 m22 -12 l-10 16" />
+      <path d="M62 55 h20 q6 0 6 6 v14 q0 6 -6 6 h-20 q-6 0 -6 -6 v-14 q0 -6 6 -6z" />
+    </g>
+    <text class="label" x="0" y="80" text-anchor="middle">Microspikes</text>
+    <text class="sub" x="0" y="102" text-anchor="middle">Packed trails, mild slopes</text>
+  </g>
+
+  <!-- Snowshoes -->
+  <g transform="translate(480,120)">
+    <g class="icon" transform="translate(-60,-32)">
+      <ellipse cx="60" cy="80" rx="52" ry="90" />
+      <ellipse cx="60" cy="80" rx="28" ry="62" />
+      <path d="M60 10 v20" />
+      <path d="M40 60 h40" />
+      <path d="M40 100 h40" />
+      <path d="M44 46 l32 20 l-32 20" />
+      <path d="M60 122 l-12 16 l24 0 z" />
+      <path d="M24 36 q-8 18 -8 44 q0 28 10 52" />
+      <path d="M96 36 q8 18 8 44 q0 28 -10 52" />
+    </g>
+    <text class="label" x="0" y="80" text-anchor="middle">Snowshoes</text>
+    <text class="sub" x="0" y="102" text-anchor="middle">Soft snow, deep powder</text>
+  </g>
+
+  <!-- Crampons -->
+  <g transform="translate(800,120)">
+    <g class="icon" transform="translate(-60,-14)">
+      <path d="M10 86 l18 -40 h84 l18 40" />
+      <path d="M22 86 l-6 22 m18 -22 l-6 22 m18 -22 l-6 22 m18 -22 l-6 22 m18 -22 l-6 22 m18 -22 l-6 22 m18 -22 l-6 22 m18 -22 l-6 22" />
+      <path d="M34 46 l10 -24 h72 l10 24" />
+      <path d="M40 28 h60" />
+      <path d="M46 12 h48" />
+      <path d="M68 12 v16" />
+      <path d="M64 86 v24" />
+      <path d="M72 86 v24" />
+    </g>
+    <text class="label" x="0" y="80" text-anchor="middle">Crampons</text>
+    <text class="sub" x="0" y="102" text-anchor="middle">Steep, hard ice</text>
+  </g>
+
+  <!-- Bottom arrow -->
+  <line class="arrow" x1="120" y1="230" x2="840" y2="230" />
+  <text class="sub" x="480" y="218" text-anchor="middle">Increasing Steepness &amp; Ice</text>
+</svg>
