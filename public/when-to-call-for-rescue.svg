@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">When to Call for Rescue</title>
+  <desc>Radio or personal locator beacon with signal waves and surrounding emergency criteria labels.</desc>
+  <style>
+    text { font-family: "Arial", sans-serif; fill: #0a0a0a; font-size: 16px; }
+    .device, .waves, .accent { fill: none; stroke: #0a0a0a; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect width="500" height="500" fill="none" />
+  <g transform="translate(250 260)">
+    <rect class="device" x="-40" y="-60" width="80" height="120" rx="10" />
+    <rect class="device" x="-25" y="-45" width="50" height="45" rx="6" />
+    <circle class="device" cx="0" cy="30" r="12" />
+    <line class="device" x1="0" y1="-60" x2="0" y2="-95" />
+    <line class="device" x1="0" y1="-95" x2="0" y2="-115" />
+    <line class="accent" x1="-12" y1="35" x2="12" y2="35" />
+    <line class="accent" x1="-12" y1="45" x2="12" y2="45" />
+    <g class="waves">
+      <path d="M 26 -20 q 18 -18 36 0" />
+      <path d="M 32 -36 q 30 -30 60 0" />
+      <path d="M -26 -20 q -18 -18 -36 0" />
+      <path d="M -32 -36 q -30 -30 -60 0" />
+    </g>
+  </g>
+  <text x="250" y="70" text-anchor="middle">Serious injury</text>
+  <text x="430" y="250" text-anchor="end">Severe hypothermia or frostbite</text>
+  <text x="250" y="445" text-anchor="middle">Critical gear failure, survival at risk</text>
+  <text x="70" y="250" text-anchor="start">Whiteout + no safe route</text>
+</svg>
