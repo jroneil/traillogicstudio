@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Group Turnaround Decision</title>
+  <desc id="desc">Monochrome circular decision diagram divided into four labeled segments for Energy, Visibility, Traction, and Wind/Weather with a central reminder that any failed segment requires turning around.</desc>
+  <g stroke="#0a0a0a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="250" cy="250" r="200" />
+    <line x1="250" y1="50" x2="250" y2="450" />
+    <line x1="50" y1="250" x2="450" y2="250" />
+    <circle cx="250" cy="250" r="110" />
+    <path d="M250 140a110 110 0 0 0-78 32" />
+    <path d="M360 250a110 110 0 0 0-32-78" />
+    <path d="M250 360a110 110 0 0 0 78-32" />
+    <path d="M140 250a110 110 0 0 0 32 78" />
+  </g>
+  <g fill="#0a0a0a" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" text-anchor="middle" aria-hidden="true">
+    <text x="250" y="35">Group Turnaround Decision</text>
+    <text x="250" y="95">Energy</text>
+    <text x="250" y="470">Traction</text>
+    <text x="35" y="255" transform="rotate(-90 35 255)">Visibility</text>
+    <text x="465" y="255" transform="rotate(90 465 255)">Wind/Weather</text>
+  </g>
+  <g fill="#0a0a0a" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle">
+    <text x="250" y="230">If ANY segment fails</text>
+    <text x="250" y="252">&#x2192; TURN AROUND</text>
+  </g>
+</svg>
