@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Frostbite — Warning Signs</title>
+  <desc id="desc">Hand and foot outlines with labels showing numbness, pale or gray skin, and hard wooden feel. Guidance text to protect and warm the person.</desc>
+  <style>
+    .line { fill: none; stroke: #111; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; fill: #111; }
+    .foot { }
+  </style>
+
+  <!-- Hand outline -->
+  <path class="line" d="M190 340c-20-22-30-44-32-62-2-22 12-37 24-35 13 2 13 21 18 40 4-24 3-65 19-66 18-1 19 49 21 76 4-31 6-94 24-95 21-1 18 71 18 104 5-24 10-76 24-77 17-2 18 59 13 93 10-16 19-25 30-25 22 0 25 32 7 65-13 23-35 42-58 50-32 12-70 8-108-33z" />
+
+  <!-- Foot outline -->
+  <path class="line" d="M485 345c-15-12-21-28-16-44 4-14 19-24 35-25 15-1 30 5 44 11 20 9 41 16 59 14 15-1 28-8 36-7 8 1 12 9 11 16-2 10-16 17-26 21 15 5 25 16 23 26-2 11-18 18-39 15 8 6 12 17 7 24-5 8-20 9-34 4 3 8 2 17-4 22-8 7-26 5-40-5-14 11-33 12-49 5-18-8-32-26-48-48z" />
+
+  <!-- Labels -->
+  <g class="label">
+    <text x="180" y="110">Numbness</text>
+    <line class="line" x1="210" y1="120" x2="220" y2="190" />
+
+    <text x="520" y="80">Pale / gray skin</text>
+    <line class="line" x1="560" y1="90" x2="565" y2="170" />
+
+    <text x="610" y="230">Hard / 'wooden' feel</text>
+    <line class="line" x1="640" y1="240" x2="610" y2="280" />
+  </g>
+
+  <!-- Footer guidance -->
+  <text class="label" x="50" y="470">Protect, warm the person, avoid rubbing.</text>
+</svg>
