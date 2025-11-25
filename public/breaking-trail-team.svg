@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Breaking Trail as a Team</title>
+  <desc id="desc">A top-down trail line with hikers rotating position using curved arrows.</desc>
+  <style>
+    .trail { stroke: #111; stroke-width: 6; fill: none; stroke-linecap: round; stroke-dasharray: 18 14; }
+    .hiker { fill: none; stroke: #111; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    .arrow { fill: none; stroke: #111; stroke-width: 3; marker-end: url(#arrowhead); }
+    text { font-family: "Helvetica Neue", Arial, sans-serif; fill: #111; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111" />
+    </marker>
+    <g id="hiker">
+      <circle cx="0" cy="0" r="12" class="hiker" />
+      <path class="hiker" d="M 0 12 v 36" />
+      <path class="hiker" d="M 0 24 l -16 18" />
+      <path class="hiker" d="M 0 24 l 16 18" />
+      <path class="hiker" d="M 0 48 l -12 26" />
+      <path class="hiker" d="M 0 48 l 12 26" />
+    </g>
+  </defs>
+
+  <!-- Trail line -->
+  <path class="trail" d="M 400 40 C 420 140 380 220 400 320 C 420 370 410 430 400 460" />
+
+  <!-- Hikers along the trail -->
+  <g transform="translate(395,120)">
+    <use href="#hiker" />
+  </g>
+  <g transform="translate(405,200)">
+    <use href="#hiker" />
+  </g>
+  <g transform="translate(395,280)">
+    <use href="#hiker" />
+  </g>
+  <g transform="translate(405,360)">
+    <use href="#hiker" />
+  </g>
+
+  <!-- Rotation arrows -->
+  <path class="arrow" d="M 395 115 C 330 110 300 170 320 210" />
+  <path class="arrow" d="M 320 210 C 340 260 340 310 315 340" />
+  <path class="arrow" d="M 315 340 C 300 365 330 420 380 425" />
+  <path class="arrow" d="M 380 425 C 450 430 480 360 460 320" />
+  <path class="arrow" d="M 460 320 C 445 280 445 230 470 200" />
+  <path class="arrow" d="M 470 200 C 500 170 470 120 430 115" />
+
+  <!-- Labels -->
+  <text x="400" y="35" text-anchor="middle" font-size="28" font-weight="700">Breaking Trail as a Team</text>
+  <text x="400" y="495" text-anchor="middle" font-size="18">Rotate the leader every 5–10 minutes in deep snow.</text>
+</svg>
