@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" fill="none">
+  <rect width="800" height="1120" fill="#FFFFFF"/>
+  <style>
+    .title { font-family: 'Arial', 'Helvetica', sans-serif; font-weight: 700; fill: #0E5B35; }
+    .subtitle { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 16px; fill: #0E5B35; }
+    .header { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 16px; font-weight: 700; fill: #FFFFFF; }
+    .label { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 14px; fill: #0E5B35; }
+    .hint { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 12px; fill: #0E5B35; }
+    .cell-text { font-family: 'Arial', 'Helvetica', sans-serif; font-size: 13px; fill: #0E5B35; }
+  </style>
+
+  <!-- Title -->
+  <text x="400" y="70" text-anchor="middle" font-size="26" class="title">TrailLogic Fuel &amp; Meal Planner</text>
+  <text x="400" y="95" text-anchor="middle" class="subtitle">White Mountains 2–3 Day Backpacking Trip</text>
+
+  <!-- Trip & Stove Info -->
+  <rect x="60" y="130" width="680" height="32" fill="#83A98D" rx="4"/>
+  <text x="80" y="152" class="header">Trip &amp; Stove Info</text>
+  <rect x="60" y="162" width="680" height="150" stroke="#DDDDDD" stroke-width="1" rx="8" fill="none"/>
+  <text x="80" y="195" class="label">Trip Name: ____________________________</text>
+  <text x="80" y="225" class="label">Number of Days: _____</text>
+  <text x="330" y="225" class="label">Stove Type: ___________________________</text>
+  <text x="80" y="255" class="label">Canister Size (oz): ________</text>
+  <text x="330" y="255" class="label">Party Size: ________</text>
+
+  <!-- Daily Meals & Boils -->
+  <rect x="60" y="332" width="680" height="32" fill="#83A98D" rx="4"/>
+  <text x="80" y="354" class="header">Daily Meals &amp; Boils</text>
+
+  <!-- Table frame -->
+  <rect x="60" y="364" width="680" height="170" stroke="#DDDDDD" stroke-width="1" fill="none" rx="6"/>
+  <!-- Table header -->
+  <rect x="60" y="364" width="680" height="34" fill="#F7F7F7" rx="6"/>
+  <line x1="60" y1="364" x2="60" y2="534" stroke="#DDDDDD"/>
+  <line x1="140" y1="364" x2="140" y2="534" stroke="#DDDDDD"/>
+  <line x1="260" y1="364" x2="260" y2="534" stroke="#DDDDDD"/>
+  <line x1="380" y1="364" x2="380" y2="534" stroke="#DDDDDD"/>
+  <line x1="500" y1="364" x2="500" y2="534" stroke="#DDDDDD"/>
+  <line x1="620" y1="364" x2="620" y2="534" stroke="#DDDDDD"/>
+  <line x1="740" y1="364" x2="740" y2="534" stroke="#DDDDDD"/>
+  <line x1="60" y1="398" x2="740" y2="398" stroke="#DDDDDD"/>
+  <line x1="60" y1="436" x2="740" y2="436" stroke="#DDDDDD"/>
+  <line x1="60" y1="474" x2="740" y2="474" stroke="#DDDDDD"/>
+  <line x1="60" y1="512" x2="740" y2="512" stroke="#DDDDDD"/>
+
+  <text x="100" y="386" class="cell-text" font-weight="700" text-anchor="middle">Day</text>
+  <text x="200" y="386" class="cell-text" font-weight="700" text-anchor="middle">Breakfast (Y/N)</text>
+  <text x="320" y="386" class="cell-text" font-weight="700" text-anchor="middle">Dinner (Y/N)</text>
+  <text x="440" y="386" class="cell-text" font-weight="700" text-anchor="middle">Hot Drinks</text>
+  <text x="560" y="386" class="cell-text" font-weight="700" text-anchor="middle">Total Boils</text>
+  <text x="680" y="386" class="cell-text" font-weight="700" text-anchor="middle">Fuel (oz)</text>
+
+  <text x="100" y="422" class="cell-text" text-anchor="middle">Day 1</text>
+  <text x="100" y="460" class="cell-text" text-anchor="middle">Day 2</text>
+  <text x="100" y="498" class="cell-text" text-anchor="middle">Day 3</text>
+
+  <!-- Fuel Math -->
+  <rect x="60" y="554" width="680" height="32" fill="#83A98D" rx="4"/>
+  <text x="80" y="576" class="header">Fuel Math</text>
+  <rect x="60" y="586" width="680" height="140" stroke="#DDDDDD" stroke-width="1" fill="none" rx="6"/>
+  <text x="80" y="616" class="label">Boils per Day: _______</text>
+  <text x="80" y="646" class="label">Fuel per Boil (~0.25 oz): _______</text>
+  <text x="80" y="676" class="label">Total Fuel Needed: _______ oz</text>
+  <text x="80" y="706" class="label">Margin (+20% wind/cold): _______ oz</text>
+  <text x="80" y="734" class="hint">White Mountains: add 10–20% for wind &amp; cold.</text>
+
+  <!-- Meal Plan Overview -->
+  <rect x="60" y="774" width="680" height="32" fill="#83A98D" rx="4"/>
+  <text x="80" y="796" class="header">Meal Plan Overview</text>
+  <rect x="60" y="806" width="680" height="190" stroke="#DDDDDD" stroke-width="1" fill="none" rx="6"/>
+  <text x="90" y="840" class="label">Dinner Ideas</text>
+  <text x="420" y="840" class="label">Breakfast Ideas</text>
+  <text x="90" y="870" class="label">D1: ___________________________</text>
+  <text x="90" y="900" class="label">D2: ___________________________</text>
+  <text x="90" y="930" class="label">D3: ___________________________</text>
+  <text x="420" y="870" class="label">B1: ___________________________</text>
+  <text x="420" y="900" class="label">B2: ___________________________</text>
+  <text x="420" y="930" class="label">B3: ___________________________</text>
+
+  <!-- Notes -->
+  <rect x="60" y="960" width="680" height="32" fill="#83A98D" rx="4"/>
+  <text x="80" y="982" class="header">Notes</text>
+  <rect x="60" y="992" width="680" height="120" stroke="#DDDDDD" stroke-width="1" fill="none" rx="6"/>
+  <line x1="80" y1="1022" x2="720" y2="1022" stroke="#DDDDDD"/>
+  <line x1="80" y1="1052" x2="720" y2="1052" stroke="#DDDDDD"/>
+  <line x1="80" y1="1082" x2="720" y2="1082" stroke="#DDDDDD"/>
+
+  <!-- Footer -->
+  <text x="400" y="1110" text-anchor="middle" class="hint">TrailLogic Studio • Fuel &amp; Meal Planning</text>
+</svg>
