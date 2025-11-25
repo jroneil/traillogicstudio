@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" aria-labelledby="title desc" role="img">
+  <title id="title">Keep Food From Freezing</title>
+  <desc id="desc">Three-panel infographic showing techniques to keep snacks and water from freezing in cold weather.</desc>
+  <style>
+    text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; fill: #111; font-size: 16px; }
+    .title { font-size: 24px; font-weight: 700; }
+    .label { font-weight: 600; }
+    .panel { fill: none; stroke: #111; stroke-width: 2; }
+    .arrow { fill: none; stroke: #111; stroke-width: 2; marker-end: url(#arrowhead); }
+    .icon-fill { fill: none; stroke: #111; stroke-width: 2; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#111" />
+    </marker>
+  </defs>
+
+  <text class="title" x="450" y="36" text-anchor="middle">Keep Food From Freezing</text>
+
+  <!-- Panels -->
+  <g>
+    <rect class="panel" x="40" y="60" width="240" height="180" rx="12" />
+    <rect class="panel" x="330" y="60" width="240" height="180" rx="12" />
+    <rect class="panel" x="620" y="60" width="240" height="180" rx="12" />
+  </g>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M280 150 H320" />
+  <path class="arrow" d="M570 150 H610" />
+
+  <!-- Panel 1: Jacket torso with bar in pocket -->
+  <g transform="translate(40,60)">
+    <text class="label" x="120" y="166" text-anchor="middle">Use Body Heat</text>
+    <!-- Jacket torso -->
+    <path class="icon-fill" d="M60 140 L60 50 L110 30 L130 70 L150 30 L200 50 L200 140 Q200 150 190 150 H70 Q60 150 60 140 Z" />
+    <!-- Zipper line -->
+    <line class="icon-fill" x1="130" y1="70" x2="130" y2="150" />
+    <!-- Collar -->
+    <path class="icon-fill" d="M110 30 L130 60 L150 30" />
+    <!-- Pocket -->
+    <rect class="icon-fill" x="140" y="90" width="40" height="34" rx="4" />
+    <!-- Snack bar -->
+    <rect class="icon-fill" x="148" y="78" width="16" height="46" />
+    <line class="icon-fill" x1="148" y1="86" x2="164" y2="86" />
+    <line class="icon-fill" x1="148" y1="94" x2="164" y2="94" />
+  </g>
+
+  <!-- Panel 2: Insulated pouch -->
+  <g transform="translate(330,60)">
+    <text class="label" x="120" y="166" text-anchor="middle">Insulate Snacks</text>
+    <!-- Pouch body -->
+    <rect class="icon-fill" x="70" y="60" width="100" height="90" rx="12" />
+    <!-- Lid -->
+    <rect class="icon-fill" x="60" y="48" width="120" height="18" rx="6" />
+    <!-- Strap -->
+    <line class="icon-fill" x1="90" y1="48" x2="90" y2="40" />
+    <line class="icon-fill" x1="150" y1="48" x2="150" y2="40" />
+    <!-- Snowflake icon -->
+    <g transform="translate(120,105)">
+      <line class="icon-fill" x1="0" y1="-18" x2="0" y2="18" />
+      <line class="icon-fill" x1="-18" y1="0" x2="18" y2="0" />
+      <line class="icon-fill" x1="-12" y1="-12" x2="12" y2="12" />
+      <line class="icon-fill" x1="-12" y1="12" x2="12" y2="-12" />
+    </g>
+  </g>
+
+  <!-- Panel 3: Upside-down bottle in snow -->
+  <g transform="translate(620,60)">
+    <text class="label" x="120" y="166" text-anchor="middle">Water Upside-Down</text>
+    <!-- Snow base -->
+    <path class="icon-fill" d="M30 150 Q60 130 90 150 T150 150 T210 150" />
+    <!-- Bottle -->
+    <g transform="translate(120,80)">
+      <rect class="icon-fill" x="-18" y="-38" width="36" height="64" rx="8" />
+      <rect class="icon-fill" x="-14" y="26" width="28" height="16" rx="4" />
+      <line class="icon-fill" x1="-18" y1="-22" x2="18" y2="-22" />
+      <line class="icon-fill" x1="-18" y1="-6" x2="18" y2="-6" />
+      <line class="icon-fill" x1="-18" y1="10" x2="18" y2="10" />
+    </g>
+    <!-- Snow texture -->
+    <circle class="icon-fill" cx="70" cy="146" r="3" />
+    <circle class="icon-fill" cx="170" cy="144" r="3" />
+    <circle class="icon-fill" cx="130" cy="152" r="2.5" />
+  </g>
+</svg>
