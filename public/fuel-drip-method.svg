@@ -1,71 +1,70 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
   <title>Fuel Drip Method</title>
-  <rect x="20" y="20" width="860" height="580" rx="24" ry="24" stroke="#e2e8f0" stroke-width="3" />
-  <text x="450" y="70" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="32" fill="#0f172a" stroke="none" font-weight="700">Fuel Drip Method</text>
+  <rect x="24" y="24" width="852" height="572" rx="28" ry="28" stroke="#e2e8f0" stroke-width="3" />
+  <text x="450" y="72" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="34" fill="#0f172a" stroke="none" font-weight="700">Fuel Drip Method</text>
 
-  <!-- Hiker silhouette -->
-  <g transform="translate(0,30)">
-    <circle cx="450" cy="150" r="28" />
-    <path d="M450 178 L450 260" />
-    <path d="M450 205 L415 240" />
-    <path d="M450 205 L485 240" />
-    <path d="M450 260 L420 330" />
-    <path d="M450 260 L480 340" />
-    <path d="M420 330 L390 390" />
-    <path d="M480 340 L520 400" />
-    <path d="M420 210 L430 195 L470 215" />
-    <path d="M470 215 L500 210 L505 245" />
-    <path d="M480 240 L545 265" />
-    <path d="M430 320 L470 305" />
-    <path d="M440 160 L435 152" />
+  <!-- Central hiker silhouette -->
+  <g transform="translate(0 26)">
+    <circle cx="450" cy="150" r="30" />
+    <path d="M450 180 L450 266" />
+    <path d="M450 205 L408 240" />
+    <path d="M450 205 L490 242" />
+    <path d="M450 266 L418 342" />
+    <path d="M450 266 L488 348" />
+    <path d="M418 342 L396 402" />
+    <path d="M488 348 L528 402" />
+    <path d="M406 238 L400 214 L454 222" />
+    <path d="M494 232 L524 226 L530 262" />
+    <path d="M450 266 L452 322" />
+    <path d="M380 402 L540 402" stroke-width="3" />
   </g>
 
-  <!-- Looping arrow -->
-  <g transform="translate(0,30)" stroke-width="3.5">
-    <path d="M360 140 C290 150 270 250 320 320 C370 390 480 400 540 350 C600 300 590 210 530 180" stroke-dasharray="6 8" />
-    <path d="M522 156 L530 178 L550 172" />
+  <!-- Looping arrow to indicate continuous fueling -->
+  <g transform="translate(0 18)" stroke-width="3.5">
+    <path d="M344 150 C270 170 238 248 276 316 C324 402 464 426 548 372 C624 322 622 224 558 188" stroke-dasharray="8 10" />
+    <path d="M544 160 L556 186 L578 178" />
   </g>
 
-  <!-- Snack icons and labels -->
-  <g font-family="'Inter', 'Segoe UI', sans-serif" font-size="16" fill="#0f172a" stroke="none" font-weight="600">
-    <text x="190" y="180" text-anchor="middle">Every 45–90 min</text>
-    <text x="710" y="180" text-anchor="middle">Every 45–90 min</text>
-    <text x="190" y="420" text-anchor="middle">Every 45–90 min</text>
-    <text x="710" y="420" text-anchor="middle">Every 45–90 min</text>
+  <!-- Snack icons and cadence labels -->
+  <g font-family="'Inter','Segoe UI',sans-serif" font-size="16" fill="#0f172a" stroke="none" font-weight="600">
+    <text x="188" y="182" text-anchor="middle">Every 45–90 min</text>
+    <text x="712" y="182" text-anchor="middle">Every 45–90 min</text>
+    <text x="188" y="426" text-anchor="middle">Every 45–90 min</text>
+    <text x="712" y="426" text-anchor="middle">Every 45–90 min</text>
   </g>
 
   <g stroke-width="3">
     <!-- Nuts -->
-    <g transform="translate(170 210)">
-      <path d="M0 30 C0 10 18 0 30 12 C42 0 60 10 60 30 C60 50 42 60 30 48 C18 60 0 50 0 30 Z" />
-      <circle cx="18" cy="28" r="4" />
-      <circle cx="40" cy="32" r="4" />
-      <circle cx="30" cy="18" r="4" />
-      <text x="30" y="80" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="16" fill="#0f172a" stroke="none">Nuts</text>
+    <g transform="translate(150 206)">
+      <ellipse cx="18" cy="28" rx="14" ry="18" />
+      <ellipse cx="44" cy="16" rx="12" ry="16" />
+      <ellipse cx="52" cy="40" rx="14" ry="18" />
+      <ellipse cx="28" cy="48" rx="12" ry="16" />
+      <text x="36" y="88" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="16" fill="#0f172a" stroke="none">Nuts</text>
     </g>
 
     <!-- Chocolate square -->
-    <g transform="translate(660 210)">
-      <rect x="0" y="0" width="70" height="70" rx="8" ry="8" />
-      <line x1="0" y1="35" x2="70" y2="35" />
-      <line x1="35" y1="0" x2="35" y2="70" />
-      <text x="35" y="90" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="16" fill="#0f172a" stroke="none">Chocolate</text>
+    <g transform="translate(650 206)">
+      <rect x="0" y="0" width="74" height="74" rx="10" ry="10" />
+      <line x1="0" y1="37" x2="74" y2="37" />
+      <line x1="37" y1="0" x2="37" y2="74" />
+      <text x="37" y="96" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="16" fill="#0f172a" stroke="none">Chocolate</text>
     </g>
 
-    <!-- Bar -->
-    <g transform="translate(660 450)">
-      <rect x="0" y="0" width="90" height="26" rx="6" ry="6" />
-      <line x1="12" y1="8" x2="78" y2="18" />
-      <line x1="12" y1="18" x2="78" y2="8" />
-      <text x="45" y="60" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="16" fill="#0f172a" stroke="none">Bar</text>
+    <!-- Energy bar -->
+    <g transform="translate(644 450)">
+      <rect x="0" y="0" width="100" height="30" rx="8" ry="8" />
+      <path d="M14 10 L40 18 L66 12 L90 20" />
+      <path d="M14 20 L40 12 L66 18 L90 10" />
+      <text x="50" y="66" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="16" fill="#0f172a" stroke="none">Bar</text>
     </g>
 
     <!-- Dried fruit -->
-    <g transform="translate(170 450)">
-      <path d="M25 0 C10 8 0 28 12 44 C26 62 52 62 64 42 C76 22 64 2 45 4 C32 6 38 -6 25 0 Z" />
-      <circle cx="30" cy="26" r="4" />
-      <circle cx="48" cy="30" r="4" />
-      <text x="35" y="70" text-anchor="middle" font-family="'Inter', 'Segoe UI', sans-serif" font-size="16" fill="#0f172a" stroke="none">Dried Fruit</text>
+    <g transform="translate(150 450)">
+      <path d="M32 6 C14 12 2 34 14 54 C28 78 60 78 74 50 C86 24 70 4 50 8 C38 10 44 0 32 6 Z" />
+      <circle cx="32" cy="32" r="4" />
+      <circle cx="52" cy="36" r="4" />
+      <text x="40" y="82" text-anchor="middle" font-family="'Inter','Segoe UI',sans-serif" font-size="16" fill="#0f172a" stroke="none">Dried Fruit</text>
     </g>
   </g>
 </svg>
