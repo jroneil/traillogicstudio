@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <title>Building a Fire Base on Snow</title>
+  <style>
+    .outline { stroke: #111; stroke-width: 3; fill: none; }
+    .text { fill: #111; font-family: "Arial", sans-serif; }
+  </style>
+
+  <!-- Title -->
+  <text class="text" x="450" y="50" font-size="26" text-anchor="middle" font-weight="bold">Building a Fire Base on Snow</text>
+
+  <!-- Snow layer -->
+  <path class="outline" d="M70 380 Q150 340 230 380 Q310 420 390 380 Q470 340 550 380 Q630 420 710 380 Q790 340 870 380 L870 470 L70 470 Z" />
+  <text class="text" x="80" y="455" font-size="16">Snow (thick layer)</text>
+
+  <!-- Fire base logs/rocks -->
+  <g class="outline" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="180" y="320" width="520" height="30" rx="6" ry="6"/>
+    <line x1="180" y1="335" x2="700" y2="335"/>
+    <line x1="240" y1="320" x2="240" y2="350"/>
+    <line x1="300" y1="320" x2="300" y2="350"/>
+    <line x1="360" y1="320" x2="360" y2="350"/>
+    <line x1="420" y1="320" x2="420" y2="350"/>
+    <line x1="480" y1="320" x2="480" y2="350"/>
+    <line x1="540" y1="320" x2="540" y2="350"/>
+    <line x1="600" y1="320" x2="600" y2="350"/>
+    <text class="text" x="440" y="312" font-size="18" text-anchor="middle">Fire Base (flat logs or rocks)</text>
+  </g>
+
+  <!-- Campfire -->
+  <g class="outline" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="390" y1="310" x2="450" y2="290"/>
+    <line x1="420" y1="310" x2="480" y2="290"/>
+    <line x1="410" y1="295" x2="470" y2="275"/>
+    <path d="M435 260 C420 250 425 230 445 225 C465 220 480 235 470 255 C490 248 500 270 485 280 C470 290 450 288 440 274 Z"/>
+  </g>
+
+  <!-- Arrow and annotation -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse" fill="#111">
+      <polygon points="0 0, 8 4, 0 8" />
+    </marker>
+  </defs>
+  <line class="outline" x1="140" y1="260" x2="140" y2="360" marker-end="url(#arrowhead)" />
+  <text class="text" x="150" y="255" font-size="16">Prevents coals from melting into snow and going out</text>
+</svg>
