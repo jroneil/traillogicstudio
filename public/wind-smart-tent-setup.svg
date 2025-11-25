@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" aria-labelledby="title desc" role="img">
+  <title id="title">Wind-Smart Tent Setup</title>
+  <desc id="desc">Top-down line art showing tent oriented with door leeward and wind from left to right.</desc>
+  <rect width="900" height="500" fill="white"/>
+  <!-- Title -->
+  <text x="450" y="50" text-anchor="middle" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="28" fill="#0B0B0B">Wind-Smart Tent Setup</text>
+
+  <!-- Wind arrow -->
+  <g stroke="#0B0B0B" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 170 H760"/>
+    <path d="M720 140 L760 170 L720 200" fill="none"/>
+  </g>
+  <text x="120" y="150" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#0B0B0B">Prevailing Wind</text>
+
+  <!-- Tent footprint -->
+  <g stroke="#0B0B0B" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M260 230 H620 V370 H260 Z"/>
+    <!-- Door on leeward (right) side -->
+    <path d="M620 280 H650" stroke-dasharray="10 8"/>
+    <path d="M620 320 H650" stroke-dasharray="10 8"/>
+    <path d="M640 270 V330"/>
+  </g>
+  <text x="665" y="305" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#0B0B0B">Door Away From Wind</text>
+  <path d="M645 305 C660 300 670 290 680 280" stroke="#0B0B0B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Snow berm (optional) -->
+  <g stroke="#0B0B0B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 250 C170 255 150 265 130 280" stroke-dasharray="6 6"/>
+  </g>
+  <text x="140" y="310" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#0B0B0B">Snow Berm (1–2 ft)</text>
+
+  <!-- Ground alignment guides -->
+  <g stroke="#0B0B0B" stroke-width="2" stroke-dasharray="4 8" fill="none">
+    <path d="M260 400 H620"/>
+    <path d="M200 230 L200 370"/>
+    <path d="M680 230 L680 370"/>
+  </g>
+</svg>
