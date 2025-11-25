@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="200" viewBox="0 0 720 200" aria-labelledby="title">
+  <title id="title">Slope Angle Hazard Scale</title>
+  <style>
+    .stroke { stroke: #111; stroke-width: 3; fill: none; }
+    .label { font-family: 'Arial', sans-serif; font-size: 16px; fill: #111; }
+    .title { font-family: 'Arial', sans-serif; font-size: 22px; font-weight: bold; fill: #111; }
+  </style>
+
+  <text class="title" x="360" y="40" text-anchor="middle">Slope Angle Hazard Scale</text>
+
+  <!-- Gauge bar -->
+  <g transform="translate(50,70)">
+    <rect class="stroke" x="0" y="20" width="200" height="60" rx="6" ry="6" />
+    <rect class="stroke" x="200" y="20" width="200" height="60" rx="6" ry="6" />
+    <rect class="stroke" x="400" y="20" width="200" height="60" rx="6" ry="6" />
+
+    <!-- Labels -->
+    <text class="label" x="100" y="60" text-anchor="middle">&lt; 20° — Generally Safe</text>
+    <text class="label" x="300" y="60" text-anchor="middle">20–30° — Caution</text>
+    <text class="label" x="500" y="60" text-anchor="middle">&gt; 30° — High Risk</text>
+
+    <!-- 30° marker -->
+    <polygon points="450,0 438,18 462,18" fill="#111" stroke="#111" stroke-width="3" />
+    <line x1="450" y1="18" x2="450" y2="20" stroke="#111" stroke-width="3" />
+  </g>
+</svg>
