@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320" aria-labelledby="title" role="img">
+  <title id="title">Early Signs of Fatigue</title>
+  <style>
+    .outline { fill: none; stroke: #111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .dotted { fill: none; stroke: #111; stroke-width: 2; stroke-dasharray: 3 5; stroke-linecap: round; }
+    .callout { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 13px; fill: #111; }
+  </style>
+
+  <!-- Ground line -->
+  <line x1="40" y1="250" x2="360" y2="250" class="outline" stroke-dasharray="6 6" />
+
+  <!-- Backpack -->
+  <path class="outline" d="M190 140c-10 5-14 16-12 30l20 4c12-6 16-22 10-36-5-11-14-12-18-8z" />
+
+  <!-- Hiker torso and legs -->
+  <path class="outline" d="M180 110c-6 10-8 35-6 50 2 16 2 27-6 44l30 4c6-14 6-28 4-44-1-12 12-28 12-42 0-8-16-21-34-12z" />
+  <path class="outline" d="M198 206c-6 20-6 28-6 42l18 6c4-10 4-24 10-40" />
+  <path class="outline" d="M170 202c-12 20-16 30-22 46l16 4c10-12 16-26 26-40" />
+
+  <!-- Arms and poles -->
+  <path class="outline" d="M194 146c-18 8-30 18-38 32l16 6c10-8 22-12 34-16" />
+  <line x1="140" y1="178" x2="152" y2="244" class="outline" />
+  <line x1="212" y1="162" x2="226" y2="246" class="outline" />
+
+  <!-- Boots dragging -->
+  <path class="outline" d="M150 248c4 4 12 8 14 12h-20c-4 0-8-2-10-6" />
+  <path class="outline" d="M210 250c6 4 14 10 14 12h-20c-4 0-8-2-10-6" />
+
+  <!-- Head and hood -->
+  <path class="outline" d="M184 104c-2 10 2 16 10 18 12 4 20-4 20-14 0-6-4-10-10-12-10-4-18 0-20 8z" />
+  <path class="outline" d="M214 116c2 6-2 12-10 14" />
+
+  <!-- Breath cloud -->
+  <path class="outline" d="M222 120c10-2 18 2 20 8-6-2-10 0-12 2 4 2 4 6 0 8-6 2-12-2-12-8 0-4 2-8 4-10z" />
+  <path class="outline" d="M238 124c4-2 8 0 10 4" />
+
+  <!-- Dotted emphasis lines -->
+  <path class="dotted" d="M146 246c-10-2-18-2-26 2" />
+  <path class="dotted" d="M208 246c-6-2-12-2-18 0" />
+  <path class="dotted" d="M208 110c-4 6-10 10-16 12" />
+  <path class="dotted" d="M230 118c-2 6-2 12 0 18" />
+
+  <!-- Callouts -->
+  <line x1="126" y1="242" x2="60" y2="260" class="outline" />
+  <text x="40" y="266" class="callout">Shorter steps</text>
+
+  <line x1="214" y1="94" x2="300" y2="70" class="outline" />
+  <text x="304" y="72" class="callout">Slower responses</text>
+
+  <line x1="234" y1="132" x2="320" y2="144" class="outline" />
+  <text x="324" y="148" class="callout">Hands/feet cold</text>
+
+  <!-- Breath label -->
+  <text x="242" y="116" class="callout" font-size="11">icy breath</text>
+</svg>
