@@ -1,88 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
   <title id="title">Group Spacing in Winter</title>
-  <desc id="desc">Diagram showing four hikers on a packed trail and four more spaced-out hikers on icy terrain with arrows indicating safe distances.</desc>
+  <desc id="desc">Line-art diagram showing four closely spaced hikers on a packed trail and a wider spaced row with traction on icy terrain, with dashed arrows indicating distance.</desc>
   <style>
-    .line { fill: none; stroke: #111; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .outline { fill: none; stroke: #111; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
     .text { fill: #111; font-family: "Helvetica Neue", Arial, sans-serif; font-size: 22px; }
-    .arrow { stroke-dasharray: 8 8; }
+    .arrow { stroke-dasharray: 10 8; }
     .arrowhead { fill: #111; }
   </style>
 
-  <!-- Packed trail label -->
-  <text class="text" x="450" y="40" text-anchor="middle">Packed Trail: 1–3 meters apart</text>
+  <!-- Labels -->
+  <text class="text" x="450" y="46" text-anchor="middle">Packed Trail: 1–3 meters apart</text>
+  <text class="text" x="450" y="256" text-anchor="middle">Icy Terrain: Increase spacing</text>
 
-  <!-- Packed trail hikers row -->
-  <g transform="translate(70, 70)">
+  <defs>
+    <!-- Base hiker icon -->
     <g id="hiker">
-      <circle class="line" cx="0" cy="0" r="14" />
-      <path class="line" d="M0 14 v32" />
-      <path class="line" d="M0 22 l-16 24" />
-      <path class="line" d="M0 22 l16 24" />
-      <path class="line" d="M0 46 l-12 28" />
-      <path class="line" d="M0 46 l12 28" />
-      <path class="line" d="M-6 8 l-14 -10" />
-      <path class="line" d="M6 8 l14 -10" />
+      <circle class="outline" cx="0" cy="0" r="14" />
+      <path class="outline" d="M0 14 v34" />
+      <path class="outline" d="M0 24 l-18 22" />
+      <path class="outline" d="M0 24 l18 22" />
+      <path class="outline" d="M0 48 l-12 26" />
+      <path class="outline" d="M0 48 l12 26" />
+      <path class="outline" d="M-6 6 l-12 -10" />
+      <path class="outline" d="M6 6 l12 -10" />
     </g>
 
-    <g transform="translate(0,0)" aria-label="Hiker 1"><use href="#hiker" /></g>
-    <g transform="translate(230,0)" aria-label="Hiker 2"><use href="#hiker" /></g>
-    <g transform="translate(460,0)" aria-label="Hiker 3"><use href="#hiker" /></g>
-    <g transform="translate(690,0)" aria-label="Hiker 4"><use href="#hiker" /></g>
+    <!-- Hiker with traction devices -->
+    <g id="hiker-traction">
+      <use href="#hiker" />
+      <rect class="outline" x="-15" y="68" width="12" height="6" />
+      <rect class="outline" x="3" y="68" width="12" height="6" />
+      <path class="outline" d="M-15 71 l12 -6" />
+      <path class="outline" d="M3 71 l12 -6" />
+      <path class="outline" d="M-9 74 l6 -8" />
+      <path class="outline" d="M9 74 l6 -8" />
+    </g>
+  </defs>
 
-    <!-- Distance arrows -->
-    <g class="line arrow" stroke="#111">
-      <line x1="30" y1="18" x2="200" y2="18" />
-      <polygon class="arrowhead" points="30,18 42,12 42,24" />
+  <!-- Packed trail hikers and arrows -->
+  <g transform="translate(120, 90)">
+    <g aria-label="Packed trail hikers">
+      <g transform="translate(0,0)"><use href="#hiker" /></g>
+      <g transform="translate(230,0)"><use href="#hiker" /></g>
+      <g transform="translate(460,0)"><use href="#hiker" /></g>
+      <g transform="translate(690,0)"><use href="#hiker" /></g>
+    </g>
+
+    <g class="outline arrow" stroke="#111" aria-hidden="true">
+      <line x1="35" y1="18" x2="200" y2="18" />
+      <polygon class="arrowhead" points="35,18 47,12 47,24" />
       <polygon class="arrowhead" points="200,18 188,12 188,24" />
 
-      <line x1="260" y1="18" x2="430" y2="18" />
-      <polygon class="arrowhead" points="260,18 272,12 272,24" />
+      <line x1="265" y1="18" x2="430" y2="18" />
+      <polygon class="arrowhead" points="265,18 277,12 277,24" />
       <polygon class="arrowhead" points="430,18 418,12 418,24" />
 
-      <line x1="490" y1="18" x2="660" y2="18" />
-      <polygon class="arrowhead" points="490,18 502,12 502,24" />
+      <line x1="495" y1="18" x2="660" y2="18" />
+      <polygon class="arrowhead" points="495,18 507,12 507,24" />
       <polygon class="arrowhead" points="660,18 648,12 648,24" />
     </g>
   </g>
 
-  <!-- Icy terrain label -->
-  <text class="text" x="450" y="230" text-anchor="middle">Icy Terrain: Increase spacing</text>
-
-  <!-- Icy terrain hikers row -->
-  <g transform="translate(70, 260)">
-    <g id="hiker-traction">
-      <circle class="line" cx="0" cy="0" r="14" />
-      <path class="line" d="M0 14 v32" />
-      <path class="line" d="M0 22 l-16 24" />
-      <path class="line" d="M0 22 l16 24" />
-      <path class="line" d="M0 46 l-12 28" />
-      <path class="line" d="M0 46 l12 28" />
-      <path class="line" d="M-6 8 l-14 -10" />
-      <path class="line" d="M6 8 l14 -10" />
-      <!-- Foot traction -->
-      <rect class="line" x="-14" y="64" width="12" height="6" />
-      <rect class="line" x="2" y="64" width="12" height="6" />
-      <path class="line" d="M-13 67 l10 -6" />
-      <path class="line" d="M3 67 l10 -6" />
+  <!-- Icy terrain hikers with traction and wider arrows -->
+  <g transform="translate(60, 300)">
+    <g aria-label="Icy terrain hikers with traction">
+      <g transform="translate(0,0)"><use href="#hiker-traction" /></g>
+      <g transform="translate(280,0)"><use href="#hiker-traction" /></g>
+      <g transform="translate(560,0)"><use href="#hiker-traction" /></g>
+      <g transform="translate(840,0)"><use href="#hiker-traction" /></g>
     </g>
 
-    <g transform="translate(0,0)" aria-label="Hiker 1 with traction"><use href="#hiker-traction" /></g>
-    <g transform="translate(280,0)" aria-label="Hiker 2 with traction"><use href="#hiker-traction" /></g>
-    <g transform="translate(560,0)" aria-label="Hiker 3 with traction"><use href="#hiker-traction" /></g>
-    <g transform="translate(840,0)" aria-label="Hiker 4 with traction"><use href="#hiker-traction" /></g>
-
-    <!-- Distance arrows wider -->
-    <g class="line arrow" stroke="#111">
-      <line x1="30" y1="18" x2="250" y2="18" />
-      <polygon class="arrowhead" points="30,18 42,12 42,24" />
+    <g class="outline arrow" stroke="#111" aria-hidden="true">
+      <line x1="25" y1="18" x2="250" y2="18" />
+      <polygon class="arrowhead" points="25,18 37,12 37,24" />
       <polygon class="arrowhead" points="250,18 238,12 238,24" />
 
-      <line x1="310" y1="18" x2="530" y2="18" />
-      <polygon class="arrowhead" points="310,18 322,12 322,24" />
+      <line x1="305" y1="18" x2="530" y2="18" />
+      <polygon class="arrowhead" points="305,18 317,12 317,24" />
       <polygon class="arrowhead" points="530,18 518,12 518,24" />
 
-      <line x1="590" y1="18" x2="810" y2="18" />
-      <polygon class="arrowhead" points="590,18 602,12 602,24" />
+      <line x1="585" y1="18" x2="810" y2="18" />
+      <polygon class="arrowhead" points="585,18 597,12 597,24" />
       <polygon class="arrowhead" points="810,18 798,12 798,24" />
     </g>
   </g>
