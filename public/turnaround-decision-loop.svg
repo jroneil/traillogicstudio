@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Turnaround Decision Loop</title>
+  <desc id="desc">A circular diagram divided into four labeled segments with central guidance text.</desc>
+  <style>
+    .ring { fill: none; stroke: #000; stroke-width: 2; }
+    .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; text-anchor: middle; }
+    .center-text { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .title-text { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 18px; font-weight: 600; text-anchor: middle; }
+  </style>
+
+  <g transform="translate(200 200)">
+    <text class="title-text" x="0" y="-170">Turnaround Decision Loop</text>
+    <circle class="ring" r="150" />
+    <line class="ring" x1="-150" y1="0" x2="150" y2="0" />
+    <line class="ring" x1="0" y1="-150" x2="0" y2="150" />
+
+    <text class="label" x="0" y="-100">Visibility</text>
+    <text class="label" x="100" y="0" transform="rotate(90 100 0)">Wind &amp; Temp</text>
+    <text class="label" x="0" y="120">Snow Conditions</text>
+    <text class="label" x="-110" y="0" transform="rotate(-90 -110 0)">Group Energy</text>
+
+    <text class="center-text" x="0" y="-10">If ANY segment turns red</text>
+    <text class="center-text" x="0" y="10">&#8594; TURN AROUND</text>
+  </g>
+</svg>
