@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 960" role="img" aria-labelledby="title desc">
+  <title>Emergency Overnight — Big 4</title>
+  <desc>Four monochrome line-art icons showing priorities for an emergency overnight: shelter, insulation, fuel for warmth, and hot water bottle heat.</desc>
+  <style>
+    .frame { stroke: #0a0a0a; fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    .label { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 24px; fill: #0a0a0a; text-anchor: middle; }
+    .caption { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 22px; fill: #0a0a0a; text-anchor: middle; }
+  </style>
+
+  <rect class="frame" x="40" y="40" width="820" height="820" rx="28" />
+
+  <!-- Grid dividers -->
+  <line class="frame" x1="450" y1="40" x2="450" y2="860" stroke-dasharray="8 12" />
+  <line class="frame" x1="40" y1="450" x2="860" y2="450" stroke-dasharray="8 12" />
+
+  <!-- Shelter Up -->
+  <g transform="translate(225 225)">
+    <path class="frame" d="M-110 70 L0 -90 L110 70 Z" />
+    <path class="frame" d="M-60 40 L-60 110" />
+    <path class="frame" d="M60 40 L60 110" />
+    <path class="frame" d="M-120 70 L120 70" />
+    <path class="frame" d="M-10 20 L10 20" />
+    <text class="label" x="0" y="170">Shelter Up</text>
+  </g>
+
+  <!-- Insulate from Ground -->
+  <g transform="translate(675 225)">
+    <rect class="frame" x="-120" y="-70" width="240" height="140" rx="30" />
+    <path class="frame" d="M-60 -70 C-60 -110 60 -110 60 -70 L60 70 C60 110 -60 110 -60 70 Z" />
+    <path class="frame" d="M-90 90 L90 90" />
+    <path class="frame" d="M-100 110 L100 110" />
+    <text class="label" x="0" y="170">Insulate from Ground</text>
+  </g>
+
+  <!-- Warm Food/Drink -->
+  <g transform="translate(225 675)">
+    <path class="frame" d="M-90 -40 h180 a0 0 0 0 1 0 0 v70 a70 70 0 0 1 -70 70 h-40 a70 70 0 0 1 -70 -70 z" />
+    <path class="frame" d="M90 -10 h40 a30 30 0 0 1 0 60 h-30" />
+    <path class="frame" d="M-20 -90 c-10 -20 10 -30 0 -50" />
+    <path class="frame" d="M10 -90 c-10 -20 10 -30 0 -50" />
+    <path class="frame" d="M40 -90 c-10 -20 10 -30 0 -50" />
+    <text class="label" x="0" y="170">Warm Food/Drink</text>
+  </g>
+
+  <!-- Warm Bottle -->
+  <g transform="translate(675 675)">
+    <rect class="frame" x="-120" y="-120" width="240" height="240" rx="50" />
+    <path class="frame" d="M-40 -110 h80 l-10 20 h-60 z" />
+    <rect class="frame" x="-25" y="-90" width="50" height="40" rx="8" />
+    <path class="frame" d="M-50 -40 c0 -40 100 -40 100 0 v60 c0 40 -100 40 -100 0 z" />
+    <path class="frame" d="M-70 30 c-10 40 30 80 70 80 s80 -40 70 -80" />
+    <text class="label" x="0" y="170">Warm Bottle</text>
+  </g>
+
+  <text class="caption" x="450" y="920">Shelter, insulation, fuel, and warmth come first.</text>
+</svg>
