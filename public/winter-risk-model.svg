@@ -1,0 +1,80 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">The 4 Checks — Winter Risk Model</title>
+  <desc id="desc">Simple 2x2 grid showing Weather, Terrain, Human, and Time checks for winter travel.</desc>
+  <style>
+    :root { color: #0d0d0d; }
+    text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #0d0d0d; }
+    .panel { fill: none; stroke: #0d0d0d; stroke-width: 2.5; rx: 16; }
+    .label { font-size: 22px; font-weight: 700; }
+    .caption { font-size: 16px; font-weight: 500; }
+    .icon { stroke: #0d0d0d; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <rect width="900" height="900" fill="white" rx="20" stroke="#0d0d0d" stroke-width="2.5" />
+  <text x="450" y="70" text-anchor="middle" class="label" font-size="28">The 4 Checks — Winter Risk Model</text>
+
+  <!-- Grid panels -->
+  <g transform="translate(90,110)" width="720" height="720" >
+    <g transform="translate(0,0)">
+      <rect class="panel" width="330" height="330" />
+      <text x="20" y="40" class="label">Weather Check</text>
+      <!-- Weather icon: cloud with snow -->
+      <g class="icon" transform="translate(60,90)">
+        <path d="M60 40c0-18-14-32-32-32-12 0-22 6-28 15-1.5-.3-3-.5-4.5-.5-12.4 0-22.5 9.9-22.5 22.3C13 56 22 64 33 64h69c12 0 22-9.7 22-21.8C124 45 114 36 102 36c-4 0-7.6 1-10.8 2.8C88 27 78.8 20 68 20 66 20 64 20.2 62 20.6" />
+        <line x1="42" y1="76" x2="42" y2="96" />
+        <line x1="70" y1="76" x2="70" y2="96" />
+        <line x1="98" y1="76" x2="98" y2="96" />
+      </g>
+      <text x="20" y="280" class="caption">Wind, temp, storm window</text>
+    </g>
+
+    <g transform="translate(360,0)">
+      <rect class="panel" width="330" height="330" />
+      <text x="20" y="40" class="label">Terrain Check</text>
+      <!-- Terrain icon: mountain ridge -->
+      <g class="icon" transform="translate(40,94)">
+        <polyline points="0 110 70 30 120 90 170 40 230 120 270 70 310 110" />
+        <polyline points="70 30 100 65 120 40" />
+        <polyline points="170 40 185 65 205 55" />
+      </g>
+      <text x="20" y="280" class="caption">Slopes, ice, exposure</text>
+    </g>
+
+    <g transform="translate(0,360)">
+      <rect class="panel" width="330" height="330" />
+      <text x="20" y="40" class="label">Human Check</text>
+      <!-- Human icon: group of three figures -->
+      <g class="icon" transform="translate(40,90)">
+        <circle cx="40" cy="28" r="16" />
+        <circle cx="120" cy="28" r="16" />
+        <circle cx="200" cy="28" r="16" />
+        <line x1="40" y1="44" x2="40" y2="120" />
+        <line x1="120" y1="44" x2="120" y2="120" />
+        <line x1="200" y1="44" x2="200" y2="120" />
+        <polyline points="10 74 40 60 70 74" />
+        <polyline points="90 74 120 60 150 74" />
+        <polyline points="170 74 200 60 230 74" />
+        <line x1="10" y1="120" x2="70" y2="120" />
+        <line x1="90" y1="120" x2="150" y2="120" />
+        <line x1="170" y1="120" x2="230" y2="120" />
+      </g>
+      <text x="20" y="280" class="caption">Warm, dry, fuelled?</text>
+    </g>
+
+    <g transform="translate(360,360)">
+      <rect class="panel" width="330" height="330" />
+      <text x="20" y="40" class="label">Time Check</text>
+      <!-- Time icon: clock -->
+      <g class="icon" transform="translate(60,80)">
+        <circle cx="120" cy="90" r="80" />
+        <line x1="120" y1="90" x2="120" y2="40" />
+        <line x1="120" y1="90" x2="170" y2="110" />
+        <line x1="120" y1="10" x2="120" y2="26" />
+        <line x1="40" y1="90" x2="56" y2="90" />
+        <line x1="120" y1="170" x2="120" y2="154" />
+        <line x1="200" y1="90" x2="184" y2="90" />
+      </g>
+      <text x="20" y="280" class="caption">Daylight, turnaround time</text>
+    </g>
+  </g>
+</svg>
