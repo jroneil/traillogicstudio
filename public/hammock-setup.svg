@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="white" />
+  <!-- Trees -->
+  <rect x="80" y="120" width="60" height="320" fill="#8BB7D6" stroke="#0E5B35" stroke-width="2" />
+  <rect x="640" y="130" width="60" height="310" fill="#8BB7D6" stroke="#0E5B35" stroke-width="2" />
+  <!-- Bark texture -->
+  <g stroke="#0E5B35" stroke-width="2">
+    <path d="M95 150 l40 30 M90 210 l45 25 M100 270 l35 20 M92 330 l43 22 M96 380 l39 18" fill="none" />
+    <path d="M655 170 l40 24 M650 230 l45 25 M660 290 l35 20 M652 340 l43 22 M656 390 l39 18" fill="none" />
+  </g>
+  <!-- Ground -->
+  <line x1="0" y1="440" x2="800" y2="440" stroke="#cccccc" stroke-width="2" />
+  <!-- Straps -->
+  <g stroke="#0E5B35" stroke-width="8" stroke-linecap="round">
+    <line x1="110" y1="180" x2="220" y2="260" />
+    <line x1="670" y1="200" x2="560" y2="270" />
+  </g>
+  <!-- Hammock body -->
+  <path d="M220 260 Q400 340 560 270" fill="#8BB7D6" stroke="#0E5B35" stroke-width="3" />
+  <!-- Underquilt -->
+  <path d="M230 280 Q400 360 550 290" fill="none" stroke="#0E5B35" stroke-width="4" stroke-dasharray="6 6" />
+  <text x="410" y="330" font-family="Arial" font-size="16" fill="#0E5B35" text-anchor="middle">Underquilt</text>
+  <!-- Suspension lines -->
+  <g stroke="#0E5B35" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="220" y1="260" x2="110" y2="180" />
+    <line x1="560" y1="270" x2="670" y2="200" />
+  </g>
+  <!-- Tarp -->
+  <polygon points="200,190 400,140 610,210 610,230 400,170 200,220" fill="#8BB7D6" fill-opacity="0.35" stroke="#0E5B35" stroke-width="2" />
+  <text x="400" y="150" font-family="Arial" font-size="16" fill="#0E5B35" text-anchor="middle">Tarp low in storms</text>
+  <!-- Angle arc -->
+  <path d="M220 260 A60 60 0 0 1 270 220" fill="none" stroke="#0E5B35" stroke-width="3" />
+  <text x="245" y="235" font-family="Arial" font-size="14" fill="#0E5B35">30°</text>
+  <text x="240" y="205" font-family="Arial" font-size="14" fill="#0E5B35">30° hang angle</text>
+  <!-- Labels -->
+  <text x="110" y="165" font-family="Arial" font-size="14" fill="#0E5B35">Straps at head height</text>
+  <text x="110" y="115" font-family="Arial" font-size="14" fill="#0E5B35">Trees 12–18 ft apart</text>
+  <text x="620" y="185" font-family="Arial" font-size="14" fill="#0E5B35" text-anchor="end">Straps at head height</text>
+  <text x="520" y="420" font-family="Arial" font-size="14" fill="#0E5B35" text-anchor="middle">Backpack stored under tarp</text>
+  <text x="520" y="390" font-family="Arial" font-size="14" fill="#0E5B35" text-anchor="middle">Shoes clipped to suspension</text>
+  <!-- Backpack and shoes -->
+  <rect x="480" y="360" width="30" height="50" rx="4" ry="4" fill="#8BB7D6" stroke="#0E5B35" stroke-width="2" />
+  <circle cx="530" cy="350" r="10" fill="#8BB7D6" stroke="#0E5B35" stroke-width="2" />
+  <circle cx="545" cy="355" r="10" fill="#8BB7D6" stroke="#0E5B35" stroke-width="2" />
+  <!-- Suspension clip line for shoes -->
+  <line x1="530" y1="350" x2="560" y2="270" stroke="#0E5B35" stroke-width="2" stroke-dasharray="3 3" />
+  <!-- Title -->
+  <text x="400" y="60" font-family="Arial" font-size="24" fill="#0E5B35" text-anchor="middle">TrailLogic Hammock Setup – 30° Hang</text>
+</svg>
