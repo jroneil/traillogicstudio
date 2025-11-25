@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" fill="none">
+  <rect width="800" height="1120" fill="white"/>
+  <style>
+    text { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .muted { fill: #1f7245; }
+    .box { fill: #F6FBF8; stroke: #0E5B35; stroke-width: 1.5; rx: 8; }
+    .section-title { font-size: 20px; font-weight: 700; letter-spacing: 0.2px; }
+    .label { font-size: 16px; font-weight: 600; }
+    .body { font-size: 15px; font-weight: 500; }
+    .small { font-size: 12px; font-weight: 600; }
+  </style>
+
+  <!-- Header -->
+  <text x="60" y="90" font-size="34" font-weight="800">TrailLogic Route Detail</text>
+  <text x="60" y="140" font-size="28" font-weight="800">[Route Name Placeholder]</text>
+  <text x="60" y="172" font-size="16" class="muted">White Mountains • 2–3 Day Backpacking Itinerary</text>
+
+  <!-- Stats Bar -->
+  <g transform="translate(60 200)">
+    <rect class="box" width="200" height="70"/>
+    <text x="16" y="32" class="label">Miles:</text>
+    <text x="16" y="56" class="body">________</text>
+
+    <g transform="translate(220 0)">
+      <rect class="box" width="200" height="70"/>
+      <text x="16" y="32" class="label">Elevation Gain:</text>
+      <text x="16" y="56" class="body">________ ft</text>
+    </g>
+
+    <g transform="translate(440 0)">
+      <rect class="box" width="200" height="70"/>
+      <text x="16" y="32" class="label">Difficulty:</text>
+      <text x="16" y="56" class="body">★___ / ★★★★</text>
+    </g>
+  </g>
+
+  <!-- Day-by-Day Section -->
+  <g transform="translate(60 300)">
+    <text class="section-title" x="0" y="0">Day-by-Day Plan</text>
+
+    <g transform="translate(0 24)">
+      <rect class="box" width="680" height="150"/>
+      <text x="20" y="40" class="label">Day 1</text>
+      <text x="20" y="68" class="body">Start: _____________________</text>
+      <text x="20" y="96" class="body">End / Camp: ________________</text>
+      <text x="20" y="124" class="body">Miles: ______   Gain: ______ ft</text>
+      <text x="20" y="148" class="body">Notes: ______________________</text>
+    </g>
+
+    <g transform="translate(0 194)">
+      <rect class="box" width="680" height="150"/>
+      <text x="20" y="40" class="label">Day 2</text>
+      <text x="20" y="68" class="body">Start: _____________________</text>
+      <text x="20" y="96" class="body">End / Camp: ________________</text>
+      <text x="20" y="124" class="body">Miles: ______   Gain: ______ ft</text>
+      <text x="20" y="148" class="body">Notes: ______________________</text>
+    </g>
+
+    <g transform="translate(0 364)">
+      <rect class="box" width="680" height="150"/>
+      <text x="20" y="40" class="label">Day 3 (Optional)</text>
+      <text x="20" y="68" class="body">Start: _____________________</text>
+      <text x="20" y="96" class="body">End / Camp: ________________</text>
+      <text x="20" y="124" class="body">Miles: ______   Gain: ______ ft</text>
+      <text x="20" y="148" class="body">Notes: ______________________</text>
+    </g>
+  </g>
+
+  <!-- Water & Camps Section -->
+  <g transform="translate(60 820)">
+    <text class="section-title" x="0" y="0">Water &amp; Camps</text>
+    <rect class="box" x="0" y="24" width="320" height="150"/>
+    <rect class="box" x="360" y="24" width="320" height="150"/>
+
+    <text x="16" y="58" class="label">Water Sources:</text>
+    <text x="16" y="88" class="body">• _____________________</text>
+    <text x="16" y="116" class="body">• _____________________</text>
+    <text x="16" y="144" class="body">• _____________________</text>
+
+    <text x="376" y="58" class="label">Camps / Tentsites:</text>
+    <text x="376" y="88" class="body">• _____________________</text>
+    <text x="376" y="116" class="body">• _____________________</text>
+  </g>
+
+  <!-- Safety & Bailout Section -->
+  <g transform="translate(60 1000)">
+    <text class="section-title" x="0" y="0">Safety &amp; Bailout</text>
+    <g transform="translate(0 24)">
+      <text x="0" y="28" class="body">Bailout Route(s): ________________________</text>
+      <text x="0" y="56" class="body">Weather Concerns: _______________________</text>
+      <text x="0" y="84" class="body">Ridge Exposure: Low / Medium / High</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="1116" font-size="12" text-anchor="middle" class="muted">TrailLogic Studio • Route Detail Page</text>
+</svg>
