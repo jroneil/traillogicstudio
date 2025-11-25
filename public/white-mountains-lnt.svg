@@ -1,0 +1,98 @@
+<svg width="900" height="550" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic – LNT in the White Mountains</title>
+  <desc id="desc">Leave No Trace reminders for the White Mountains: above treeline, campsites, water and greywater, and food and wildlife.</desc>
+  <style>
+    .title { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 28px; font-weight: 700; fill: #0E5B35; }
+    .subtitle { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 16px; fill: #0E5B35; }
+    .label { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #0E5B35; }
+    .body { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.4; fill: #333; }
+    .icon-bg { fill: #F7F9FB; stroke: #DDDDDD; }
+    .accent { fill: none; stroke: #0E5B35; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .accent-fill { fill: #0E5B35; }
+    .water { fill: none; stroke: #4C95D9; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .foot { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; fill: #555; }
+  </style>
+  <rect width="900" height="550" fill="#FFFFFF" />
+  <text x="450" y="50" text-anchor="middle" class="title">TrailLogic – LNT in the White Mountains</text>
+
+  <!-- Grid background -->
+  <rect x="60" y="80" width="780" height="360" fill="#FFFFFF" stroke="#DDDDDD" stroke-width="1" rx="14" />
+  <line x1="450" y1="80" x2="450" y2="440" stroke="#DDDDDD" stroke-width="1" />
+  <line x1="60" y1="260" x2="840" y2="260" stroke="#DDDDDD" stroke-width="1" />
+
+  <!-- Block 1: Above Treeline -->
+  <g transform="translate(60,80)">
+    <rect class="icon-bg" x="20" y="20" width="330" height="160" rx="12" />
+    <g transform="translate(40,40)">
+      <path class="accent" d="M0 80 Q40 40 80 80 T160 80 Q200 50 240 90" />
+      <path class="accent" d="M20 100 Q60 90 100 110 T180 110" stroke-width="2" />
+      <path class="accent" d="M110 60 L130 90 L150 70" />
+      <circle class="accent-fill" cx="140" cy="68" r="4" />
+    </g>
+    <text x="35" y="215" class="label">Above Treeline</text>
+    <text x="35" y="240" class="body">
+      <tspan x="35" dy="0">Stay on rock and trail only.</tspan>
+      <tspan x="35" dy="22">Alpine plants are extremely fragile.</tspan>
+    </text>
+  </g>
+
+  <!-- Block 2: Campsites -->
+  <g transform="translate(450,80)">
+    <rect class="icon-bg" x="20" y="20" width="330" height="160" rx="12" />
+    <g transform="translate(60,50)">
+      <polygon class="accent" points="60,20 120,100 0,100" />
+      <rect x="-10" y="100" width="160" height="14" fill="#DDDDDD" stroke="#0E5B35" stroke-width="2" />
+      <rect x="80" y="70" width="14" height="30" fill="#0E5B35" />
+      <line class="accent" x1="20" y1="100" x2="20" y2="120" />
+      <line class="accent" x1="100" y1="100" x2="100" y2="120" />
+      <line class="accent" x1="30" y1="75" x2="30" y2="95" />
+      <line class="accent" x1="90" y1="75" x2="90" y2="95" />
+    </g>
+    <text x="35" y="215" class="label">Campsites</text>
+    <text x="35" y="240" class="body">
+      <tspan x="35" dy="0">Use designated tent platforms or legal sites.</tspan>
+      <tspan x="35" dy="22">Don’t create new campsites.</tspan>
+    </text>
+  </g>
+
+  <!-- Block 3: Water & Greywater -->
+  <g transform="translate(60,260)">
+    <rect class="icon-bg" x="20" y="20" width="330" height="160" rx="12" />
+    <g transform="translate(40,50)">
+      <path class="water" d="M0 70 Q30 50 60 70 T120 70 T180 70 T240 70" />
+      <path class="water" d="M10 90 Q40 75 70 90 T130 90 T190 90 T250 90" stroke-width="2" />
+      <line class="accent" x1="260" y1="30" x2="220" y2="70" />
+      <polygon class="accent-fill" points="260,30 252,32 258,38" />
+      <text x="200" y="25" class="subtitle" text-anchor="end">200 ft</text>
+      <line class="accent" x1="200" y1="30" x2="200" y2="70" stroke-dasharray="6 6" />
+    </g>
+    <text x="35" y="215" class="label">Water &amp; Greywater</text>
+    <text x="35" y="240" class="body">
+      <tspan x="35" dy="0">Wash and dump greywater 200 ft from water.</tspan>
+      <tspan x="35" dy="22">No soap in lakes or streams.</tspan>
+    </text>
+  </g>
+
+  <!-- Block 4: Food & Wildlife -->
+  <g transform="translate(450,260)">
+    <rect class="icon-bg" x="20" y="20" width="330" height="160" rx="12" />
+    <g transform="translate(80,40)">
+      <line class="accent" x1="40" y1="30" x2="140" y2="30" />
+      <line class="accent" x1="40" y1="30" x2="40" y2="140" />
+      <path class="accent" d="M20 140 Q40 120 60 140" />
+      <path class="accent" d="M70 140 Q90 120 110 140" />
+      <circle class="accent-fill" cx="40" cy="30" r="5" />
+      <line class="accent" x1="100" y1="30" x2="100" y2="60" />
+      <rect x="86" y="60" width="28" height="34" fill="#4C95D9" stroke="#0E5B35" stroke-width="2" rx="4" />
+      <line class="accent" x1="100" y1="94" x2="100" y2="120" />
+      <polygon class="accent-fill" points="100,120 92,108 108,108" />
+    </g>
+    <text x="35" y="215" class="label">Food &amp; Wildlife</text>
+    <text x="35" y="240" class="body">
+      <tspan x="35" dy="0">Hang or secure all food.</tspan>
+      <tspan x="35" dy="22">Never cook or store food in your tent.</tspan>
+    </text>
+  </g>
+
+  <text x="450" y="500" text-anchor="middle" class="foot">TrailLogic Studio • White Mountains LNT Essentials</text>
+</svg>
