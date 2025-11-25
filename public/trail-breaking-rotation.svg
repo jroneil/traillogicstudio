@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Trail Breaking Rotation</title>
+  <desc id="desc">Four hikers in single file on a snowy trail with curved arrows showing a rotation: the front hiker moves to the back and the second hiker moves forward.</desc>
+  <style>
+    .outline { stroke: #0F172A; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .trail { stroke: #E5E7EB; stroke-width: 16; stroke-linecap: round; fill: none; }
+    .arrow { stroke: #0F172A; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; fill: #0F172A; font-size: 18px; letter-spacing: 0.2px; }
+  </style>
+
+  <defs>
+    <path id="hiker" class="outline" d="M0 -24 a8 8 0 1 1 0 16 a8 8 0 1 1 0 -16 M0 -8 L0 12 M0 4 L-10 18 M0 4 L10 18 M0 -2 L-11 8 M0 -2 L12 6" />
+    <marker id="arrowhead" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#0F172A" />
+    </marker>
+  </defs>
+
+  <rect x="40" y="120" width="820" height="120" rx="22" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2" />
+  <path class="trail" d="M70 180 H830" />
+
+  <g transform="translate(170,190)">
+    <use href="#hiker" />
+  </g>
+  <g transform="translate(310,190)">
+    <use href="#hiker" />
+  </g>
+  <g transform="translate(450,190)">
+    <use href="#hiker" />
+  </g>
+  <g transform="translate(590,190)">
+    <use href="#hiker" />
+  </g>
+
+  <path class="arrow" marker-end="url(#arrowhead)" d="M170 130 q-40 40 -40 90 q0 30 20 50" />
+  <path class="arrow" marker-end="url(#arrowhead)" d="M310 130 q-12 28 12 44 q26 18 68 18" />
+
+  <text x="450" y="320" text-anchor="middle">Rotate every 5–10 minutes in deep snow.</text>
+</svg>
