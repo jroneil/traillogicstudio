@@ -1,0 +1,87 @@
+<svg width="900" height="550" viewBox="0 0 900 550" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Emergency Water Protocol</title>
+  <desc id="desc">Flowchart showing steps to follow when water source is dry.</desc>
+  <style>
+    .box { fill: #E5F4E8; stroke: #0E5B35; stroke-width: 2.5; rx: 12; }
+    .box-critical { stroke: #CC3333; stroke-width: 3; }
+    .text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #0E5B35; font-size: 18px; font-weight: 600; }
+    .text-small { font-size: 17px; font-weight: 500; }
+    .accent-bar { fill: #CC3333; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0E5B35" />
+    </marker>
+  </defs>
+  <rect width="900" height="550" fill="#FFFFFF" />
+  <text x="450" y="40" text-anchor="middle" class="text" font-size="26" font-weight="700">TrailLogic Emergency Water Protocol</text>
+
+  <!-- Step positions -->
+  <g id="step1" transform="translate(190,50)">
+    <rect class="box" width="520" height="50" />
+    <text class="text" x="260" y="32" text-anchor="middle">Source Dry?</text>
+  </g>
+
+  <g id="arrow1" transform="translate(450,100)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#0E5B35" stroke-width="3" marker-end="url(#arrow)" />
+  </g>
+
+  <g id="step2" transform="translate(190,110)">
+    <rect class="box" width="520" height="65" />
+    <rect class="accent-bar" x="0" y="0" width="8" height="65" />
+    <text class="text" x="270" y="30" text-anchor="middle">Stop Immediately — Do NOT Continue Uphill</text>
+    <text class="text" x="270" y="52" text-anchor="middle">Without Water</text>
+  </g>
+
+  <g id="arrow2" transform="translate(450,175)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#0E5B35" stroke-width="3" marker-end="url(#arrow)" />
+  </g>
+
+  <g id="step3" transform="translate(190,185)">
+    <rect class="box" width="520" height="55" />
+    <text class="text" x="260" y="34" text-anchor="middle">Check Map for Parallel Streams (0.3–1 mile)</text>
+  </g>
+
+  <g id="arrow3" transform="translate(450,240)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#0E5B35" stroke-width="3" marker-end="url(#arrow)" />
+  </g>
+
+  <g id="step4" transform="translate(190,250)">
+    <rect class="box" width="520" height="80" />
+    <text class="text" x="260" y="30" text-anchor="middle">Look for:</text>
+    <text class="text text-small" x="260" y="52" text-anchor="middle">• Mud patches</text>
+    <text class="text text-small" x="260" y="70" text-anchor="middle">• Trickles</text>
+    <text class="text text-small" x="260" y="88" text-anchor="middle">• Rock drips</text>
+  </g>
+
+  <g id="arrow4" transform="translate(450,330)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#0E5B35" stroke-width="3" marker-end="url(#arrow)" />
+  </g>
+
+  <g id="step5" transform="translate(190,340)">
+    <rect class="box" width="520" height="65" />
+    <text class="text" x="260" y="32" text-anchor="middle">Filter ANY Flowing Water</text>
+    <text class="text text-small" x="260" y="54" text-anchor="middle">(Use Backup Tablets if Murky)</text>
+  </g>
+
+  <g id="arrow5" transform="translate(450,405)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#0E5B35" stroke-width="3" marker-end="url(#arrow)" />
+  </g>
+
+  <g id="step6" transform="translate(190,415)">
+    <rect class="box" width="520" height="60" />
+    <text class="text" x="260" y="32" text-anchor="middle">If No Water Found → Descend</text>
+    <text class="text text-small" x="260" y="52" text-anchor="middle">Lower Elevation = More Water</text>
+  </g>
+
+  <g id="arrow6" transform="translate(450,475)">
+    <line x1="0" y1="0" x2="0" y2="10" stroke="#0E5B35" stroke-width="3" marker-end="url(#arrow)" />
+  </g>
+
+  <g id="step7" transform="translate(190,485)">
+    <rect class="box box-critical" width="520" height="60" />
+    <rect class="accent-bar" x="0" y="0" width="8" height="60" />
+    <text class="text" x="260" y="32" text-anchor="middle">Emergency Only:</text>
+    <text class="text text-small" x="260" y="52" text-anchor="middle">Use Chemical Tablets + Boil</text>
+  </g>
+</svg>
