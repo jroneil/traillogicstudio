@@ -1,20 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" aria-labelledby="title desc" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" aria-labelledby="title desc" role="img">
   <title id="title">Winter Calorie Needs</title>
-  <desc id="desc">Monochrome bar chart comparing calorie needs for winter activities</desc>
-  <g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <rect x="80" y="40" width="480" height="300" rx="10" ry="10" />
-    <path d="M120 80v240m0-20h360" />
-    <text x="80" y="30" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#111">Winter Calorie Needs</text>
-    <text x="110" y="210" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#111" transform="rotate(-90 110 210)">Calories per Day</text>
-    <rect x="200" y="250" width="70" height="70" fill="#f5f5f5" />
-    <rect x="310" y="200" width="70" height="120" fill="#f5f5f5" />
-    <rect x="420" y="120" width="70" height="200" fill="#f5f5f5" />
-    <path d="M120 320h390" />
+  <desc id="desc">Simple line-art bar chart comparing daily calorie needs for day hike, overnight, and deep cold conditions.</desc>
+  <g fill="none" stroke="#111" stroke-width="3" font-family="'Helvetica Neue', Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="32" y="32" width="576" height="320" rx="8" ry="8" />
+    <line x1="96" y1="72" x2="96" y2="304" />
+    <line x1="96" y1="304" x2="544" y2="304" />
+    <text x="48" y="180" transform="rotate(-90 48 180)" font-size="18" fill="#111" stroke="none">Calories per Day</text>
+    <g stroke="#111" stroke-width="10">
+      <line x1="170" y1="304" x2="170" y2="230" />
+      <line x1="320" y1="304" x2="320" y2="190" />
+      <line x1="470" y1="304" x2="470" y2="120" />
+    </g>
+    <g font-size="16" fill="#111" stroke="none" text-anchor="middle">
+      <text x="170" y="330">Day Hike: 2,500–3,500</text>
+      <text x="320" y="330">Overnight: 3,500–5,000</text>
+      <text x="470" y="330">Deep Cold: 5,000+</text>
+    </g>
+    <text x="320" y="370" font-size="14" fill="#111" stroke="none" text-anchor="middle">Cold + snow = higher energy demand.</text>
+    <text x="320" y="62" font-size="22" fill="#111" stroke="none" text-anchor="middle" font-weight="600">Winter Calorie Needs</text>
   </g>
-  <g fill="#111" font-family="'Segoe UI', Arial, sans-serif" font-size="14" text-anchor="middle">
-    <text x="235" y="350">Day Hike: 2,500–3,500</text>
-    <text x="345" y="350">Overnight: 3,500–5,000</text>
-    <text x="455" y="350">Deep Cold: 5,000+</text>
-  </g>
-  <text x="320" y="385" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#111" text-anchor="middle">Cold + snow = higher energy demand.</text>
 </svg>
