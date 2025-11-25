@@ -1,85 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" aria-labelledby="title desc" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
   <title id="title">Keep Food From Freezing</title>
-  <desc id="desc">Three-panel infographic showing techniques to keep snacks and water from freezing in cold weather.</desc>
+  <desc id="desc">Three small panels show using body heat, insulating snacks, and storing a water bottle upside-down in snow.</desc>
   <style>
-    text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; fill: #111; font-size: 16px; }
+    text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; fill: #111; }
     .title { font-size: 24px; font-weight: 700; }
-    .label { font-weight: 600; }
-    .panel { fill: none; stroke: #111; stroke-width: 2; }
+    .label { font-size: 16px; font-weight: 600; }
+    .panel { fill: none; stroke: #111; stroke-width: 2; rx: 12px; }
+    .icon { fill: none; stroke: #111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
     .arrow { fill: none; stroke: #111; stroke-width: 2; marker-end: url(#arrowhead); }
-    .icon-fill { fill: none; stroke: #111; stroke-width: 2; }
   </style>
   <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#111" />
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 10 4, 0 8" fill="#111" />
     </marker>
   </defs>
 
-  <text class="title" x="450" y="36" text-anchor="middle">Keep Food From Freezing</text>
+  <text class="title" x="480" y="32" text-anchor="middle">Keep Food From Freezing</text>
 
   <!-- Panels -->
-  <g>
-    <rect class="panel" x="40" y="60" width="240" height="180" rx="12" />
-    <rect class="panel" x="330" y="60" width="240" height="180" rx="12" />
-    <rect class="panel" x="620" y="60" width="240" height="180" rx="12" />
-  </g>
+  <rect class="panel" x="40" y="60" width="260" height="180" />
+  <rect class="panel" x="350" y="60" width="260" height="180" />
+  <rect class="panel" x="660" y="60" width="260" height="180" />
 
   <!-- Arrows -->
-  <path class="arrow" d="M280 150 H320" />
-  <path class="arrow" d="M570 150 H610" />
+  <path class="arrow" d="M300 150 H350" />
+  <path class="arrow" d="M610 150 H660" />
 
-  <!-- Panel 1: Jacket torso with bar in pocket -->
+  <!-- Panel 1 -->
   <g transform="translate(40,60)">
-    <text class="label" x="120" y="166" text-anchor="middle">Use Body Heat</text>
+    <text class="label" x="130" y="170" text-anchor="middle">Use Body Heat</text>
     <!-- Jacket torso -->
-    <path class="icon-fill" d="M60 140 L60 50 L110 30 L130 70 L150 30 L200 50 L200 140 Q200 150 190 150 H70 Q60 150 60 140 Z" />
-    <!-- Zipper line -->
-    <line class="icon-fill" x1="130" y1="70" x2="130" y2="150" />
-    <!-- Collar -->
-    <path class="icon-fill" d="M110 30 L130 60 L150 30" />
-    <!-- Pocket -->
-    <rect class="icon-fill" x="140" y="90" width="40" height="34" rx="4" />
-    <!-- Snack bar -->
-    <rect class="icon-fill" x="148" y="78" width="16" height="46" />
-    <line class="icon-fill" x1="148" y1="86" x2="164" y2="86" />
-    <line class="icon-fill" x1="148" y1="94" x2="164" y2="94" />
+    <path class="icon" d="M70 140 V70 L120 48 L130 70 L140 48 L190 70 V140 Q190 152 178 152 H82 Q70 152 70 140 Z" />
+    <!-- zipper -->
+    <line class="icon" x1="130" y1="70" x2="130" y2="148" />
+    <!-- collar -->
+    <path class="icon" d="M120 48 L130 64 L140 48" />
+    <!-- pocket outline -->
+    <rect class="icon" x="142" y="92" width="34" height="40" rx="5" />
+    <!-- snack bar -->
+    <rect class="icon" x="150" y="82" width="18" height="52" />
+    <line class="icon" x1="150" y1="92" x2="168" y2="92" />
+    <line class="icon" x1="150" y1="102" x2="168" y2="102" />
   </g>
 
-  <!-- Panel 2: Insulated pouch -->
-  <g transform="translate(330,60)">
-    <text class="label" x="120" y="166" text-anchor="middle">Insulate Snacks</text>
-    <!-- Pouch body -->
-    <rect class="icon-fill" x="70" y="60" width="100" height="90" rx="12" />
-    <!-- Lid -->
-    <rect class="icon-fill" x="60" y="48" width="120" height="18" rx="6" />
-    <!-- Strap -->
-    <line class="icon-fill" x1="90" y1="48" x2="90" y2="40" />
-    <line class="icon-fill" x1="150" y1="48" x2="150" y2="40" />
-    <!-- Snowflake icon -->
-    <g transform="translate(120,105)">
-      <line class="icon-fill" x1="0" y1="-18" x2="0" y2="18" />
-      <line class="icon-fill" x1="-18" y1="0" x2="18" y2="0" />
-      <line class="icon-fill" x1="-12" y1="-12" x2="12" y2="12" />
-      <line class="icon-fill" x1="-12" y1="12" x2="12" y2="-12" />
+  <!-- Panel 2 -->
+  <g transform="translate(350,60)">
+    <text class="label" x="130" y="170" text-anchor="middle">Insulate Snacks</text>
+    <!-- pouch body -->
+    <rect class="icon" x="78" y="66" width="104" height="92" rx="14" />
+    <!-- lid -->
+    <rect class="icon" x="66" y="50" width="128" height="20" rx="8" />
+    <!-- handle straps -->
+    <line class="icon" x1="94" y1="50" x2="94" y2="38" />
+    <line class="icon" x1="166" y1="50" x2="166" y2="38" />
+    <!-- insulation motif -->
+    <g transform="translate(130,112)">
+      <line class="icon" x1="0" y1="-18" x2="0" y2="18" />
+      <line class="icon" x1="-18" y1="0" x2="18" y2="0" />
+      <line class="icon" x1="-12" y1="-12" x2="12" y2="12" />
+      <line class="icon" x1="-12" y1="12" x2="12" y2="-12" />
     </g>
   </g>
 
-  <!-- Panel 3: Upside-down bottle in snow -->
-  <g transform="translate(620,60)">
-    <text class="label" x="120" y="166" text-anchor="middle">Water Upside-Down</text>
-    <!-- Snow base -->
-    <path class="icon-fill" d="M30 150 Q60 130 90 150 T150 150 T210 150" />
-    <!-- Bottle -->
-    <g transform="translate(120,80)">
-      <rect class="icon-fill" x="-18" y="-38" width="36" height="64" rx="8" />
-      <rect class="icon-fill" x="-14" y="26" width="28" height="16" rx="4" />
-      <line class="icon-fill" x1="-18" y1="-22" x2="18" y2="-22" />
-      <line class="icon-fill" x1="-18" y1="-6" x2="18" y2="-6" />
-      <line class="icon-fill" x1="-18" y1="10" x2="18" y2="10" />
+  <!-- Panel 3 -->
+  <g transform="translate(660,60)">
+    <text class="label" x="130" y="170" text-anchor="middle">Water Upside-Down</text>
+    <!-- snow line -->
+    <path class="icon" d="M36 152 Q70 132 104 152 T172 152 T224 152" />
+    <!-- inverted bottle -->
+    <g transform="translate(130,86)">
+      <rect class="icon" x="-22" y="-14" width="44" height="84" rx="10" />
+      <rect class="icon" x="-18" y="70" width="36" height="20" rx="6" />
+      <line class="icon" x1="-22" y1="10" x2="22" y2="10" />
+      <line class="icon" x1="-22" y1="34" x2="22" y2="34" />
+      <line class="icon" x1="-22" y1="58" x2="22" y2="58" />
     </g>
-    <!-- Snow texture -->
-    <circle class="icon-fill" cx="70" cy="146" r="3" />
-    <circle class="icon-fill" cx="170" cy="144" r="3" />
-    <circle class="icon-fill" cx="130" cy="152" r="2.5" />
+    <!-- snow speckles -->
+    <circle class="icon" cx="86" cy="148" r="3" />
+    <circle class="icon" cx="178" cy="146" r="3" />
+    <circle class="icon" cx="134" cy="154" r="2.5" />
   </g>
 </svg>
