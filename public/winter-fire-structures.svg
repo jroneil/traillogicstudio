@@ -1,39 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
-  <title>Winter Fire Structures</title>
-  <desc>Comparison of a teepee fire and log cabin fire structure in minimal monochrome line art.</desc>
-  <defs>
-    <style>
-      .frame { fill: none; stroke: #111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-      .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; fill: #111; letter-spacing: 0.4px; }
-      .caption { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; fill: #111; letter-spacing: 0.3px; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="320" viewBox="0 0 700 320" aria-labelledby="title desc" role="img">
+  <title id="title">Winter Fire Structures</title>
+  <desc id="desc">Side-by-side line art diagrams of teepee and log cabin fire structures with labels and caption.</desc>
+  <style>
+    .outline { stroke: #0f172a; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .fill { fill: #0f172a; stroke: none; }
+    .label { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 16px; fill: #0f172a; }
+    .caption { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 14px; fill: #0f172a; text-anchor: middle; }
+  </style>
 
-  <rect class="frame" x="30" y="30" width="740" height="240" rx="12" />
+  <rect x="20" y="20" width="660" height="220" rx="16" class="outline" />
 
-  <!-- Teepee Diagram -->
+  <!-- Left diagram: Teepee -->
   <g transform="translate(120 60)">
-    <path class="frame" d="M0 170 L90 20 L180 170" />
-    <path class="frame" d="M40 170 L90 80 L140 170" />
-    <path class="frame" d="M70 170 L120 70" />
-    <circle class="frame" cx="90" cy="180" r="14" />
-    <path class="frame" d="M84 184 C76 174 82 162 92 158 C100 162 104 170 102 179" />
-    <path class="frame" d="M90 180 C88 172 94 166 100 166 C108 170 108 182 102 188" />
-    <text class="label" x="90" y="210" text-anchor="middle">Teepee – Fast Heat</text>
+    <line x1="-40" y1="100" x2="40" y2="-10" class="outline" />
+    <line x1="40" y1="100" x2="-20" y2="-6" class="outline" />
+    <line x1="-10" y1="100" x2="60" y2="-6" class="outline" />
+    <line x1="-25" y1="90" x2="45" y2="90" class="outline" />
+    <line x1="-35" y1="70" x2="30" y2="65" class="outline" />
+
+    <!-- Flame -->
+    <path class="outline" d="M0,44 c10,-18 2,-34 -6,-46 c-8,12 -18,27 -10,44 c6,12 14,17 16,30" />
+    <path class="fill" d="M-2 58 c6 -12 -2 -24 -8 -32 c-6 8 -12 18 -7 30 c4 8 9 12 10 20" />
+
+    <text x="0" y="150" class="label" text-anchor="middle">Teepee – Fast Heat</text>
   </g>
 
-  <!-- Log Cabin Diagram -->
-  <g transform="translate(460 60)">
-    <rect class="frame" x="10" y="80" width="180" height="90" rx="6" />
-    <line class="frame" x1="10" y1="105" x2="190" y2="105" />
-    <line class="frame" x1="10" y1="145" x2="190" y2="145" />
-    <line class="frame" x1="40" y1="80" x2="40" y2="170" />
-    <line class="frame" x1="90" y1="80" x2="90" y2="170" />
-    <line class="frame" x1="140" y1="80" x2="140" y2="170" />
-    <path class="frame" d="M90 148 C80 136 86 122 100 118 C110 124 114 138 108 151" />
-    <path class="frame" d="M96 150 C92 138 100 128 110 128 C120 134 120 150 110 158" />
-    <text class="label" x="100" y="210" text-anchor="middle">Log Cabin – Longer Burn</text>
+  <!-- Right diagram: Log Cabin -->
+  <g transform="translate(480 60)">
+    <rect x="-50" y="40" width="100" height="60" class="outline" />
+    <line x1="-60" y1="30" x2="60" y2="30" class="outline" />
+    <line x1="-60" y1="70" x2="60" y2="70" class="outline" />
+    <line x1="-50" y1="20" x2="50" y2="20" class="outline" />
+    <line x1="-50" y1="60" x2="50" y2="60" class="outline" />
+    <line x1="-50" y1="100" x2="50" y2="100" class="outline" />
+    <line x1="-40" y1="10" x2="-40" y2="110" class="outline" />
+    <line x1="40" y1="10" x2="40" y2="110" class="outline" />
+
+    <!-- Inner flame -->
+    <path class="outline" d="M0,62 c9,-14 3,-26 -4,-36 c-6,9 -14,20 -8,33 c5,9 11,13 12,23" />
+    <path class="fill" d="M-1 76 c6 -10 -1 -20 -6 -27 c-5 7 -10 15 -6 26 c3 6 7 9 8 16" />
+
+    <text x="0" y="150" class="label" text-anchor="middle">Log Cabin – Longer Burn</text>
   </g>
 
-  <text class="caption" x="400" y="300" text-anchor="middle">Choose structure for quick warmth or longer coals.</text>
+  <text x="350" y="280" class="caption">Choose structure for quick warmth or longer coals.</text>
 </svg>
