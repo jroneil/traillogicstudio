@@ -1,0 +1,108 @@
+<svg width="800" height="1120" viewBox="0 0 800 1120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" style="font-family:'Inter','Arial',sans-serif;">
+  <title id="title">TrailLogic – 7 Leave No Trace Principles</title>
+  <desc id="desc">A clean, beginner-friendly poster listing the seven Leave No Trace principles with small icons and concise guidance.</desc>
+  <rect width="800" height="1120" fill="#FFFFFF"/>
+
+  <!-- Header -->
+  <text x="400" y="80" text-anchor="middle" font-size="30" font-weight="700" fill="#0E5B35">TrailLogic – 7 Leave No Trace Principles</text>
+
+  <!-- Divider below header -->
+  <line x1="80" y1="110" x2="720" y2="110" stroke="#DDDDDD" stroke-width="2"/>
+
+  <!-- Principle 1 -->
+  <g transform="translate(80,140)">
+    <circle cx="40" cy="20" r="24" fill="#0E5B35" opacity="0.12"/>
+    <rect x="24" y="6" width="32" height="28" rx="4" stroke="#0E5B35" stroke-width="2" fill="none"/>
+    <polyline points="28,22 36,14 48,26 56,18" fill="none" stroke="#0E5B35" stroke-width="2"/>
+    <text x="90" y="6" font-size="20" font-weight="700" fill="#0E5B35">Plan Ahead &amp; Prepare</text>
+    <text x="90" y="32" font-size="16" fill="#1F2933">
+      <tspan x="90" dy="0">• Know weather, route, and bailouts</tspan>
+      <tspan x="90" dy="22">• Bring proper gear and maps</tspan>
+    </text>
+  </g>
+  <line x1="80" y1="210" x2="720" y2="210" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Principle 2 -->
+  <g transform="translate(80,230)">
+    <circle cx="40" cy="20" r="24" fill="#0E5B35" opacity="0.12"/>
+    <path d="M26 28 L40 10 L54 28 Z" fill="#0E5B35"/>
+    <rect x="28" y="28" width="24" height="8" rx="2" fill="#0E5B35" opacity="0.6"/>
+    <text x="90" y="6" font-size="20" font-weight="700" fill="#0E5B35">Travel &amp; Camp on Durable Surfaces</text>
+    <text x="90" y="32" font-size="16" fill="#1F2933">
+      <tspan x="90" dy="0">• Stay on established trails</tspan>
+      <tspan x="90" dy="22">• Use legal, designated campsites</tspan>
+    </text>
+  </g>
+  <line x1="80" y1="300" x2="720" y2="300" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Principle 3 -->
+  <g transform="translate(80,320)">
+    <circle cx="40" cy="20" r="24" fill="#0E5B35" opacity="0.12"/>
+    <rect x="28" y="6" width="24" height="28" rx="4" stroke="#0E5B35" stroke-width="2" fill="none"/>
+    <line x1="32" y1="14" x2="48" y2="14" stroke="#0E5B35" stroke-width="2"/>
+    <line x1="36" y1="18" x2="44" y2="26" stroke="#0E5B35" stroke-width="2"/>
+    <text x="90" y="6" font-size="20" font-weight="700" fill="#0E5B35">Dispose of Waste Properly</text>
+    <text x="90" y="32" font-size="16" fill="#1F2933">
+      <tspan x="90" dy="0">• Pack out ALL trash and food scraps</tspan>
+      <tspan x="90" dy="22">• Strain and scatter greywater 200 ft from water</tspan>
+    </text>
+  </g>
+  <line x1="80" y1="390" x2="720" y2="390" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Principle 4 -->
+  <g transform="translate(80,410)">
+    <circle cx="40" cy="20" r="24" fill="#0E5B35" opacity="0.12"/>
+    <path d="M36 30 C34 22 36 14 44 10 C46 16 46 24 42 30 Z" fill="#0E5B35"/>
+    <line x1="34" y1="24" x2="48" y2="18" stroke="#0E5B35" stroke-width="2"/>
+    <text x="90" y="6" font-size="20" font-weight="700" fill="#0E5B35">Leave What You Find</text>
+    <text x="90" y="32" font-size="16" fill="#1F2933">
+      <tspan x="90" dy="0">• Don’t pick flowers or move rocks</tspan>
+      <tspan x="90" dy="22">• Leave natural and cultural objects</tspan>
+    </text>
+  </g>
+  <line x1="80" y1="480" x2="720" y2="480" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Principle 5 -->
+  <g transform="translate(80,500)">
+    <circle cx="40" cy="20" r="24" fill="#0E5B35" opacity="0.12"/>
+    <path d="M40 8 C46 14 46 22 42 26 C40 24 38 22 38 18 C34 22 34 30 40 32 C30 32 28 20 40 8 Z" fill="#0E5B35"/>
+    <text x="90" y="6" font-size="20" font-weight="700" fill="#0E5B35">Minimize Campfire Impact</text>
+    <text x="90" y="32" font-size="16" fill="#1F2933">
+      <tspan x="90" dy="0">• Use stoves instead of fires</tspan>
+      <tspan x="90" dy="22">• Follow all local fire rules</tspan>
+    </text>
+  </g>
+  <line x1="80" y1="570" x2="720" y2="570" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Principle 6 -->
+  <g transform="translate(80,590)">
+    <circle cx="40" cy="20" r="24" fill="#0E5B35" opacity="0.12"/>
+    <circle cx="32" cy="16" r="5" fill="#0E5B35"/>
+    <circle cx="48" cy="16" r="5" fill="#0E5B35"/>
+    <circle cx="28" cy="26" r="4" fill="#0E5B35"/>
+    <circle cx="52" cy="26" r="4" fill="#0E5B35"/>
+    <path d="M34 22 C36 26 44 26 46 22" stroke="#0E5B35" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="90" y="6" font-size="20" font-weight="700" fill="#0E5B35">Respect Wildlife</text>
+    <text x="90" y="32" font-size="16" fill="#1F2933">
+      <tspan x="90" dy="0">• Store food securely</tspan>
+      <tspan x="90" dy="22">• Never feed animals</tspan>
+    </text>
+  </g>
+  <line x1="80" y1="660" x2="720" y2="660" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Principle 7 -->
+  <g transform="translate(80,680)">
+    <circle cx="40" cy="20" r="24" fill="#0E5B35" opacity="0.12"/>
+    <path d="M30 14 C34 10 40 10 44 14 L50 20 L44 26 C40 30 34 30 30 26" fill="none" stroke="#0E5B35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="42" y1="18" x2="46" y2="22" stroke="#0E5B35" stroke-width="2"/>
+    <text x="90" y="6" font-size="20" font-weight="700" fill="#0E5B35">Be Considerate of Others</text>
+    <text x="90" y="32" font-size="16" fill="#1F2933">
+      <tspan x="90" dy="0">• Keep noise low</tspan>
+      <tspan x="90" dy="22">• Yield politely and share viewpoints</tspan>
+    </text>
+  </g>
+  <line x1="80" y1="750" x2="720" y2="750" stroke="#DDDDDD" stroke-width="1.5"/>
+
+  <!-- Footer -->
+  <text x="400" y="1060" text-anchor="middle" font-size="14" fill="#1F2933">TrailLogic Studio • Protect the places you love.</text>
+</svg>
