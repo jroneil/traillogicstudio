@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120" style="background:white; font-family: 'Helvetica Neue', Arial, sans-serif;">
+  <defs>
+    <style>
+      .title { font-size: 28px; font-weight: 700; fill: #0E5B35; }
+      .subtitle { font-size: 16px; fill: #3c3c3c; }
+      .day-header { font-size: 16px; font-weight: 700; fill: #0E5B35; }
+      .label { font-size: 14px; fill: #222; }
+      .footer { font-size: 12px; fill: #555; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="60" text-anchor="middle" class="title">TrailLogic 3-Day Trip Overview</text>
+  <text x="400" y="90" text-anchor="middle" class="subtitle">White Mountains 2–3 Day Backpacking Trip</text>
+
+  <!-- Day Blocks -->
+  <g id="day-blocks" transform="translate(40,130)">
+    <!-- Day 1 Block -->
+    <g id="day1">
+      <rect x="0" y="0" width="720" height="300" fill="none" stroke="#DDDDDD" stroke-width="1"/>
+      <rect x="0" y="0" width="720" height="40" fill="#83A98D" />
+      <text x="20" y="25" class="day-header">DAY 1</text>
+
+      <text x="20" y="70" class="label">Miles:</text>
+      <line x1="70" y1="66" x2="210" y2="66" stroke="#DDDDDD" stroke-width="2"/>
+      <text x="240" y="70" class="label">Elevation Gain:</text>
+      <line x1="360" y1="66" x2="560" y2="66" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="110" class="label">Water Plan:</text>
+      <line x1="110" y1="106" x2="700" y2="106" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="130" x2="700" y2="130" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="170" class="label">Camp / Destination:</text>
+      <line x1="200" y1="166" x2="700" y2="166" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="210" class="label">Weather Concerns:</text>
+      <line x1="170" y1="206" x2="700" y2="206" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="230" x2="700" y2="230" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="270" class="label">Notes:</text>
+      <line x1="70" y1="266" x2="700" y2="266" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="290" x2="700" y2="290" stroke="#DDDDDD" stroke-width="2"/>
+    </g>
+
+    <!-- Day 2 Block -->
+    <g id="day2" transform="translate(0,320)">
+      <rect x="0" y="0" width="720" height="300" fill="none" stroke="#DDDDDD" stroke-width="1"/>
+      <rect x="0" y="0" width="720" height="40" fill="#83A98D" />
+      <text x="20" y="25" class="day-header">DAY 2</text>
+
+      <text x="20" y="70" class="label">Miles:</text>
+      <line x1="70" y1="66" x2="210" y2="66" stroke="#DDDDDD" stroke-width="2"/>
+      <text x="240" y="70" class="label">Elevation Gain:</text>
+      <line x1="360" y1="66" x2="560" y2="66" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="110" class="label">Water Plan:</text>
+      <line x1="110" y1="106" x2="700" y2="106" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="130" x2="700" y2="130" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="170" class="label">Camp / Destination:</text>
+      <line x1="200" y1="166" x2="700" y2="166" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="210" class="label">Weather Concerns:</text>
+      <line x1="170" y1="206" x2="700" y2="206" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="230" x2="700" y2="230" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="270" class="label">Notes:</text>
+      <line x1="70" y1="266" x2="700" y2="266" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="290" x2="700" y2="290" stroke="#DDDDDD" stroke-width="2"/>
+    </g>
+
+    <!-- Day 3 Block -->
+    <g id="day3" transform="translate(0,640)">
+      <rect x="0" y="0" width="720" height="300" fill="none" stroke="#DDDDDD" stroke-width="1"/>
+      <rect x="0" y="0" width="720" height="40" fill="#83A98D" />
+      <text x="20" y="25" class="day-header">DAY 3</text>
+
+      <text x="20" y="70" class="label">Miles:</text>
+      <line x1="70" y1="66" x2="210" y2="66" stroke="#DDDDDD" stroke-width="2"/>
+      <text x="240" y="70" class="label">Elevation Gain:</text>
+      <line x1="360" y1="66" x2="560" y2="66" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="110" class="label">Water Plan:</text>
+      <line x1="110" y1="106" x2="700" y2="106" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="130" x2="700" y2="130" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="170" class="label">Camp / Destination:</text>
+      <line x1="200" y1="166" x2="700" y2="166" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="210" class="label">Weather Concerns:</text>
+      <line x1="170" y1="206" x2="700" y2="206" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="230" x2="700" y2="230" stroke="#DDDDDD" stroke-width="2"/>
+
+      <text x="20" y="270" class="label">Notes:</text>
+      <line x1="70" y1="266" x2="700" y2="266" stroke="#DDDDDD" stroke-width="2"/>
+      <line x1="20" y1="290" x2="700" y2="290" stroke="#DDDDDD" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <text x="400" y="1090" text-anchor="middle" class="footer">TrailLogic Studio • Trip Overview Planner</text>
+</svg>
