@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Fuel &amp; Cooking Card</title>
+  <desc id="desc">Pocket-size quick reference for backpacking fuel amounts, cooking steps, and simple meal ideas.</desc>
+  <style>
+    .bg { fill: #FFFFFF; }
+    .card-border { fill: none; stroke: #0E5B35; stroke-width: 3; }
+    .title { font: 700 28px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; letter-spacing: 0.6px; }
+    .section-title { font: 700 18px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .bullet { font: 600 15px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #1f3328; }
+    .footer { font: 600 13px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #375844; letter-spacing: 0.2px; }
+    .accent-line { stroke: #0E5B35; stroke-width: 1.5; }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="800" height="450" />
+  <rect class="card-border" x="18" y="18" width="764" height="414" rx="18" ry="18" />
+
+  <text class="title" x="400" y="70" text-anchor="middle">TrailLogic Fuel &amp; Cooking Card</text>
+
+  <g transform="translate(60 110)">
+    <g transform="translate(0 0)">
+      <text class="section-title" x="0" y="0">Fuel</text>
+      <line class="accent-line" x1="0" y1="10" x2="180" y2="10" />
+      <g transform="translate(0 30)">
+        <text class="bullet" x="0" y="0">• 0.3–0.5 oz per day</text>
+        <text class="bullet" x="0" y="26">• 1.0–1.5 oz for 3 days</text>
+        <text class="bullet" x="0" y="52">• Add 10–20% for wind &amp; cold</text>
+      </g>
+    </g>
+
+    <g transform="translate(250 0)">
+      <text class="section-title" x="0" y="0">Cooking</text>
+      <line class="accent-line" x1="0" y1="10" x2="200" y2="10" />
+      <g transform="translate(0 30)">
+        <text class="bullet" x="0" y="0">• Cook 75–150 ft from tent</text>
+        <text class="bullet" x="0" y="26">• Boil water → turn stove OFF</text>
+        <text class="bullet" x="0" y="52">• Rehydrate meals 10–15 min</text>
+        <text class="bullet" x="0" y="78">• Clean pot with a splash of water</text>
+        <text class="bullet" x="0" y="104">• Dump gray water 200 ft from water &amp; camp</text>
+      </g>
+    </g>
+
+    <g transform="translate(520 0)">
+      <text class="section-title" x="0" y="0">Meals</text>
+      <line class="accent-line" x1="0" y1="10" x2="180" y2="10" />
+      <g transform="translate(0 30)">
+        <text class="bullet" x="0" y="0">• Ramen + chicken</text>
+        <text class="bullet" x="0" y="26">• Knorr sides</text>
+        <text class="bullet" x="0" y="52">• Mashed potatoes + tuna</text>
+        <text class="bullet" x="0" y="78">• Freeze-dried meal</text>
+        <text class="bullet" x="0" y="104">• Oats + nut butter</text>
+      </g>
+    </g>
+  </g>
+
+  <text class="footer" x="400" y="400" text-anchor="middle">TrailLogic Studio • Simple, Safe Cooking</text>
+</svg>
