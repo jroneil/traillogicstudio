@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Water Filtration Workflow</title>
+  <desc id="desc">Simplified left-to-right flowchart for filtering and purifying water in the field.</desc>
+  <style>
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; font-size: 16px; font-weight: 600; }
+    .box { fill: #CFE7D6; stroke: #0E5B35; stroke-width: 2; rx: 12; ry: 12; }
+    .arrow { stroke: #8BB7D6; stroke-width: 4; fill: none; marker-end: url(#arrowHead); }
+    .subtitle { font-size: 24px; font-weight: 700; }
+    .step-text { font-size: 16px; font-weight: 600; }
+  </style>
+
+  <rect x="0" y="0" width="900" height="500" fill="#ffffff" />
+
+  <defs>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8BB7D6" />
+    </marker>
+  </defs>
+
+  <text x="450" y="70" text-anchor="middle" class="subtitle" fill="#0E5B35">TrailLogic Water Filtration Workflow</text>
+
+  <!-- Step boxes -->
+  <g>
+    <rect class="box" x="30" y="170" width="120" height="100" />
+    <text x="90" y="205" text-anchor="middle" class="step-text">
+      <tspan x="90" dy="0">Scoop Water</tspan>
+      <tspan x="90" dy="22">(Use Hard Bottle</tspan>
+      <tspan x="90" dy="22">/ Wide Bag)</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect class="box" x="180" y="170" width="120" height="100" />
+    <text x="240" y="205" text-anchor="middle" class="step-text">
+      <tspan x="240" dy="0">Let Sediment Settle</tspan>
+      <tspan x="240" dy="22">30–60 seconds</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect class="box" x="330" y="170" width="120" height="100" />
+    <text x="390" y="205" text-anchor="middle" class="step-text">
+      <tspan x="390" dy="0">Filter Through Sawyer</tspan>
+      <tspan x="390" dy="22">Into Clean Bottle</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect class="box" x="480" y="170" width="120" height="100" />
+    <text x="540" y="205" text-anchor="middle" class="step-text">
+      <tspan x="540" dy="0">Option: Add Chlorine</tspan>
+      <tspan x="540" dy="22">Dioxide</tspan>
+      <tspan x="540" dy="22">(Backup Purification)</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect class="box" x="630" y="170" width="120" height="100" />
+    <text x="690" y="205" text-anchor="middle" class="step-text">
+      <tspan x="690" dy="0">Keep Clean vs Dirty</tspan>
+      <tspan x="690" dy="22">Water Separate</tspan>
+    </text>
+  </g>
+
+  <g>
+    <rect class="box" x="780" y="170" width="120" height="100" />
+    <text x="840" y="205" text-anchor="middle" class="step-text">
+      <tspan x="840" dy="0">Collect Full Camp</tspan>
+      <tspan x="840" dy="22">Water</tspan>
+      <tspan x="840" dy="22">Before Setting Up Camp</tspan>
+    </text>
+  </g>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="150" y1="220" x2="180" y2="220" />
+  <line class="arrow" x1="300" y1="220" x2="330" y2="220" />
+  <line class="arrow" x1="450" y1="220" x2="480" y2="220" />
+  <line class="arrow" x1="600" y1="220" x2="630" y2="220" />
+  <line class="arrow" x1="750" y1="220" x2="780" y2="220" />
+</svg>
