@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="white"/>
+  <!-- Trees -->
+  <g stroke="#0E5B35" fill="none" stroke-width="4">
+    <line x1="110" y1="110" x2="110" y2="330"/>
+    <line x1="690" y1="110" x2="690" y2="330"/>
+    <circle cx="110" cy="110" r="20" fill="#0E5B35"/>
+    <circle cx="690" cy="110" r="20" fill="#0E5B35"/>
+  </g>
+  <!-- Ridgeline -->
+  <line x1="150" y1="200" x2="650" y2="200" stroke="#0E5B35" stroke-width="3" stroke-dasharray="6 6"/>
+  <!-- Ground -->
+  <line x1="60" y1="320" x2="740" y2="320" stroke="#0E5B35" stroke-width="2"/>
+  <!-- Tarp -->
+  <polygon points="270,300 400,210 520,220 560,300 280,300" fill="#e9f4ec" stroke="#0E5B35" stroke-width="3"/>
+  <!-- Guylines and stakes -->
+  <g stroke="#0E5B35" stroke-width="2">
+    <line x1="270" y1="300" x2="230" y2="330"/>
+    <circle cx="230" cy="330" r="5" fill="#0E5B35"/>
+    <line x1="280" y1="300" x2="240" y2="340"/>
+    <circle cx="240" cy="340" r="5" fill="#0E5B35"/>
+    <line x1="560" y1="300" x2="600" y2="330"/>
+    <circle cx="600" cy="330" r="5" fill="#0E5B35"/>
+    <line x1="520" y1="220" x2="620" y2="260" stroke-dasharray="4 4"/>
+    <circle cx="620" cy="260" r="5" fill="#0E5B35"/>
+    <line x1="400" y1="210" x2="330" y2="250" stroke-dasharray="4 4"/>
+    <circle cx="330" cy="250" r="5" fill="#0E5B35"/>
+  </g>
+  <!-- Narrow end tie-outs -->
+  <g stroke="#0E5B35" stroke-width="2">
+    <line x1="250" y1="250" x2="200" y2="280" stroke-dasharray="4 4"/>
+    <circle cx="200" cy="280" r="5" fill="#0E5B35"/>
+    <line x1="260" y1="260" x2="210" y2="300" stroke-dasharray="4 4"/>
+    <circle cx="210" cy="300" r="5" fill="#0E5B35"/>
+  </g>
+  <!-- Wind arrows -->
+  <g stroke="#0E5B35" stroke-width="2" fill="none" marker-end="url(#arrowhead)">
+    <line x1="70" y1="170" x2="230" y2="210"/>
+    <line x1="90" y1="200" x2="240" y2="230"/>
+    <line x1="70" y1="230" x2="220" y2="250"/>
+  </g>
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="5" refY="4" orient="auto" fill="#0E5B35">
+      <polygon points="0 0, 8 4, 0 8"/>
+    </marker>
+  </defs>
+  <!-- Labels -->
+  <g fill="#0E5B35" font-family="Arial, sans-serif" font-size="16">
+    <text x="300" y="120" font-size="22" font-weight="bold">TrailLogic Tarp Storm Pitch</text>
+    <text x="170" y="185">Narrow end faces wind</text>
+    <text x="460" y="240">Keep entry on leeward side</text>
+    <text x="470" y="295">Close tarp doors</text>
+    <text x="330" y="240">Low storm pitch</text>
+    <text x="610" y="255">Extra stakes</text>
+    <text x="110" y="150">Wind direction</text>
+  </g>
+</svg>
