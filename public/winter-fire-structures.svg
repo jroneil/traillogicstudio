@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+  <title>Winter Fire Structures</title>
+  <desc>Comparison of a teepee fire and log cabin fire structure in minimal monochrome line art.</desc>
+  <defs>
+    <style>
+      .frame { fill: none; stroke: #111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+      .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 16px; fill: #111; letter-spacing: 0.4px; }
+      .caption { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 14px; fill: #111; letter-spacing: 0.3px; }
+    </style>
+  </defs>
+
+  <rect class="frame" x="30" y="30" width="740" height="240" rx="12" />
+
+  <!-- Teepee Diagram -->
+  <g transform="translate(120 60)">
+    <path class="frame" d="M0 170 L90 20 L180 170" />
+    <path class="frame" d="M40 170 L90 80 L140 170" />
+    <path class="frame" d="M70 170 L120 70" />
+    <circle class="frame" cx="90" cy="180" r="14" />
+    <path class="frame" d="M84 184 C76 174 82 162 92 158 C100 162 104 170 102 179" />
+    <path class="frame" d="M90 180 C88 172 94 166 100 166 C108 170 108 182 102 188" />
+    <text class="label" x="90" y="210" text-anchor="middle">Teepee – Fast Heat</text>
+  </g>
+
+  <!-- Log Cabin Diagram -->
+  <g transform="translate(460 60)">
+    <rect class="frame" x="10" y="80" width="180" height="90" rx="6" />
+    <line class="frame" x1="10" y1="105" x2="190" y2="105" />
+    <line class="frame" x1="10" y1="145" x2="190" y2="145" />
+    <line class="frame" x1="40" y1="80" x2="40" y2="170" />
+    <line class="frame" x1="90" y1="80" x2="90" y2="170" />
+    <line class="frame" x1="140" y1="80" x2="140" y2="170" />
+    <path class="frame" d="M90 148 C80 136 86 122 100 118 C110 124 114 138 108 151" />
+    <path class="frame" d="M96 150 C92 138 100 128 110 128 C120 134 120 150 110 158" />
+    <text class="label" x="100" y="210" text-anchor="middle">Log Cabin – Longer Burn</text>
+  </g>
+
+  <text class="caption" x="400" y="300" text-anchor="middle">Choose structure for quick warmth or longer coals.</text>
+</svg>
