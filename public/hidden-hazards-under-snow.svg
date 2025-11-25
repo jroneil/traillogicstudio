@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title>Hidden Hazards Under Snow</title>
+  <desc>Line-art cutaway showing buried rocks, streams under snow, and tree wells.</desc>
+  <defs>
+    <style>
+      .outline { fill: none; stroke: #111; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+      .label { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 16px; fill: #111; }
+      .icon { font-size: 14px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #111; }
+    </style>
+  </defs>
+  <!-- Snow surface and ground profile -->
+  <path class="outline" d="M50 140 C140 90, 220 110, 300 130 S430 150, 520 130 640 90, 740 120 830 140 850 120 880 130" />
+  <path class="outline" d="M50 200 C140 210, 220 205, 300 210 430 220, 520 205 640 195, 740 205 830 210 860 205 880 210" />
+  <!-- Buried Rocks zone -->
+  <g aria-label="Buried Rocks">
+    <path class="outline" d="M120 150 C150 130, 190 125, 220 140 250 155, 260 180, 240 185 210 195, 150 190, 130 180 100 165, 100 160, 120 150" />
+    <path class="outline" d="M160 170 c10 -20 25 -30 40 -32" />
+    <circle class="outline" cx="150" cy="175" r="12" />
+    <text class="label" x="130" y="115">Buried Rocks</text>
+  </g>
+  <!-- Streams Under Snow zone -->
+  <g aria-label="Streams Under Snow">
+    <path class="outline" d="M360 155 C390 140, 430 135, 460 145 490 155, 510 175, 500 185 480 200, 430 195, 400 190 360 175, 360 155" />
+    <path class="outline" d="M365 220 C400 230, 430 225, 470 210" />
+    <path class="outline" d="M380 228 C410 238, 450 235, 490 220" />
+    <text class="label" x="360" y="120">Streams Under Snow</text>
+    <text class="icon" x="475" y="170">≈</text>
+  </g>
+  <!-- Tree Wells / Holes zone -->
+  <g aria-label="Tree Wells / Holes">
+    <path class="outline" d="M660 140 C690 120, 720 118, 750 130 780 142, 800 165, 790 175 775 195, 730 188, 705 180 665 165, 660 150 660 145, 660 140" />
+    <path class="outline" d="M720 200 C725 180, 730 155, 732 135" />
+    <path class="outline" d="M740 202 C742 180, 744 155, 744 132" />
+    <path class="outline" d="M730 135 l-12 -35" />
+    <path class="outline" d="M742 132 l10 -32" />
+    <path class="outline" d="M715 102 c10 -6 24 -6 34 0" />
+    <path class="outline" d="M705 120 c12 -12 44 -12 58 0" />
+    <text class="label" x="660" y="100">Tree Wells / Holes</text>
+  </g>
+</svg>
