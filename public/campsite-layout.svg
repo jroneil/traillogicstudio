@@ -1,0 +1,49 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="white" />
+  <text x="450" y="50" text-anchor="middle" font-family="Arial" font-size="26" fill="#111827" font-weight="bold">TrailLogic Campsite Layout – Safety Triangle</text>
+  <!-- Triangle dashed lines -->
+  <line x1="170" y1="300" x2="480" y2="200" stroke="#6b7280" stroke-width="2" stroke-dasharray="8 6" />
+  <line x1="480" y1="200" x2="720" y2="320" stroke="#6b7280" stroke-width="2" stroke-dasharray="8 6" />
+  <line x1="170" y1="300" x2="720" y2="320" stroke="#6b7280" stroke-width="2" stroke-dasharray="8 6" />
+
+  <!-- Tent icon -->
+  <g transform="translate(140 250)">
+    <polygon points="30,80 90,20 150,80" fill="#d1fae5" stroke="#2d5a4a" stroke-width="3" />
+    <line x1="90" y1="20" x2="90" y2="80" stroke="#2d5a4a" stroke-width="3" />
+    <line x1="60" y1="80" x2="120" y2="80" stroke="#2d5a4a" stroke-width="3" />
+    <text x="90" y="110" text-anchor="middle" font-family="Arial" font-size="16" fill="#1f2937">Tent Area</text>
+    <text x="90" y="130" text-anchor="middle" font-family="Arial" font-size="13" fill="#374151">Tent / Sleep Area</text>
+  </g>
+
+  <!-- Cooking pot icon -->
+  <g transform="translate(430 140)">
+    <rect x="20" y="50" width="100" height="55" rx="8" fill="#fde68a" stroke="#92400e" stroke-width="3" />
+    <rect x="35" y="40" width="70" height="12" rx="3" fill="#f59e0b" />
+    <circle cx="40" cy="35" r="8" fill="#2d5a4a" />
+    <circle cx="110" cy="35" r="8" fill="#2d5a4a" />
+    <line x1="70" y1="30" x2="70" y2="15" stroke="#2d5a4a" stroke-width="4" />
+    <text x="70" y="130" text-anchor="middle" font-family="Arial" font-size="16" fill="#1f2937">Kitchen Area</text>
+    <text x="70" y="150" text-anchor="middle" font-family="Arial" font-size="13" fill="#374151">Cooking Area</text>
+  </g>
+
+  <!-- Bear hang tree + bag icon -->
+  <g transform="translate(690 230)">
+    <rect x="10" y="70" width="20" height="90" fill="#92400e" />
+    <polygon points="20,10 60,90 -20,90" fill="#b91c1c" opacity="0.2" />
+    <line x1="20" y1="40" x2="90" y2="20" stroke="#6b7280" stroke-width="3" />
+    <line x1="90" y1="20" x2="90" y2="70" stroke="#6b7280" stroke-width="3" />
+    <rect x="80" y="70" width="20" height="30" rx="4" fill="#f472b6" stroke="#1f2937" stroke-width="2" />
+    <text x="30" y="180" font-family="Arial" font-size="16" fill="#1f2937">Bear Hang (PCT Method)</text>
+    <text x="30" y="200" font-family="Arial" font-size="13" fill="#374151">Store food 12 ft up, 6 ft out</text>
+  </g>
+
+  <!-- Distance labels -->
+  <text x="320" y="190" font-family="Arial" font-size="14" fill="#111827">100–150 ft</text>
+  <text x="610" y="240" font-family="Arial" font-size="14" fill="#111827">75–150 ft</text>
+  <text x="430" y="330" font-family="Arial" font-size="14" fill="#111827">Keep triangle wide for safety</text>
+
+  <!-- Water source -->
+  <path d="M60 430 q40 -20 80 0 t80 0 t80 0 t80 0 t80 0 t80 0" fill="none" stroke="#3b82f6" stroke-width="6" stroke-linecap="round" />
+  <text x="60" y="410" font-family="Arial" font-size="15" fill="#1d4ed8">Water Source (Stay 200 ft Back)</text>
+  <text x="200" y="360" font-family="Arial" font-size="14" fill="#111827">200 ft from water</text>
+</svg>
