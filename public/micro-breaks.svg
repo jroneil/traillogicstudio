@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Micro-Breaks</title>
+  <desc id="desc">A hiker pausing for a short drink with a circular reminder arrow and stopwatch guidance.</desc>
+  <style>
+    :root { color: #0e5b35; }
+    text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; fill: currentColor; }
+    .outline { fill: none; stroke: currentColor; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .solid { fill: currentColor; stroke: none; }
+    .label { font-size: 20px; font-weight: 600; }
+    .small { font-size: 16px; font-weight: 500; }
+    .title { font-size: 34px; font-weight: 800; letter-spacing: 0.5px; }
+  </style>
+
+  <rect width="800" height="600" fill="#FFFFFF" rx="20" stroke="currentColor" stroke-width="2" />
+
+  <text x="400" y="70" text-anchor="middle" class="title">Micro-Breaks</text>
+  <text x="400" y="102" text-anchor="middle" class="small">Stay upright, sip or snack, and reset posture.</text>
+
+  <g transform="translate(400,330)">
+    <circle class="outline" r="180" />
+    <path class="solid" d="M164 -16 l32 12 -28 24" />
+    <text x="120" y="-120" class="label" text-anchor="middle">Every 20–40 minutes</text>
+  </g>
+
+  <g transform="translate(400,330)">
+    <g transform="translate(0,-40)">
+      <circle class="solid" cx="0" cy="-100" r="24" />
+      <rect class="solid" x="-12" y="-12" width="24" height="60" rx="12" />
+      <path class="solid" d="M0 48 l-26 66 0 60 20 0 0 -46 12 -32 12 32 0 46 20 0 0 -60 -26 -66" />
+      <path class="outline" d="M-2 8 l-24 -24" stroke-width="10" />
+      <path class="solid" d="M2 -12 l30 18 -8 18 -26 -12z" />
+      <circle class="solid" cx="-12" cy="-90" r="4" />
+      <circle class="solid" cx="12" cy="-90" r="4" />
+      <path class="solid" d="M-8 -82 c0 12 16 12 16 0" />
+    </g>
+  </g>
+
+  <g transform="translate(210,470)">
+    <g transform="translate(0,0)">
+      <circle class="outline" cx="0" cy="0" r="30" />
+      <path class="solid" d="M-4 -40 h8 v10 h-8z" />
+      <path class="solid" d="M-6 -26 h12 v8 h-12z" />
+      <path class="outline" d="M0 -10 v22" stroke-width="6" />
+      <path class="outline" d="M0 0 h12" stroke-width="6" />
+    </g>
+    <text x="46" y="8" class="label">1–2 minutes only</text>
+  </g>
+</svg>
