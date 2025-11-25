@@ -1,0 +1,68 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Deep-Cold Camp Setup</title>
+  <desc id="desc">Top-down winter camp layout with tent sheltered from wind, stove area away from tent, food bag in tree, and water or snow melt spot connected by suggested paths.</desc>
+  <rect width="900" height="600" fill="white" />
+
+  <text x="450" y="60" text-anchor="middle" font-family="Arial" font-size="28" fill="#0f172a" font-weight="bold">Deep-Cold Camp Setup</text>
+
+  <!-- Wind direction indicator -->
+  <g stroke="#0f172a" stroke-width="2" fill="none" font-family="Arial" font-size="14" stroke-linecap="round">
+    <line x1="120" y1="90" x2="200" y2="90" />
+    <polyline points="190,80 200,90 190,100" />
+    <text x="110" y="95" text-anchor="end" fill="#0f172a">Prevailing Wind</text>
+  </g>
+
+  <!-- Tent icon -->
+  <g transform="translate(160 240)">
+    <polygon points="100,40 50,140 150,140" fill="none" stroke="#0f172a" stroke-width="3" />
+    <line x1="100" y1="40" x2="100" y2="140" stroke="#0f172a" stroke-width="3" />
+    <line x1="60" y1="140" x2="140" y2="140" stroke="#0f172a" stroke-width="3" />
+    <path d="M40 150 h120" stroke="#0f172a" stroke-width="2" stroke-dasharray="6 6" />
+    <text x="100" y="185" text-anchor="middle" font-family="Arial" font-size="16" fill="#0f172a">Tent (Sheltered from Wind)</text>
+    <text x="100" y="205" text-anchor="middle" font-family="Arial" font-size="13" fill="#0f172a">Use natural windbreaks or snow wall</text>
+  </g>
+
+  <!-- Stove area icon -->
+  <g transform="translate(520 180)">
+    <rect x="60" y="70" width="120" height="80" rx="10" fill="none" stroke="#0f172a" stroke-width="3" />
+    <rect x="90" y="50" width="60" height="12" rx="3" fill="#0f172a" />
+    <polygon points="120,90 110,110 130,110" fill="#0f172a" />
+    <polyline points="120,90 120,70 110,60" fill="none" stroke="#0f172a" stroke-width="2" />
+    <polyline points="120,90 120,70 130,60" fill="none" stroke="#0f172a" stroke-width="2" />
+    <text x="120" y="180" text-anchor="middle" font-family="Arial" font-size="16" fill="#0f172a">Stove Area (Away from Tent)</text>
+    <text x="120" y="200" text-anchor="middle" font-family="Arial" font-size="13" fill="#0f172a">Cook on stable platform; vent fumes downwind</text>
+  </g>
+
+  <!-- Food hang icon -->
+  <g transform="translate(620 360)">
+    <line x1="40" y1="60" x2="40" y2="200" stroke="#0f172a" stroke-width="4" />
+    <polygon points="40,40 80,100 0,100" fill="none" stroke="#0f172a" stroke-width="3" />
+    <line x1="40" y1="110" x2="140" y2="80" stroke="#0f172a" stroke-width="3" />
+    <line x1="140" y1="80" x2="140" y2="140" stroke="#0f172a" stroke-width="3" stroke-dasharray="4 4" />
+    <rect x="128" y="140" width="24" height="34" rx="4" fill="none" stroke="#0f172a" stroke-width="3" />
+    <circle cx="140" cy="170" r="3" fill="#0f172a" />
+    <text x="60" y="230" text-anchor="start" font-family="Arial" font-size="16" fill="#0f172a">Food &amp; Scented Items</text>
+    <text x="60" y="250" text-anchor="start" font-family="Arial" font-size="13" fill="#0f172a">Hang or secure to reduce wildlife interest</text>
+  </g>
+
+  <!-- Water / Snow melt spot -->
+  <g transform="translate(200 420)">
+    <ellipse cx="120" cy="80" rx="90" ry="40" fill="none" stroke="#0f172a" stroke-width="3" />
+    <path d="M80 70 q20 -25 40 0 t40 0" fill="none" stroke="#0f172a" stroke-width="2" stroke-dasharray="4 4" />
+    <text x="120" y="135" text-anchor="middle" font-family="Arial" font-size="16" fill="#0f172a">Water / Snow Melt</text>
+    <text x="120" y="155" text-anchor="middle" font-family="Arial" font-size="13" fill="#0f172a">Collect snow blocks or melt ice safely</text>
+  </g>
+
+  <!-- Suggested paths -->
+  <g stroke="#0f172a" stroke-width="2" stroke-dasharray="6 8" fill="none" marker-end="url(#arrow)">
+    <path d="M340 340 C400 320 470 300 520 270" />
+    <path d="M640 260 C660 320 660 370 640 430" />
+    <path d="M360 440 C450 420 520 370 520 310" />
+  </g>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#0f172a" />
+    </marker>
+  </defs>
+</svg>
