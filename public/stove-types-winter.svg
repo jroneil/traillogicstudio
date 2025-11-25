@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" role="img" aria-labelledby="title desc">
+  <title id="title">Stove Types for Winter</title>
+  <desc id="desc">Three stove illustrations comparing upright canister, remote inverted canister, and white gas stoves with increasing cold performance.</desc>
+  <g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" font-family="'Inter', 'Helvetica', 'Arial', sans-serif" font-size="16" text-anchor="middle">
+    <!-- Upright canister stove -->
+    <g transform="translate(150 80)">
+      <rect x="-35" y="70" width="70" height="70" rx="6" />
+      <rect x="-20" y="55" width="40" height="15" rx="3" />
+      <line x1="0" y1="55" x2="0" y2="35" />
+      <line x1="-12" y1="35" x2="12" y2="35" />
+      <line x1="-8" y1="30" x2="8" y2="30" />
+      <path d="M -25 20 L 25 20 L 18 5 H -18 Z" />
+      <text x="0" y="165" font-size="18">Upright canister stove</text>
+      <text x="0" y="187" font-size="15">Weak in Cold</text>
+    </g>
+
+    <!-- Remote inverted canister stove -->
+    <g transform="translate(450 80)">
+      <path d="M -40 85 L 0 40 L 40 85" />
+      <circle cx="0" cy="40" r="10" />
+      <path d="M 0 30 v -10" />
+      <path d="M -25 20 L 25 20 L 18 5 H -18 Z" />
+      <path d="M 10 45 C 55 60 70 80 90 90" />
+      <rect x="90" y="90" width="70" height="60" rx="6" transform="rotate(180 125 120)" />
+      <rect x="105" y="80" width="40" height="12" rx="3" transform="rotate(180 125 86)" />
+      <text x="0" y="165" font-size="18">Remote canister stove</text>
+      <text x="0" y="187" font-size="15">Better</text>
+    </g>
+
+    <!-- White gas stove -->
+    <g transform="translate(750 80)">
+      <path d="M -40 85 L 0 40 L 40 85" />
+      <circle cx="0" cy="40" r="10" />
+      <path d="M 0 30 v -10" />
+      <path d="M -25 20 L 25 20 L 18 5 H -18 Z" />
+      <path d="M -10 50 C -80 60 -100 70 -130 70" />
+      <rect x="-200" y="60" width="70" height="35" rx="8" />
+      <line x1="-130" y1="78" x2="-130" y2="60" />
+      <circle cx="-130" cy="60" r="4" />
+      <text x="0" y="165" font-size="18">White gas stove</text>
+      <text x="0" y="187" font-size="15">Best in Deep Cold</text>
+    </g>
+
+    <!-- Performance arrow -->
+    <g transform="translate(150 260)">
+      <line x1="0" y1="0" x2="600" y2="0" />
+      <path d="M 600 0 L 586 -8 M 600 0 L 586 8" />
+      <text x="300" y="25" font-size="16">Increasing Cold Performance</text>
+    </g>
+  </g>
+</svg>
