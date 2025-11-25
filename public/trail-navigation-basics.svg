@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550" viewBox="0 0 900 550" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Navigation Basics – White Mountains</title>
+  <desc id="desc">Beginner-friendly diagram showing trail markers and navigation tools including blazes, cairns, junction signs, maps and apps, and compass guidance.</desc>
+  <rect width="900" height="550" fill="#FFFFFF"/>
+  <text x="450" y="60" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="28" fill="#0E5B35" font-weight="700">TrailLogic Navigation Basics – White Mountains</text>
+
+  <g font-family="'Inter', 'Helvetica', sans-serif" font-size="16" fill="#0E5B35">
+    <g transform="translate(90,110)">
+      <rect x="0" y="0" width="150" height="140" rx="12" ry="12" fill="#DDDDDD" />
+      <rect x="70" y="25" width="20" height="90" fill="#C49A6C" rx="4"/>
+      <rect x="70" y="55" width="20" height="20" fill="#4C95D9" rx="3"/>
+      <polygon points="70,25 80,10 90,25" fill="#0E5B35"/>
+      <text x="75" y="125" text-anchor="middle" font-size="18" font-weight="700">Blazes</text>
+      <foreignObject x="-10" y="140" width="170" height="80">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Inter', 'Helvetica', sans-serif; font-size: 14px; color: #0E5B35; text-align: center; line-height: 1.4;">
+          Painted blazes mark the trail.<br/>Follow the color and watch for turns.
+        </div>
+      </foreignObject>
+    </g>
+
+    <g transform="translate(250,110)">
+      <rect x="0" y="0" width="150" height="140" rx="12" ry="12" fill="#DDDDDD" />
+      <ellipse cx="75" cy="105" rx="45" ry="12" fill="#C49A6C"/>
+      <ellipse cx="75" cy="88" rx="38" ry="10" fill="#C49A6C" opacity="0.9"/>
+      <ellipse cx="75" cy="72" rx="32" ry="9" fill="#C49A6C" opacity="0.85"/>
+      <ellipse cx="75" cy="57" rx="26" ry="8" fill="#C49A6C" opacity="0.8"/>
+      <ellipse cx="75" cy="43" rx="18" ry="7" fill="#C49A6C" opacity="0.75"/>
+      <text x="75" y="125" text-anchor="middle" font-size="18" font-weight="700">Cairns</text>
+      <foreignObject x="-10" y="140" width="170" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Inter', 'Helvetica', sans-serif; font-size: 14px; color: #0E5B35; text-align: center; line-height: 1.4;">
+          Rock piles (cairns) guide you above treeline.
+        </div>
+      </foreignObject>
+    </g>
+
+    <g transform="translate(410,110)">
+      <rect x="0" y="0" width="150" height="140" rx="12" ry="12" fill="#DDDDDD" />
+      <rect x="70" y="35" width="14" height="80" fill="#C49A6C"/>
+      <rect x="60" y="50" width="50" height="16" fill="#C49A6C" rx="3" stroke="#0E5B35" stroke-width="1"/>
+      <rect x="60" y="75" width="50" height="16" fill="#C49A6C" rx="3" stroke="#0E5B35" stroke-width="1"/>
+      <text x="60" y="62" font-size="10" fill="#0E5B35">TRAIL</text>
+      <text x="58" y="88" font-size="10" fill="#0E5B35">SUMMIT</text>
+      <text x="75" y="125" text-anchor="middle" font-size="18" font-weight="700">Junction Signs</text>
+      <foreignObject x="-10" y="140" width="170" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Inter', 'Helvetica', sans-serif; font-size: 14px; color: #0E5B35; text-align: center; line-height: 1.4;">
+          Read signs carefully at intersections.
+        </div>
+      </foreignObject>
+    </g>
+
+    <g transform="translate(570,110)">
+      <rect x="0" y="0" width="150" height="140" rx="12" ry="12" fill="#DDDDDD" />
+      <rect x="20" y="35" width="60" height="80" rx="8" ry="8" fill="#FFFFFF" stroke="#0E5B35" stroke-width="2"/>
+      <polyline points="25,95 45,70 55,85 70,60" fill="none" stroke="#4C95D9" stroke-width="3"/>
+      <circle cx="50" cy="78" r="4" fill="#0E5B35"/>
+      <rect x="90" y="30" width="40" height="85" rx="6" ry="6" fill="#FFFFFF" stroke="#0E5B35" stroke-width="2"/>
+      <rect x="90" y="30" width="40" height="12" rx="6" ry="6" fill="#DDDDDD"/>
+      <rect x="95" y="50" width="30" height="50" rx="4" ry="4" fill="#4C95D9" opacity="0.15"/>
+      <circle cx="110" cy="105" r="3" fill="#0E5B35"/>
+      <text x="75" y="125" text-anchor="middle" font-size="18" font-weight="700">Maps &amp; Apps</text>
+      <foreignObject x="-10" y="140" width="170" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Inter', 'Helvetica', sans-serif; font-size: 14px; color: #0E5B35; text-align: center; line-height: 1.4;">
+          Use offline maps (Gaia, FarOut, AllTrails).
+        </div>
+      </foreignObject>
+    </g>
+
+    <g transform="translate(730,110)">
+      <rect x="0" y="0" width="150" height="140" rx="12" ry="12" fill="#DDDDDD" />
+      <circle cx="75" cy="75" r="48" fill="#FFFFFF" stroke="#0E5B35" stroke-width="3"/>
+      <line x1="75" y1="27" x2="75" y2="123" stroke="#DDDDDD" stroke-width="4"/>
+      <line x1="27" y1="75" x2="123" y2="75" stroke="#DDDDDD" stroke-width="4"/>
+      <polygon points="75,38 85,75 75,65 65,75" fill="#4C95D9"/>
+      <polygon points="75,112 65,75 75,85 85,75" fill="#C49A6C"/>
+      <text x="75" y="35" text-anchor="middle" font-size="10" font-weight="700">N</text>
+      <text x="75" y="121" text-anchor="middle" font-size="10" font-weight="700">S</text>
+      <text x="35" y="79" text-anchor="middle" font-size="10" font-weight="700">W</text>
+      <text x="115" y="79" text-anchor="middle" font-size="10" font-weight="700">E</text>
+      <text x="75" y="125" text-anchor="middle" font-size="18" font-weight="700">Compass</text>
+      <foreignObject x="-10" y="140" width="170" height="70">
+        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Inter', 'Helvetica', sans-serif; font-size: 14px; color: #0E5B35; text-align: center; line-height: 1.4;">
+          Use compass to confirm direction when unsure.
+        </div>
+      </foreignObject>
+    </g>
+  </g>
+
+  <text x="450" y="470" text-anchor="middle" font-family="'Inter', 'Helvetica', sans-serif" font-size="15" fill="#0E5B35">Look for a blaze, cairn, or sign every few minutes. If they disappear, stop and check your route.</text>
+</svg>

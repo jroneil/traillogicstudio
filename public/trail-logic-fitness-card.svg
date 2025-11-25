@@ -1,49 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">TrailLogic Fitness Card</title>
-  <desc id="desc">Quick reference card outlining goals, weekly rhythm, and reminders for training.</desc>
-  <defs>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0E5B35" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#0E5B35" stop-opacity="0.15"/>
-    </linearGradient>
-  </defs>
-  <rect x="0" y="0" width="800" height="450" fill="#ffffff"/>
-  <rect x="12" y="12" width="776" height="426" rx="20" fill="#ffffff" stroke="#0E5B35" stroke-width="3"/>
-  <text x="400" y="55" fill="#0E5B35" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">TrailLogic Fitness Card</text>
+  <desc id="desc">Quick reference fitness plan with goal, weekly rhythm, and reminders.</desc>
+  <rect x="15" y="15" width="770" height="420" rx="18" fill="#FFFFFF" stroke="#0E5B35" stroke-width="3" />
+  <text x="400" y="45" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="28" fill="#0E5B35" font-weight="700">TrailLogic Fitness Card</text>
 
-  <g font-family="Inter, Arial, sans-serif" fill="#0E5B35">
-    <rect x="40" y="90" width="220" height="250" rx="14" fill="url(#accent)" stroke="#0E5B35" stroke-width="1.5"/>
-    <text x="150" y="120" font-size="18" font-weight="700" text-anchor="middle">Goal</text>
-    <text x="70" y="150" font-size="16" font-weight="500" xml:space="preserve" letter-spacing="0.2px">
-      <tspan x="70" dy="0">Walk/hike 2–3 hours</tspan>
-      <tspan x="70" dy="24">with hills and a pack</tspan>
-      <tspan x="70" dy="24">and feel okay the next day.</tspan>
-    </text>
+  <g font-family="'Inter', Arial, sans-serif" fill="#0E5B35">
+    <g transform="translate(40,70)">
+      <text x="0" y="0" font-size="22" font-weight="700">Goal</text>
+      <line x1="0" y1="10" x2="200" y2="10" stroke="#0E5B35" stroke-width="1.5" />
+      <text x="0" y="36" font-size="18" font-weight="600">Walk/hike 2–3 hours</text>
+      <text x="0" y="62" font-size="18" font-weight="600">with hills and a pack</text>
+      <text x="0" y="88" font-size="18" font-weight="600">and feel okay the next day.</text>
+    </g>
+
+    <g transform="translate(40,195)">
+      <text x="0" y="0" font-size="22" font-weight="700">Weekly Rhythm</text>
+      <line x1="0" y1="10" x2="200" y2="10" stroke="#0E5B35" stroke-width="1.5" />
+      <text x="0" y="38" font-size="18">• 2x walks/hikes</text>
+      <text x="0" y="64" font-size="18">• 2x strength sessions</text>
+      <text x="0" y="90" font-size="18">• 1x longer hike</text>
+      <text x="0" y="116" font-size="18">• 2x rest/easy days</text>
+    </g>
+
+    <g transform="translate(40,335)">
+      <text x="0" y="0" font-size="22" font-weight="700">Reminders</text>
+      <line x1="0" y1="10" x2="200" y2="10" stroke="#0E5B35" stroke-width="1.5" />
+      <text x="0" y="38" font-size="18">• Increase time/pack gradually</text>
+      <text x="0" y="64" font-size="18">• Don’t ignore pain</text>
+      <text x="0" y="90" font-size="18">• Sleep and hydration matter</text>
+      <text x="0" y="116" font-size="18">• Rest is part of training</text>
+    </g>
   </g>
 
-  <g font-family="Inter, Arial, sans-serif" fill="#0E5B35">
-    <rect x="290" y="90" width="220" height="250" rx="14" fill="url(#accent)" stroke="#0E5B35" stroke-width="1.5"/>
-    <text x="400" y="120" font-size="18" font-weight="700" text-anchor="middle">Weekly Rhythm</text>
-    <text x="320" y="150" font-size="16" font-weight="500" xml:space="preserve" letter-spacing="0.2px">
-      <tspan x="320" dy="0">• 2x walks/hikes</tspan>
-      <tspan x="320" dy="22">• 2x strength sessions</tspan>
-      <tspan x="320" dy="22">• 1x longer hike</tspan>
-      <tspan x="320" dy="22">• 2x rest/easy days</tspan>
-    </text>
-  </g>
-
-  <g font-family="Inter, Arial, sans-serif" fill="#0E5B35">
-    <rect x="540" y="90" width="220" height="250" rx="14" fill="url(#accent)" stroke="#0E5B35" stroke-width="1.5"/>
-    <text x="650" y="120" font-size="18" font-weight="700" text-anchor="middle">Reminders</text>
-    <text x="570" y="150" font-size="16" font-weight="500" xml:space="preserve" letter-spacing="0.2px">
-      <tspan x="570" dy="0">• Increase time/pack gradually</tspan>
-      <tspan x="570" dy="22">• Don’t ignore pain</tspan>
-      <tspan x="570" dy="22">• Sleep and hydration matter</tspan>
-      <tspan x="570" dy="22">• Rest is part of training</tspan>
-    </text>
-  </g>
-
-  <text x="400" y="370" fill="#0E5B35" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="500" text-anchor="middle">
-    TrailLogic Studio • Train smart, enjoy the trip.
-  </text>
+  <text x="400" y="420" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="14" fill="#0E5B35">TrailLogic Studio • Train smart, enjoy the trip.</text>
 </svg>
