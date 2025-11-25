@@ -1,0 +1,54 @@
+<svg width="720" height="500" viewBox="0 0 720 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Winter vs. Summer Travel Time</title>
+  <desc id="desc">Side-by-side monochrome bar chart comparing summer and winter snow travel times for the same hiking route.</desc>
+  <rect x="0" y="0" width="720" height="500" fill="#ffffff" />
+
+  <!-- Chart title -->
+  <text x="360" y="44" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#111">Winter vs. Summer Travel Time</text>
+
+  <!-- Axes -->
+  <line x1="120" y1="90" x2="120" y2="360" stroke="#111" stroke-width="2" />
+  <line x1="120" y1="360" x2="620" y2="360" stroke="#111" stroke-width="2" />
+
+  <!-- Y-axis label -->
+  <text x="60" y="225" transform="rotate(-90 60 225)" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#111" font-weight="600">Time to Hike Same Route</text>
+
+  <!-- Y-axis ticks -->
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#111">
+    <line x1="114" y1="360" x2="126" y2="360" stroke="#555" stroke-width="1.5" />
+    <text x="108" y="364" text-anchor="end">Baseline</text>
+
+    <line x1="114" y1="300" x2="126" y2="300" stroke="#555" stroke-width="1.5" />
+    <text x="108" y="304" text-anchor="end">125%</text>
+
+    <line x1="114" y1="240" x2="126" y2="240" stroke="#555" stroke-width="1.5" />
+    <text x="108" y="244" text-anchor="end">150%</text>
+
+    <line x1="114" y1="180" x2="126" y2="180" stroke="#555" stroke-width="1.5" />
+    <text x="108" y="184" text-anchor="end">175%</text>
+
+    <line x1="114" y1="120" x2="126" y2="120" stroke="#555" stroke-width="1.5" />
+    <text x="108" y="124" text-anchor="end">200%+</text>
+  </g>
+
+  <!-- Bars -->
+  <g fill="#f7f7f7" stroke="#111" stroke-width="2">
+    <rect x="210" y="220" width="130" height="140" rx="6" aria-label="Summer travel time baseline" />
+    <rect x="430" y="130" width="130" height="230" rx="6" aria-label="Winter snow travel time about two times longer" />
+  </g>
+
+  <!-- Bar labels -->
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#111" font-weight="700">
+    <text x="275" y="210" text-anchor="middle">Summer</text>
+    <text x="495" y="120" text-anchor="middle">Winter Snow</text>
+  </g>
+
+  <!-- X-axis labels -->
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#111">
+    <text x="275" y="382" text-anchor="middle">Summer</text>
+    <text x="495" y="382" text-anchor="middle">Winter Snow</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="360" y="432" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#111">Winter routes often take 50–150% longer.</text>
+</svg>
