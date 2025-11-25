@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-label="TrailLogic Daily Planner Card">
+  <defs>
+    <style>
+      .card { fill: #ffffff; stroke: #0E5B35; stroke-width: 3; rx: 18; ry: 18; }
+      .header { font-family: 'Inter', 'Segoe UI', sans-serif; fill: #0E5B35; font-weight: 700; }
+      .subtitle { font-family: 'Inter', 'Segoe UI', sans-serif; fill: #0E5B35; font-size: 18px; letter-spacing: 0.4px; }
+      .section { font-family: 'Inter', 'Segoe UI', sans-serif; fill: #0E5B35; }
+      .section-title { font-size: 20px; font-weight: 700; }
+      .bullet { font-size: 16px; font-weight: 500; }
+      .footer { font-family: 'Inter', 'Segoe UI', sans-serif; fill: #0E5B35; font-size: 14px; letter-spacing: 0.3px; }
+    </style>
+  </defs>
+
+  <rect class="card" x="18" y="18" width="764" height="414" rx="18" ry="18" />
+
+  <text class="header" x="400" y="70" font-size="26" text-anchor="middle">TrailLogic Daily Planner Card</text>
+  <text class="subtitle" x="400" y="98" text-anchor="middle">2–3 Day White Mountains Trips</text>
+
+  <g class="section">
+    <rect x="46" y="130" width="208" height="238" rx="12" ry="12" fill="#f5f9f6" stroke="#0E5B35" stroke-width="1.5" />
+    <text class="section-title" x="150" y="158" text-anchor="middle">Morning</text>
+    <text class="bullet" x="72" y="186">• Check weather</text>
+    <text class="bullet" x="72" y="214">• Refill water</text>
+    <text class="bullet" x="72" y="242">• Eat breakfast</text>
+    <text class="bullet" x="72" y="270">• Pack in same order</text>
+    <text class="bullet" x="72" y="298">• Start 7–8 AM</text>
+  </g>
+
+  <g class="section">
+    <rect x="296" y="130" width="208" height="238" rx="12" ry="12" fill="#f5f9f6" stroke="#0E5B35" stroke-width="1.5" />
+    <text class="section-title" x="400" y="158" text-anchor="middle">On Trail</text>
+    <text class="bullet" x="322" y="186">• Drink 1L every 2 hours</text>
+    <text class="bullet" x="322" y="214">• Eat every 60–90 minutes</text>
+    <text class="bullet" x="322" y="242">• 50/10 pace</text>
+    <text class="bullet" x="322" y="270">• Re-check weather</text>
+    <text class="bullet" x="322" y="298">• Use bailout if needed</text>
+  </g>
+
+  <g class="section">
+    <rect x="546" y="130" width="208" height="238" rx="12" ry="12" fill="#f5f9f6" stroke="#0E5B35" stroke-width="1.5" />
+    <text class="section-title" x="650" y="158" text-anchor="middle">Camp</text>
+    <text class="bullet" x="572" y="186">• Refill all water</text>
+    <text class="bullet" x="572" y="214">• Dry layers</text>
+    <text class="bullet" x="572" y="242">• Hang food</text>
+    <text class="bullet" x="572" y="270">• Check tomorrow’s weather</text>
+    <text class="bullet" x="572" y="298">• Review route</text>
+  </g>
+
+  <text class="footer" x="400" y="380" text-anchor="middle">TrailLogic Studio • Confidence. Clarity. Adventure.</text>
+</svg>
