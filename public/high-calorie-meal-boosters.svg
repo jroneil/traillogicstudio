@@ -1,49 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" aria-labelledby="title desc" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" aria-labelledby="title desc" role="img">
   <title id="title">High-Calorie Meal Boosters</title>
-  <desc>Line icons of olive oil dropper bottle, cheese wedge, spoon with nut butter, and powdered milk packet.</desc>
+  <desc>Monochrome line-art icons of an olive oil dropper bottle, cheese wedge, spoon with nut butter, and powdered milk packet.</desc>
   <style>
-    .stroke { stroke: #111; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-    .label { font-family: 'Inter', 'Helvetica', 'Arial', sans-serif; font-size: 18px; fill: #111; letter-spacing: 0.5px; }
+    .stroke { stroke: #0f172a; fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    .label { font-family: 'Inter', 'Helvetica', 'Arial', sans-serif; font-size: 18px; fill: #0f172a; letter-spacing: 0.4px; }
   </style>
 
   <!-- Olive Oil Dropper Bottle -->
-  <g transform="translate(120 30)">
-    <path class="stroke" d="M0 70 c0 -24 18 -44 40 -44 h40 c22 0 40 20 40 44 v62 c0 24 -18 44 -40 44 h-40 c-22 0 -40 -20 -40 -44z"/>
-    <rect class="stroke" x="22" y="74" width="56" height="44" rx="10"/>
-    <path class="stroke" d="M40 56 v-18 c0 -10 8 -18 18 -18 h6 c10 0 18 8 18 18 v18"/>
-    <path class="stroke" d="M52 -6 h24 c6 0 10 4 10 10 v20 h-44 v-20 c0 -6 4 -10 10 -10z"/>
-    <path class="stroke" d="M64 112 v16"/>
-    <circle class="stroke" cx="64" cy="134" r="6"/>
-    <text class="label" x="64" y="196" text-anchor="middle">Olive Oil</text>
+  <g transform="translate(120 32)">
+    <path class="stroke" d="M6 102 c0 -30 22 -54 48 -54 h72 c26 0 48 24 48 54 v70 c0 30 -22 54 -48 54 h-72 c-26 0 -48 -24 -48 -54 z"/>
+    <rect class="stroke" x="34" y="110" width="88" height="52" rx="12"/>
+    <path class="stroke" d="M70 86 v-32 c0 -12 10 -22 22 -22 h12 c12 0 22 10 22 22 v32"/>
+    <path class="stroke" d="M82 -4 h52 c8 0 14 6 14 14 v32 h-80 v-32 c0 -8 6 -14 14 -14z"/>
+    <path class="stroke" d="M96 146 v22"/>
+    <circle class="stroke" cx="96" cy="182" r="7"/>
+    <text class="label" x="96" y="226" text-anchor="middle">Olive Oil</text>
   </g>
 
   <!-- Cheese Wedge -->
-  <g transform="translate(380 30)">
-    <path class="stroke" d="M10 138 l118 -70 c10 -6 22 1 22 12 v72 c0 10 -8 18 -18 18 h-86 c-14 0 -26 -10 -36 -24z"/>
-    <path class="stroke" d="M22 132 v-32 c0 -10 6 -20 16 -26 l78 -46 c10 -6 22 1 22 12 v32"/>
-    <circle class="stroke" cx="94" cy="108" r="10"/>
-    <circle class="stroke" cx="62" cy="134" r="8"/>
-    <circle class="stroke" cx="132" cy="82" r="7"/>
-    <text class="label" x="94" y="196" text-anchor="middle">Cheese</text>
+  <g transform="translate(400 32)">
+    <path class="stroke" d="M10 170 l154 -86 c10 -6 22 1 22 12 v92 c0 12 -10 22 -22 22 h-110 c-18 0 -34 -14 -44 -40z"/>
+    <path class="stroke" d="M26 160 v-44 c0 -12 8 -24 18 -30 l96 -54 c10 -6 22 1 22 12 v40"/>
+    <circle class="stroke" cx="132" cy="134" r="12"/>
+    <circle class="stroke" cx="90" cy="164" r="10"/>
+    <circle class="stroke" cx="170" cy="104" r="8"/>
+    <text class="label" x="120" y="226" text-anchor="middle">Cheese</text>
   </g>
 
-  <!-- Nut Butter Spoon -->
-  <g transform="translate(640 30)">
-    <path class="stroke" d="M0 144 c0 24 28 44 62 44 c34 0 62 -20 62 -44 c0 -12 -8 -24 -20 -30 l-56 -26 c-12 -6 -24 2 -24 14 z"/>
-    <path class="stroke" d="M48 94 c-18 -10 -30 -30 -30 -52 c0 -26 16 -42 36 -42 s36 16 36 42 c0 22 -12 42 -30 52"/>
-    <path class="stroke" d="M42 144 c0 -10 8 -18 18 -18 h8 c10 0 18 8 18 18"/>
-    <path class="stroke" d="M62 180 c-4 10 -2 20 0 28"/>
-    <text class="label" x="62" y="214" text-anchor="middle">Nut Butter</text>
+  <!-- Spoon with Nut Butter -->
+  <g transform="translate(680 32)">
+    <path class="stroke" d="M10 190 c0 30 36 54 80 54 s80 -24 80 -54 c0 -16 -10 -30 -26 -38 l-76 -34 c-12 -6 -26 2 -26 14z"/>
+    <path class="stroke" d="M70 124 c-22 -12 -36 -36 -36 -66 c0 -32 20 -52 46 -52 s46 20 46 52 c0 30 -14 54 -36 66"/>
+    <path class="stroke" d="M62 190 c0 -12 10 -22 22 -22 h16 c12 0 22 10 22 22"/>
+    <path class="stroke" d="M94 230 c-4 12 -2 22 0 32"/>
+    <text class="label" x="94" y="268" text-anchor="middle">Nut Butter</text>
   </g>
 
   <!-- Powdered Milk Packet -->
-  <g transform="translate(900 30)">
-    <rect class="stroke" x="4" y="12" width="104" height="176" rx="10"/>
-    <path class="stroke" d="M4 36 h104" stroke-dasharray="8 8"/>
-    <path class="stroke" d="M4 164 h104" stroke-dasharray="8 8"/>
-    <rect class="stroke" x="28" y="70" width="56" height="60" rx="8"/>
-    <path class="stroke" d="M40 120 c16 20 32 20 48 0"/>
-    <path class="stroke" d="M32 96 c10 8 30 8 44 0"/>
-    <text class="label" x="56" y="214" text-anchor="middle">Powdered Milk</text>
+  <g transform="translate(960 32)">
+    <rect class="stroke" x="6" y="12" width="124" height="216" rx="14"/>
+    <path class="stroke" d="M6 46 h124" stroke-dasharray="10 10"/>
+    <path class="stroke" d="M6 194 h124" stroke-dasharray="10 10"/>
+    <rect class="stroke" x="36" y="90" width="72" height="80" rx="10"/>
+    <path class="stroke" d="M46 150 c18 22 36 22 54 0"/>
+    <path class="stroke" d="M38 118 c12 10 38 10 58 0"/>
+    <text class="label" x="68" y="242" text-anchor="middle">Powdered Milk</text>
   </g>
 </svg>
