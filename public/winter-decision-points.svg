@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Winter Decision Points</title>
+  <desc id="desc">Timeline showing pre-trip checks, midpoint checks, and turnaround or exit for winter travel.</desc>
+  <style>
+    .timeline { stroke: #111; stroke-width: 3; stroke-linecap: round; fill: none; }
+    .node { stroke: #111; stroke-width: 3; fill: white; }
+    .label { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; fill: #111; font-size: 16px; font-weight: 600; }
+    .subtext { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; fill: #111; font-size: 12px; font-weight: 400; }
+  </style>
+
+  <!-- Title -->
+  <text x="480" y="36" text-anchor="middle" class="label" font-size="22" font-weight="700">
+    Winter Decision Points
+  </text>
+
+  <!-- Timeline line -->
+  <line x1="120" y1="120" x2="840" y2="120" class="timeline" />
+
+  <!-- Nodes -->
+  <g transform="translate(180 120)">
+    <circle r="24" class="node" />
+    <text x="0" y="-42" text-anchor="middle" class="label">Pre-Trip</text>
+    <text x="0" y="12" text-anchor="middle" class="subtext">Forecast, route, gear,</text>
+    <text x="0" y="28" text-anchor="middle" class="subtext">Plan contact</text>
+  </g>
+
+  <g transform="translate(480 120)">
+    <circle r="24" class="node" />
+    <text x="0" y="-42" text-anchor="middle" class="label">On Trail — Midpoint Check</text>
+    <text x="0" y="12" text-anchor="middle" class="subtext">4 Checks: Weather, Terrain,</text>
+    <text x="0" y="28" text-anchor="middle" class="subtext">Human, Time</text>
+  </g>
+
+  <g transform="translate(780 120)">
+    <circle r="24" class="node" />
+    <text x="0" y="-42" text-anchor="middle" class="label">Turnaround / Exit</text>
+    <text x="0" y="12" text-anchor="middle" class="subtext">Turn back if any</text>
+    <text x="0" y="28" text-anchor="middle" class="subtext">red flag appears</text>
+  </g>
+</svg>
