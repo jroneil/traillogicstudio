@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Moisture Management</title>
+  <desc id="desc">Line art diagram of a tent cutaway with three moisture management callouts: dry sleeping layers, freeze-dry gloves, and shake out frost daily.</desc>
+  <defs>
+    <style>
+      .outline { fill: none; stroke: #1b1b1b; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke-width: 2.5; }
+      .accent { stroke: #1b7ab5; }
+      .text { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 18px; fill: #111; }
+      .label { font-weight: 600; }
+      .note { font-size: 16px; fill: #333; }
+    </style>
+  </defs>
+
+  <!-- Ground and tent outline -->
+  <path class="outline" d="M90 430 H870" />
+  <path class="outline" d="M160 420 L480 140 L800 420 Z" />
+  <path class="outline thin" d="M480 140 L480 420" />
+  <path class="outline thin" d="M320 280 L640 280" />
+  <path class="outline thin" d="M260 420 L260 320 Q260 300 280 292" />
+  <path class="outline thin" d="M700 420 L700 320 Q700 300 680 292" />
+  <path class="outline thin" d="M480 420 Q420 370 320 420" />
+  <path class="outline thin" d="M480 420 Q540 370 640 420" />
+
+  <!-- Vestibule flap -->
+  <path class="outline thin" d="M160 420 L240 340 L260 420" />
+
+  <!-- Baseline: dry sleeping layers only -->
+  <path class="outline thin accent" d="M330 350 Q350 340 380 350" />
+  <rect x="360" y="340" width="40" height="16" rx="5" ry="5" fill="#e8f3fb" stroke="#1b7ab5" stroke-width="2" />
+  <text x="330" y="320" class="text label">Dry Sleeping Layers Only</text>
+  <path class="outline thin" d="M330 320 L260 280" marker-end="url(#arrow)" />
+
+  <!-- Hanging gloves in vestibule -->
+  <g transform="translate(200,310)">
+    <line class="outline thin" x1="0" y1="0" x2="0" y2="70" />
+    <path class="outline thin" d="M-10 70 q10 15 20 0" />
+    <line class="outline thin" x1="30" y1="0" x2="30" y2="70" />
+    <path class="outline thin" d="M20 70 q10 15 20 0" />
+  </g>
+  <text x="150" y="300" class="text label">Freeze-Dry Gloves</text>
+  <path class="outline thin" d="M150 300 L200 320" />
+
+  <!-- Sleeping bag with steam arrows -->
+  <g transform="translate(520,340)">
+    <path class="outline" d="M0 60 q40 -40 120 -20 q20 5 20 25 q0 35 -20 40 q-80 20 -120 -15 q-20 -15 0 -30" fill="#fffceb" />
+    <path class="outline thin accent" d="M40 30 q-5 -25 15 -35" />
+    <path class="outline thin accent" d="M80 20 q-5 -20 10 -30" />
+    <path class="outline thin accent" d="M120 15 q-5 -15 8 -25" />
+  </g>
+  <text x="640" y="310" class="text label" text-anchor="middle">Shake Out Frost Daily</text>
+  <path class="outline thin" d="M640 310 L640 340" />
+
+  <!-- Interior person outline for context -->
+  <path class="outline thin" d="M360 360 q40 -25 80 0" />
+  <circle class="outline thin" cx="400" cy="330" r="12" />
+
+  <!-- Arrows definition -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1b7ab5" />
+    </marker>
+  </defs>
+</svg>
