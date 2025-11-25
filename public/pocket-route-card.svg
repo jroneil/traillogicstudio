@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Route Card (Pocket)</title>
+  <desc id="desc">Compact route card template with key trip details and reminders.</desc>
+  <style>
+    text { font-family: "Inter", "Segoe UI", Arial, sans-serif; fill: #0E5B35; }
+    .label { font-size: 22px; font-weight: 600; }
+    .body { font-size: 20px; font-weight: 500; }
+    .heading { font-size: 20px; font-weight: 700; letter-spacing: 0.3px; }
+    .footer { font-size: 14px; font-weight: 600; }
+  </style>
+  <rect x="10" y="10" width="780" height="430" rx="16" fill="#FFFFFF" stroke="#0E5B35" stroke-width="3" />
+  <text x="400" y="42" text-anchor="middle" class="label">TrailLogic Route Card (Pocket)</text>
+  <text x="40" y="90" class="body">Route: __________________</text>
+  <text x="40" y="130" class="body">Miles: ______   Gain: ______ ft</text>
+  <text x="40" y="170" class="body">Difficulty: ★__ / ★★★★</text>
+  <line x1="30" y1="220" x2="770" y2="220" stroke="#0E5B35" stroke-width="2" />
+  <text x="40" y="260" class="heading">Key Info</text>
+  <text x="60" y="295" class="body">• Camp: ___________</text>
+  <text x="60" y="325" class="body">• Water: __________</text>
+  <text x="60" y="355" class="body">• Bailout: _________</text>
+  <text x="420" y="260" class="heading">Reminders</text>
+  <text x="440" y="295" class="body">• Start by: ______</text>
+  <text x="440" y="325" class="body">• Ridge wind &lt; ____ mph</text>
+  <text x="440" y="355" class="body">• Camp by: 5–6 PM</text>
+  <text x="400" y="405" text-anchor="middle" class="footer">TrailLogic Studio • Pocket Route Card</text>
+</svg>
