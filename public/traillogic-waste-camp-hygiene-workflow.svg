@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <style>
+    text { font-family: "Helvetica", "Arial", sans-serif; fill: #0E5B35; font-size: 16px; }
+    .title { font-size: 24px; font-weight: 700; }
+    .box { fill: #E5F4E8; stroke: #0E5B35; stroke-width: 2; rx: 10; }
+    .diamond { fill: #E5F4E8; stroke: #0E5B35; stroke-width: 2; }
+    .arrow, .connector { stroke: #0E5B35; stroke-width: 2; fill: none; }
+    .label { font-size: 14px; font-weight: 600; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="8" refX="6" refY="4" orient="auto" fill="#0E5B35">
+      <path d="M0,0 L10,4 L0,8 Z" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="900" height="600" fill="#FFFFFF" />
+
+  <text x="450" y="40" text-anchor="middle" class="title">TrailLogic – Waste &amp; Camp Hygiene</text>
+
+  <rect class="box" x="300" y="60" width="300" height="60" />
+  <text x="450" y="95" text-anchor="middle">
+    <tspan x="450" dy="0">Done cooking or washing up?</tspan>
+  </text>
+  <line class="arrow" x1="450" y1="120" x2="450" y2="140" marker-end="url(#arrowhead)" />
+
+  <rect class="box" x="280" y="140" width="340" height="70" />
+  <text x="450" y="175" text-anchor="middle">
+    <tspan x="450" dy="0">Strain food bits from greywater</tspan>
+    <tspan x="450" dy="20">→ Pack out scraps in trash bag</tspan>
+  </text>
+  <line class="arrow" x1="450" y1="210" x2="450" y2="230" marker-end="url(#arrowhead)" />
+
+  <rect class="box" x="310" y="230" width="280" height="60" />
+  <text x="450" y="265" text-anchor="middle">
+    <tspan x="450" dy="0">Walk 200 ft from water &amp; camp</tspan>
+  </text>
+  <line class="arrow" x1="450" y1="290" x2="450" y2="310" marker-end="url(#arrowhead)" />
+
+  <rect class="box" x="280" y="310" width="340" height="70" />
+  <text x="450" y="345" text-anchor="middle">
+    <tspan x="450" dy="0">Scatter strained greywater</tspan>
+    <tspan x="450" dy="20">over rocks or soil</tspan>
+  </text>
+  <line class="arrow" x1="450" y1="380" x2="450" y2="400" marker-end="url(#arrowhead)" />
+
+  <polygon class="diamond" points="450,380 520,410 450,440 380,410" />
+  <text x="450" y="406" text-anchor="middle">
+    <tspan x="450" dy="0">Need to go to the</tspan>
+    <tspan x="450" dy="20">bathroom?</tspan>
+  </text>
+
+  <line class="connector" x1="450" y1="440" x2="260" y2="470" marker-end="url(#arrowhead)" />
+  <text x="330" y="455" text-anchor="middle" class="label">Yes</text>
+  <rect class="box" x="150" y="470" width="220" height="45" />
+  <text x="260" y="498" text-anchor="middle">
+    <tspan x="260" dy="0">Use privy if available</tspan>
+  </text>
+  <line class="connector" x1="260" y1="515" x2="260" y2="525" marker-end="url(#arrowhead)" />
+  <rect class="box" x="130" y="525" width="260" height="55" />
+  <text x="260" y="536" text-anchor="middle">
+    <tspan x="260" dy="0">If no privy:</tspan>
+    <tspan x="260" dy="11">• Walk 200 ft from water &amp; trail</tspan>
+    <tspan x="260" dy="11">• Dig 6–8 inch cat hole</tspan>
+    <tspan x="260" dy="11">• Bury waste</tspan>
+    <tspan x="260" dy="11">• Pack out TP if possible</tspan>
+  </text>
+
+  <line class="connector" x1="450" y1="440" x2="640" y2="470" marker-end="url(#arrowhead)" />
+  <text x="570" y="455" text-anchor="middle" class="label">No</text>
+  <rect class="box" x="580" y="470" width="200" height="50" />
+  <text x="680" y="498" text-anchor="middle">
+    <tspan x="680" dy="0">Done. Keep camp clean</tspan>
+    <tspan x="680" dy="18">and scent-free.</tspan>
+  </text>
+
+  <text x="450" y="598" text-anchor="middle" font-size="12" fill="#0E5B35">TrailLogic Studio • Clean camps = healthy mountains.</text>
+</svg>
