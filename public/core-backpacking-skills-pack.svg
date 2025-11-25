@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" aria-labelledby="title desc" role="img">
+  <title id="title">Core Backpacking Skills Pack — Modules 1–18 Cover</title>
+  <desc id="desc">Minimalist monochrome line-art cover with mountains, centered title, and a winding trail.</desc>
+  <defs>
+    <style>
+      .stroke { fill: none; stroke: #103428; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .text { fill: #103428; font-family: "Helvetica", "Arial", sans-serif; text-anchor: middle; }
+      .title { font-size: 40px; font-weight: 700; letter-spacing: 1px; }
+      .subtitle { font-size: 24px; font-weight: 600; }
+      .footer { font-size: 22px; font-weight: 600; letter-spacing: 0.5px; }
+    </style>
+  </defs>
+
+  <!-- Top margin guide -->
+  <g transform="translate(0, 60)">
+    <!-- Mountain ridgeline -->
+    <path class="stroke" d="M200 330 L320 230 L420 320 L520 210 L640 340 L760 240 L880 320 L1000 270" />
+    <path class="stroke" d="M320 230 L360 270" />
+    <path class="stroke" d="M520 210 L560 260" />
+    <path class="stroke" d="M760 240 L820 300" />
+
+    <!-- Small compass sun above mountains -->
+    <g transform="translate(960, 170)">
+      <circle class="stroke" r="34" />
+      <path class="stroke" d="M0 -52 V-34" />
+      <path class="stroke" d="M0 52 V34" />
+      <path class="stroke" d="M-52 0 H-34" />
+      <path class="stroke" d="M52 0 H34" />
+    </g>
+  </g>
+
+  <!-- Title block -->
+  <g transform="translate(600, 760)">
+    <text class="text title" y="-40">CORE BACKPACKING SKILLS PACK</text>
+    <text class="text subtitle" y="20">Modules 1–18</text>
+    <text class="text footer" y="70">Trail Logic Studio</text>
+  </g>
+
+  <!-- Lower graphic: winding trail with tree and backpack -->
+  <g transform="translate(0, 820)">
+    <!-- Trail line -->
+    <path class="stroke" d="M250 140 C350 190 410 260 480 340 C560 430 650 520 700 640 C740 740 720 860 620 940 C520 1020 380 1080 300 1180" />
+
+    <!-- Evergreen tree -->
+    <g transform="translate(860, 360)">
+      <path class="stroke" d="M0 0 L-60 80 H-25 L-70 150 H-30 L-80 230 H20" />
+      <path class="stroke" d="M0 0 L60 80 H25 L70 150 H30 L80 230 H-20" />
+      <path class="stroke" d="M0 230 V310" />
+    </g>
+
+    <!-- Backpack icon -->
+    <g transform="translate(930, 650)">
+      <rect class="stroke" x="-45" y="-70" width="90" height="130" rx="12" ry="12" />
+      <path class="stroke" d="M-45 -40 H45" />
+      <rect class="stroke" x="-25" y="-20" width="50" height="40" rx="6" ry="6" />
+      <path class="stroke" d="M-25 30 H25" />
+      <path class="stroke" d="M-45 -10 H-65 V20" />
+      <path class="stroke" d="M45 -10 H65 V20" />
+      <path class="stroke" d="M-10 -70 V-90 H10 V-70" />
+    </g>
+  </g>
+</svg>
