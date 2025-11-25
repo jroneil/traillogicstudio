@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" fill="none">
+  <style>
+    .stroke { stroke: #111111; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .label { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #111111; font-size: 16px; font-weight: 600; }
+    .caption { font-family: 'Helvetica Neue', Arial, sans-serif; fill: #111111; font-size: 14px; font-weight: 500; }
+  </style>
+
+  <!-- Icon Row Container -->
+  <g class="stroke" fill="none">
+    <!-- Weather Window: Cloud + Wind -->
+    <g transform="translate(90 60)">
+      <path d="M40 50c-6 0-11-4-12-10.2C22 39.5 18 36 18 31c0-7.4 6.4-13 13.8-13 3.5 0 6.7 1.2 9.2 3.3C44 20 48.7 18 54 18c8.3 0 15 6.2 15 14 0 1.6-.3 3.2-.9 4.7C72.7 37.4 76 41 76 46c0 6.3-5.1 11-11.3 11H40z"/>
+      <path d="M14 62h30M8 70h26"/>
+      <path d="M58 62h24M60 70h14"/>
+    </g>
+
+    <!-- Snowpack: Snowflake + Depth Gauge -->
+    <g transform="translate(250 60)">
+      <path d="M36 16v28M26 26h28M30 22l20 20M50 22L30 42"/>
+      <path d="M36 8v8M36 44v8"/>
+      <path d="M24 14l5 5M43 33l5 5"/>
+      <path d="M24 38l5-5M43 19l5-5"/>
+      <path d="M64 12v60"/>
+      <path d="M64 18h10M64 34h14M64 50h10M64 66h14"/>
+    </g>
+
+    <!-- Slope Angle: Triangle -->
+    <g transform="translate(410 60)">
+      <path d="M12 64h64L44 12 12 64z"/>
+      <path d="M26 64l18-30"/>
+      <path d="M22 70h30"/>
+      <path d="M48 28l12 6"/>
+    </g>
+
+    <!-- Terrain Type: Contours + Tree -->
+    <g transform="translate(570 60)">
+      <path d="M14 52c8-10 18-14 30-14 12 0 22 4 32 14"/>
+      <path d="M20 36c7-8 16-12 24-12 10 0 18 4 28 14"/>
+      <path d="M38 64l10-18M58 64L48 46"/>
+      <path d="M48 34l-8 10h6v8h4v-8h6L48 34z"/>
+      <path d="M48 70v-6"/>
+    </g>
+
+    <!-- Daylight & Timing: Clock -->
+    <g transform="translate(730 60)">
+      <circle cx="44" cy="44" r="28"/>
+      <path d="M44 26v20l12 8"/>
+      <path d="M44 14v6M44 68v6M26 44h-6M68 44h6"/>
+      <path d="M30 28l-4-4M62 64l4 4M30 60l-4 4M62 28l4-4"/>
+    </g>
+  </g>
+
+  <!-- Labels -->
+  <text class="label" x="130" y="152" text-anchor="middle">Weather Window</text>
+  <text class="label" x="290" y="152" text-anchor="middle">Snowpack</text>
+  <text class="label" x="450" y="152" text-anchor="middle">Slope Angle</text>
+  <text class="label" x="610" y="152" text-anchor="middle">Terrain Type</text>
+  <text class="label" x="770" y="152" text-anchor="middle">Daylight &amp; Timing</text>
+
+  <!-- Caption Line -->
+  <line class="stroke" x1="80" y1="180" x2="820" y2="180" />
+  <text class="caption" x="450" y="202" text-anchor="middle">Conditions dictate the route — not the other way around.</text>
+</svg>
