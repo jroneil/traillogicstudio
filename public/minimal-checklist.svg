@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <rect x="10" y="10" width="300" height="180" rx="12" stroke="#111" fill="none"/>
+  <path d="M248 28 l16 24 12-18 24 36" stroke="#111" fill="none"/>
+  <path d="M238 62h70" stroke="#111"/>
+
+  <g transform="translate(32 60)">
+    <rect x="0" y="0" width="20" height="20" rx="3"/>
+    <path d="M4 10 l5 5 7-11"/>
+    <text x="32" y="14" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#111">Distance</text>
+  </g>
+
+  <g transform="translate(32 102)">
+    <rect x="0" y="0" width="20" height="20" rx="3"/>
+    <path d="M4 10 l5 5 7-11"/>
+    <text x="32" y="14" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#111">Elevation</text>
+  </g>
+
+  <g transform="translate(32 144)">
+    <rect x="0" y="0" width="20" height="20" rx="3"/>
+    <path d="M4 10 l5 5 7-11"/>
+    <text x="32" y="14" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#111">Time</text>
+  </g>
+</svg>
