@@ -1,0 +1,68 @@
+<svg width="720" height="900" viewBox="0 0 720 900" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Hypothermia — Field Actions</title>
+  <desc id="desc">Line-art showing a cold person with shivering marks and three callouts for shelter, dry layers, and warm drinks.</desc>
+  <defs>
+    <style>
+      .title { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 28px; font-weight: 700; fill: #111111; }
+      .label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #111111; }
+      .note { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px; font-weight: 500; fill: #111111; }
+      .line { stroke: #111111; stroke-width: 3; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .callout { stroke: #111111; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="720" height="900" fill="#ffffff" />
+  <text x="360" y="70" class="title" text-anchor="middle">Hypothermia — Field Actions</text>
+
+  <g transform="translate(360 470)" class="line">
+    <line x1="-140" y1="120" x2="140" y2="120" />
+    <circle cx="-10" cy="-110" r="30" />
+    <path d="M-6 -82 q-42 46 -38 112" />
+    <path d="M-12 6 q-18 30 -18 72" />
+    <path d="M-46 6 q-44 14 -38 62" />
+    <path d="M-4 -62 q-6 44 10 86" />
+    <path d="M-24 34 q52 12 94 54" />
+    <path d="M-34 28 q-4 -38 46 -54 q26 -8 50 10" />
+    <path d="M-54 92 q32 12 88 0" />
+    <path d="M-32 -46 q-30 14 -22 44" />
+    <path d="M10 -30 q30 -6 44 16" />
+    <path d="M-74 -34 q-14 10 0 22" />
+    <path d="M52 -48 q16 14 0 30" />
+  </g>
+
+  <g class="callout">
+    <line x1="170" y1="188" x2="190" y2="250" />
+    <g transform="translate(120 240)" class="line">
+      <polygon points="50,20 90,90 10,90" />
+      <rect x="70" y="70" width="26" height="50" rx="4" />
+      <line x1="100" y1="90" x2="150" y2="120" />
+      <polygon points="140,120 190,140 190,170 140,170" />
+      <line x1="190" y1="170" x2="140" y2="170" />
+    </g>
+    <text x="160" y="160" class="label" text-anchor="middle">Get out of wind &amp; wet</text>
+  </g>
+
+  <g class="callout">
+    <line x1="534" y1="168" x2="520" y2="226" />
+    <g transform="translate(470 220)" class="line">
+      <path d="M32 18 q-10 22 -10 62 l0 42 h64 l0 -42 q0 -40 -10 -62 q-14 -26 -22 -26 t-22 26z" />
+      <line x1="48" y1="68" x2="82" y2="68" />
+      <line x1="64" y1="18" x2="64" y2="-6" />
+      <path d="M84 10 q12 -18 32 -18 q20 0 32 18" />
+      <path d="M120 26 q-6 28 -6 56 h28 q0 -42 -12 -66" />
+    </g>
+    <text x="540" y="138" class="label" text-anchor="middle">Add dry, warm layers</text>
+  </g>
+
+  <g class="callout">
+    <line x1="520" y1="632" x2="492" y2="552" />
+    <g transform="translate(420 520)" class="line">
+      <rect x="36" y="26" width="90" height="70" rx="12" />
+      <path d="M126 42 q18 0 18 16 t-18 16" />
+      <path d="M60 26 q-6 -24 10 -32 q16 -8 30 8" />
+      <path d="M84 12 q0 -18 18 -24" />
+      <path d="M54 62 q28 12 54 0" />
+    </g>
+    <text x="540" y="662" class="label" text-anchor="middle">Warm, sugary drinks if conscious</text>
+  </g>
+</svg>
