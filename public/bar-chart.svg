@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" aria-labelledby="title desc" role="img">
+  <title id="title">Simple Bar Chart with Mountain Icon</title>
+  <desc id="desc">Minimal monochrome bar chart showing three days of values with a mountain icon above the bars.</desc>
+  <g fill="none" stroke="#111" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+    <g transform="translate(120 22)">
+      <path d="M-26 22 L0 -4 L22 18" />
+      <path d="M-12 22 L4 6 L16 18" />
+      <circle cx="4" cy="6" r="2.5" fill="#111" />
+    </g>
+    <line x1="36" y1="140" x2="204" y2="140" />
+    <g>
+      <rect x="46" y="88" width="36" height="52" rx="4" />
+      <rect x="102" y="70" width="36" height="70" rx="4" />
+      <rect x="158" y="100" width="36" height="40" rx="4" />
+    </g>
+    <g fill="#111" stroke="none" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="12" text-anchor="middle">
+      <text x="64" y="157">Day 1</text>
+      <text x="120" y="157">Day 2</text>
+      <text x="176" y="157">Day 3</text>
+    </g>
+  </g>
+</svg>
