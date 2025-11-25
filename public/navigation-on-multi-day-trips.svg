@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" fill="none" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-labelledby="title desc" role="img">
+  <title>Navigation on Multi-Day Trips</title>
+  <desc>Three monochrome line icons showing a GPS with battery care note, paper map and compass for backup navigation, and a power bank reminder.</desc>
+  <style>
+    text { font-family: 'Arial', sans-serif; fill: #0F172A; font-size: 16px; }
+  </style>
+  <g transform="translate(80 20)">
+    <rect x="0" y="0" width="200" height="200" rx="16" ry="16" />
+    <rect x="32" y="28" width="88" height="136" rx="10" ry="10" />
+    <rect x="52" y="48" width="48" height="76" rx="6" ry="6" />
+    <path d="M76 70l12 12 12-20" />
+    <circle cx="76" cy="140" r="8" />
+    <circle cx="108" cy="140" r="8" />
+    <rect x="130" y="48" width="40" height="28" rx="6" ry="6" />
+    <rect x="142" y="56" width="16" height="12" rx="3" ry="3" />
+    <path d="M70 188h36" />
+    <text x="100" y="226" text-anchor="middle">Keep Electronics Warm</text>
+  </g>
+  <g transform="translate(360 20)">
+    <rect x="0" y="0" width="200" height="200" rx="16" ry="16" />
+    <path d="M40 50l48-18 48 18v92l-48 18-48-18z" />
+    <path d="M88 32v110" />
+    <path d="M136 68v92" />
+    <path d="M60 96l28 10 28-10 28 10" />
+    <circle cx="144" cy="128" r="28" />
+    <circle cx="144" cy="128" r="8" />
+    <path d="M144 100l-6 20 20-6" />
+    <text x="100" y="226" text-anchor="middle">Backup Navigation</text>
+  </g>
+  <g transform="translate(640 20)">
+    <rect x="0" y="0" width="200" height="200" rx="16" ry="16" />
+    <rect x="56" y="48" width="88" height="120" rx="16" ry="16" />
+    <rect x="72" y="66" width="56" height="84" rx="10" ry="10" />
+    <rect x="68" y="120" width="64" height="12" rx="6" ry="6" />
+    <path d="M100 174v12" />
+    <path d="M116 174v12" />
+    <path d="M56 92h-18c-8 0-14 6-14 14v28c0 8 6 14 14 14h18" />
+    <path d="M144 92h18c8 0 14 6 14 14v28c0 8-6 14-14 14h-18" />
+    <text x="100" y="226" text-anchor="middle">Rotate Power Sources</text>
+  </g>
+</svg>
