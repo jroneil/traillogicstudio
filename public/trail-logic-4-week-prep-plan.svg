@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1120" viewBox="0 0 800 1120">
+  <rect width="800" height="1120" fill="#FFFFFF"/>
+  <style>
+    .title { font-family: 'Arial', sans-serif; fill: #0E5B35; font-weight: 700; }
+    .subtitle { font-family: 'Arial', sans-serif; fill: #333333; font-size: 16px; }
+    .week-header { font-family: 'Arial', sans-serif; fill: #FFFFFF; font-size: 18px; font-weight: 700; }
+    .week-body { font-family: 'Arial', sans-serif; fill: #222222; font-size: 15px; line-height: 1.5; }
+    .footer { font-family: 'Arial', sans-serif; fill: #555555; font-size: 14px; }
+  </style>
+
+  <!-- Title Section -->
+  <text x="400" y="70" text-anchor="middle" class="title" font-size="28">TrailLogic 4-Week Prep Plan</text>
+  <text x="400" y="98" text-anchor="middle" class="subtitle">Get Ready for a 2–3 Day White Mountains Backpacking Trip</text>
+
+  <!-- Grid Container -->
+  <g id="grid" transform="translate(40, 140)">
+    <!-- Week 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="350" height="440" fill="none" stroke="#DDDDDD" stroke-width="2" rx="10"/>
+      <rect x="0" y="0" width="350" height="60" fill="#0E5B35" rx="10" ry="10"/>
+      <text x="175" y="38" text-anchor="middle" class="week-header">Week 1 – Get Moving</text>
+      <g class="week-body" transform="translate(20, 90)">
+        <text x="0" y="0">• 2x walks (30–40 min)</text>
+        <text x="0" y="26">• 2x strength (20 min)</text>
+        <text x="0" y="52">• 1x longer walk (45–60 min)</text>
+        <text x="0" y="78">• 2x rest/easy days</text>
+      </g>
+    </g>
+
+    <!-- Week 2 -->
+    <g transform="translate(370, 0)">
+      <rect x="0" y="0" width="350" height="440" fill="none" stroke="#DDDDDD" stroke-width="2" rx="10"/>
+      <rect x="0" y="0" width="350" height="60" fill="#0E5B35" rx="10" ry="10"/>
+      <text x="175" y="38" text-anchor="middle" class="week-header">Week 2 – Hills &amp; Light Pack</text>
+      <g class="week-body" transform="translate(20, 90)">
+        <text x="0" y="0">• 2x hill walks (30–40 min, 1 with light pack)</text>
+        <text x="0" y="26">• 2x strength (20–25 min)</text>
+        <text x="0" y="52">• 1x longer walk/hike (60–75 min)</text>
+        <text x="0" y="78">• 2x rest/easy days</text>
+      </g>
+    </g>
+
+    <!-- Week 3 -->
+    <g transform="translate(0, 460)">
+      <rect x="0" y="0" width="350" height="440" fill="none" stroke="#DDDDDD" stroke-width="2" rx="10"/>
+      <rect x="0" y="0" width="350" height="60" fill="#0E5B35" rx="10" ry="10"/>
+      <text x="175" y="38" text-anchor="middle" class="week-header">Week 3 – Simulate Hiking</text>
+      <g class="week-body" transform="translate(20, 90)">
+        <text x="0" y="0">• 2x hikes (45–60 min, hills)</text>
+        <text x="0" y="26">• 2x strength (25–30 min)</text>
+        <text x="0" y="52">• 1x long hike (90–120 min, moderate pack)</text>
+        <text x="0" y="78">• 2x rest/easy days</text>
+      </g>
+    </g>
+
+    <!-- Week 4 -->
+    <g transform="translate(370, 460)">
+      <rect x="0" y="0" width="350" height="440" fill="none" stroke="#DDDDDD" stroke-width="2" rx="10"/>
+      <rect x="0" y="0" width="350" height="60" fill="#0E5B35" rx="10" ry="10"/>
+      <text x="175" y="38" text-anchor="middle" class="week-header">Week 4 – Trip Rehearsal</text>
+      <g class="week-body" transform="translate(20, 90)">
+        <text x="0" y="0">• 1–2x hikes (60–120 min, near trip pack weight)</text>
+        <text x="0" y="26">• 1–2x light strength/mobility sessions</text>
+        <text x="0" y="52">• 2–3x rest/easy days before trip</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer Note -->
+  <text x="400" y="1090" text-anchor="middle" class="footer">TrailLogic Studio • Consistency beats intensity. Rest is part of training.</text>
+</svg>
