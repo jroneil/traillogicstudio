@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Navigation Card</title>
+  <desc id="desc">Quick reference navigation guidance with watch, use, and if lost sections.</desc>
+  <defs>
+    <style>
+      text { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+      .card-bg { fill: #ffffff; stroke: #0E5B35; stroke-width: 3; rx: 18; ry: 18; }
+      .heading { font-size: 28px; font-weight: 700; }
+      .label { font-size: 22px; font-weight: 700; }
+      .bullet { font-size: 18px; font-weight: 500; }
+      .divider { stroke: #0E5B35; stroke-width: 2; stroke-dasharray: 4 6; }
+      .footer { font-size: 14px; font-weight: 600; letter-spacing: 0.4px; }
+    </style>
+  </defs>
+
+  <rect class="card-bg" x="12" y="12" width="776" height="426" />
+
+  <text class="heading" x="400" y="52" text-anchor="middle">TrailLogic Navigation Card</text>
+
+  <line class="divider" x1="270" y1="90" x2="270" y2="360" />
+  <line class="divider" x1="530" y1="90" x2="530" y2="360" />
+
+  <g transform="translate(50 110)">
+    <text class="label" x="0" y="0">Watch</text>
+    <g class="bullet" transform="translate(0 20)" fill="#0E5B35">
+      <text x="0" y="32">• Blazes every few minutes</text>
+      <text x="0" y="64">• Cairns above treeline</text>
+      <text x="0" y="96">• Junction signs</text>
+    </g>
+  </g>
+
+  <g transform="translate(310 110)">
+    <text class="label" x="0" y="0">Use</text>
+    <g class="bullet" transform="translate(0 20)" fill="#0E5B35">
+      <text x="0" y="32">• Paper map + offline app</text>
+      <text x="0" y="64">• Compass to confirm direction</text>
+      <text x="0" y="96">• Check location at every major junction</text>
+    </g>
+  </g>
+
+  <g transform="translate(570 110)">
+    <text class="label" x="0" y="0">If Lost</text>
+    <g class="bullet" transform="translate(0 20)" fill="#0E5B35">
+      <text x="0" y="32">• STOP – don’t wander</text>
+      <text x="0" y="64">• Backtrack to last blaze</text>
+      <text x="0" y="96">• Check map + app</text>
+      <text x="0" y="128">• Stay put if still unsure</text>
+    </g>
+  </g>
+
+  <text class="footer" x="400" y="400" text-anchor="middle">TrailLogic Studio • Know Where You Are</text>
+</svg>
