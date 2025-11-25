@@ -1,80 +1,89 @@
-<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
   <title id="title">Winter-Friendly Foods</title>
-  <desc id="desc">Six cold-friendly food ideas illustrated as line icons in a 3 by 2 grid.</desc>
+  <desc id="desc">Six simple line-art icons showing packable foods that work well in cold weather.</desc>
   <style>
-    :root { color: #0F172A; }
-    text { font-family: 'Inter', Arial, sans-serif; fill: currentColor; font-size: 18px; font-weight: 600; }
-    .title { font-size: 32px; font-weight: 700; }
-    .subtitle { font-size: 16px; font-weight: 500; }
-    .icon { fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .grid { stroke: #2D5A4A; fill: none; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    .label { fill: #2D5A4A; font-family: 'Arial', sans-serif; font-size: 20px; text-anchor: middle; }
+    .title { fill: #2D5A4A; font-family: 'Arial', sans-serif; font-size: 32px; font-weight: bold; text-anchor: middle; }
   </style>
-  <rect width="900" height="600" fill="#FFFFFF"/>
+  <rect x="20" y="20" width="920" height="640" rx="16" class="grid" />
+  <text x="480" y="70" class="title">Winter-Friendly Foods</text>
 
-  <text class="title" x="450" y="70" text-anchor="middle">Winter-Friendly Foods</text>
-  <text class="subtitle" x="450" y="98" text-anchor="middle">Compact calories that stay tasty in the cold</text>
-
-  <!-- Grid lines -->
-  <line class="icon" x1="300" y1="130" x2="300" y2="520" opacity="0.25"/>
-  <line class="icon" x1="600" y1="130" x2="600" y2="520" opacity="0.25"/>
-  <line class="icon" x1="80" y1="325" x2="820" y2="325" opacity="0.25"/>
+  <!-- Cell backgrounds -->
+  <g stroke="#2D5A4A" fill="none" stroke-width="3" opacity="0.25">
+    <rect x="80" y="110" width="240" height="220" rx="14" />
+    <rect x="360" y="110" width="240" height="220" rx="14" />
+    <rect x="640" y="110" width="240" height="220" rx="14" />
+    <rect x="80" y="360" width="240" height="220" rx="14" />
+    <rect x="360" y="360" width="240" height="220" rx="14" />
+    <rect x="640" y="360" width="240" height="220" rx="14" />
+  </g>
 
   <!-- Instant oatmeal -->
-  <g transform="translate(150 200)">
-    <path class="icon" d="M-70 20 Q-60 55 0 60 Q60 55 70 20"/>
-    <path class="icon" d="M-70 20 H70"/>
-    <path class="icon" d="M-20 -10 Q-10 -40 0 -10"/>
-    <path class="icon" d="M20 -10 Q30 -38 40 -10"/>
-    <path class="icon" d="M-40 -10 Q-30 -34 -20 -10"/>
-    <text x="0" y="115" text-anchor="middle">Instant oatmeal</text>
+  <g class="grid" transform="translate(200 210)">
+    <path d="M-70 10 q70 40 140 0" />
+    <path d="M-70 10 v26 q70 32 140 0 v-26" />
+    <line x1="-25" y1="-18" x2="-25" y2="-48" />
+    <line x1="0" y1="-18" x2="0" y2="-48" />
+    <line x1="25" y1="-18" x2="25" y2="-48" />
   </g>
+  <text x="200" y="330" class="label">Instant oatmeal</text>
 
   <!-- Tortilla + cheese -->
-  <g transform="translate(450 200)">
-    <circle class="icon" cx="0" cy="20" r="70"/>
-    <path class="icon" d="M-30 -10 L50 30 L-10 60 Z"/>
-    <path class="icon" d="M-50 40 q30 25 70 -5" opacity="0.5"/>
-    <text x="0" y="115" text-anchor="middle">Tortilla + cheese</text>
+  <g class="grid" transform="translate(480 210)">
+    <path d="M-70 20 q70 -80 140 0" />
+    <path d="M-70 20 q70 60 140 0" />
+    <path d="M-25 0 l20 16 l22 -22" />
+    <circle cx="-30" cy="14" r="4" />
+    <circle cx="30" cy="8" r="4" />
   </g>
+  <text x="480" y="330" class="label">Tortilla + cheese</text>
 
   <!-- Trail mix -->
-  <g transform="translate(750 200)">
-    <rect class="icon" x="-55" y="-25" width="110" height="90" rx="10"/>
-    <path class="icon" d="M-55 -15 H55" opacity="0.5"/>
-    <circle class="icon" cx="-25" cy="10" r="8"/>
-    <circle class="icon" cx="5" cy="28" r="7"/>
-    <path class="icon" d="M25 0 q12 10 0 20"/>
-    <path class="icon" d="M-8 5 q-6 7 2 14"/>
-    <text x="0" y="115" text-anchor="middle">Trail mix</text>
+  <g class="grid" transform="translate(760 210)">
+    <path d="M-60 -70 h120 v140 l-26 28 h-68 l-26 -28 z" />
+    <path d="M-34 -26 h68" />
+    <circle cx="-25" cy="14" r="7" />
+    <circle cx="0" cy="-6" r="7" />
+    <circle cx="24" cy="12" r="6" />
+    <path d="M-8 32 q8 10 16 0" />
   </g>
+  <text x="760" y="330" class="label">Trail mix</text>
 
   <!-- Energy bars -->
-  <g transform="translate(150 430)">
-    <rect class="icon" x="-70" y="-50" width="140" height="60" rx="12"/>
-    <rect class="icon" x="-50" y="0" width="100" height="60" rx="12"/>
-    <path class="icon" d="M-30 -20 h60" opacity="0.5"/>
-    <path class="icon" d="M-25 30 h50" opacity="0.5"/>
-    <text x="0" y="115" text-anchor="middle">Energy bars</text>
+  <g class="grid" transform="translate(200 460)">
+    <rect x="-80" y="-40" width="160" height="60" rx="10" />
+    <rect x="-60" y="10" width="140" height="60" rx="10" />
+    <line x1="-40" y1="-10" x2="-20" y2="-10" />
+    <line x1="20" y1="-10" x2="40" y2="-10" />
+    <line x1="-20" y1="40" x2="0" y2="40" />
+    <line x1="40" y1="40" x2="60" y2="40" />
   </g>
+  <text x="200" y="580" class="label">Energy bars</text>
 
   <!-- Ramen bowl -->
-  <g transform="translate(450 430)">
-    <path class="icon" d="M-80 -5 Q-70 70 0 70 Q70 70 80 -5 Z"/>
-    <path class="icon" d="M-80 -5 H80"/>
-    <path class="icon" d="M-60 -25 h120"/>
-    <path class="icon" d="M-50 -40 h120"/>
-    <path class="icon" d="M10 -60 v70"/>
-    <path class="icon" d="M30 -60 v70"/>
-    <text x="0" y="115" text-anchor="middle">Ramen bowl</text>
+  <g class="grid" transform="translate(480 460)">
+    <path d="M-70 -20 h140" />
+    <path d="M-70 -20 q10 100 70 100 q60 0 70 -100" />
+    <path d="M-50 -32 h100" />
+    <path d="M-30 -44 h60" />
+    <path d="M-10 -60 h20" />
+    <path d="M-25 20 q25 20 50 0" />
   </g>
+  <text x="480" y="580" class="label">Ramen bowl</text>
 
   <!-- Nut butter packets -->
-  <g transform="translate(750 430)">
-    <rect class="icon" x="-70" y="-60" width="70" height="120" rx="10"/>
-    <rect class="icon" x="0" y="-50" width="70" height="110" rx="10"/>
-    <path class="icon" d="M-70 -40 h70" opacity="0.5"/>
-    <path class="icon" d="M0 -30 h70" opacity="0.5"/>
-    <path class="icon" d="M-35 0 q10 12 0 24"/>
-    <path class="icon" d="M35 10 q12 14 0 28"/>
-    <text x="0" y="115" text-anchor="middle">Nut butter packets</text>
+  <g class="grid" transform="translate(760 460)">
+    <rect x="-60" y="-60" width="70" height="140" rx="10" />
+    <rect x="10" y="-50" width="70" height="140" rx="10" />
+    <path d="M-48 -10 h46" />
+    <path d="M-48 20 h46" />
+    <path d="M22 -6 h36" />
+    <path d="M22 22 h36" />
+    <path d="M-60 -34 h70" />
+    <path d="M10 -24 h70" />
+    <path d="M-60 54 h70" />
+    <path d="M10 64 h70" />
   </g>
+  <text x="760" y="580" class="label">Nut butter packets</text>
 </svg>
