@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Winter Sleeping System</title>
+  <text x="210" y="24" font-family="Inter, Arial, sans-serif" font-size="16" text-anchor="middle">Winter Sleeping System</text>
+
+  <!-- Foam pad base -->
+  <rect x="50" y="160" width="320" height="22" rx="4" ry="4"/>
+  <text x="210" y="176" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="middle">Foam Pad (Insulation)</text>
+
+  <!-- Inflatable pad -->
+  <rect x="70" y="136" width="280" height="18" rx="6" ry="6"/>
+  <path d="M90 145 h240" stroke-dasharray="6 6"/>
+  <text x="210" y="150" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="middle">Inflatable Pad (Comfort + R-Value)</text>
+
+  <!-- Winter sleeping bag -->
+  <path d="M90 110 q20 -30 80 -30 h60 q60 0 80 30 l10 40 h-240 z"/>
+  <path d="M105 110 h210" stroke-dasharray="8 6"/>
+  <text x="210" y="106" font-family="Inter, Arial, sans-serif" font-size="12" text-anchor="middle">Winter Bag</text>
+
+  <!-- Warm bottle icon at feet -->
+  <g transform="translate(330 128)">
+    <rect x="-8" y="-10" width="16" height="26" rx="5" ry="5"/>
+    <rect x="-6" y="-16" width="12" height="8" rx="2" ry="2"/>
+    <path d="M-4 -16 v-6 h8 v6"/>
+    <path d="M-4 4 q4 8 8 0"/>
+    <text x="0" y="36" font-family="Inter, Arial, sans-serif" font-size="10" text-anchor="middle">Warm Bottle at Feet</text>
+  </g>
+</svg>
