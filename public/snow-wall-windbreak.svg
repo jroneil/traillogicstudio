@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Snow Wall Windbreak</title>
+  <desc id="desc">Side view of a tent with a low snow wall in front deflecting wind.</desc>
+  <rect width="800" height="450" fill="#ffffff"/>
+  <!-- Ground -->
+  <line x1="60" y1="330" x2="740" y2="330" stroke="#0E5B35" stroke-width="3"/>
+  <!-- Snow wall -->
+  <g fill="#eaf2ee" stroke="#0E5B35" stroke-width="3">
+    <rect x="180" y="285" width="200" height="45" rx="4"/> 
+    <rect x="220" y="270" width="120" height="20" rx="3"/>
+  </g>
+  <!-- Tent side view -->
+  <g stroke="#0E5B35" stroke-width="3" fill="#f5fbf7">
+    <polygon points="420,330 520,220 620,330"/>
+    <line x1="520" y1="220" x2="520" y2="330" stroke-dasharray="6 6"/>
+    <circle cx="520" cy="330" r="4" fill="#0E5B35"/>
+  </g>
+  <!-- Wind arrows approaching wall -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" fill="#0E5B35">
+      <polygon points="0 0, 8 4, 0 8"/>
+    </marker>
+  </defs>
+  <g stroke="#0E5B35" stroke-width="3" fill="none" marker-end="url(#arrowhead)">
+    <line x1="60" y1="230" x2="180" y2="250"/>
+    <line x1="60" y1="260" x2="180" y2="275"/>
+    <line x1="60" y1="290" x2="180" y2="300"/>
+  </g>
+  <!-- Deflected wind -->
+  <g stroke="#0E5B35" stroke-width="3" fill="none" marker-end="url(#arrowhead)">
+    <path d="M 220 250 Q 260 220 320 230"/>
+    <path d="M 220 280 Q 260 310 320 305"/>
+  </g>
+  <!-- Labels -->
+  <g fill="#0E5B35" font-family="Arial, sans-serif" font-size="18">
+    <text x="280" y="80" font-size="28" font-weight="700">Snow Wall Windbreak</text>
+    <text x="110" y="210">Prevailing wind</text>
+    <text x="200" y="265">1–2 ft snow blocks</text>
+    <text x="470" y="210">Leeward tent</text>
+  </g>
+  <!-- Caption -->
+  <text x="400" y="400" text-anchor="middle" fill="#0E5B35" font-family="Arial, sans-serif" font-size="18" font-weight="600">1–2 ft wall blocks wind without trapping snow.</text>
+</svg>
