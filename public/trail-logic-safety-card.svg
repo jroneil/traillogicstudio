@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <style>
+    .card { fill: #fff; stroke: #0E5B35; stroke-width: 3; rx: 18; ry: 18; }
+    .title { font: 700 28px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .section-title { font: 700 20px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .bullet-text { font: 500 16px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .bullet { fill: #0E5B35; }
+    .footer { font: 600 14px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; letter-spacing: 0.2px; }
+  </style>
+  <rect class="card" x="12" y="12" width="776" height="426" rx="18" ry="18" />
+  <text class="title" x="50%" y="55" text-anchor="middle">TrailLogic Safety Card</text>
+
+  <!-- Section dividers -->
+  <line x1="266.5" y1="90" x2="266.5" y2="350" stroke="#0E5B35" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6" />
+  <line x1="533.5" y1="90" x2="533.5" y2="350" stroke="#0E5B35" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6" />
+
+  <!-- Weather Block -->
+  <text class="section-title" x="133" y="115" text-anchor="middle">Weather</text>
+  <circle class="bullet" cx="80" cy="150" r="4" />
+  <text class="bullet-text" x="95" y="155">Be off ridges by 12–1 PM</text>
+  <circle class="bullet" cx="80" cy="182" r="4" />
+  <text class="bullet-text" x="95" y="187">Avoid winds &gt; 40 mph above treeline</text>
+  <circle class="bullet" cx="80" cy="214" r="4" />
+  <text class="bullet-text" x="95" y="219">If you hear thunder → descend</text>
+
+  <!-- Injury Block -->
+  <text class="section-title" x="400" y="115" text-anchor="middle">Injury</text>
+  <circle class="bullet" cx="313" cy="150" r="4" />
+  <text class="bullet-text" x="328" y="155">STOP → Assess → Stabilize</text>
+  <circle class="bullet" cx="313" cy="182" r="4" />
+  <text class="bullet-text" x="328" y="187">Treat blisters early</text>
+  <circle class="bullet" cx="313" cy="214" r="4" />
+  <text class="bullet-text" x="328" y="219">Don’t hike on a failing knee</text>
+
+  <!-- When to Bail Block -->
+  <text class="section-title" x="666" y="115" text-anchor="middle">When to Bail</text>
+  <circle class="bullet" cx="580" cy="150" r="4" />
+  <text class="bullet-text" x="595" y="155">Shivering that won’t stop</text>
+  <circle class="bullet" cx="580" cy="182" r="4" />
+  <text class="bullet-text" x="595" y="187">Confusion or dizziness</text>
+  <circle class="bullet" cx="580" cy="214" r="4" />
+  <text class="bullet-text" x="595" y="219">Pain getting worse</text>
+  <circle class="bullet" cx="580" cy="246" r="4" />
+  <text class="bullet-text" x="595" y="251">Weather turning bad</text>
+
+  <!-- Footer -->
+  <text class="footer" x="400" y="380" text-anchor="middle">TrailLogic Studio • Safety first, summit second.</text>
+</svg>
