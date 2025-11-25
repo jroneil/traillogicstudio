@@ -1,0 +1,52 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Fuel Usage – 3-Day Trip</title>
+  <desc id="desc">Bar chart showing recommended fuel usage of about 0.4 ounces per day over a three-day backpacking trip with a note to add extra fuel in high wind or cold temperatures.</desc>
+  <rect width="800" height="450" fill="#ffffff" />
+  <text x="400" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#0E5B35">TrailLogic Fuel Usage – 3-Day Trip</text>
+  <text x="400" y="68" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#4a4a4a">Typical: 0.3–0.5 oz/day for solo Jetboil-style cooking.</text>
+
+  <line x1="120" y1="110" x2="120" y2="350" stroke="#888" stroke-width="2" />
+  <line x1="120" y1="350" x2="700" y2="350" stroke="#888" stroke-width="2" />
+  <text x="105" y="120" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="12" fill="#4a4a4a">Fuel (oz)</text>
+
+  <!-- Y-axis ticks and labels -->
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#4a4a4a">
+    <line x1="115" y1="350" x2="125" y2="350" stroke="#888" stroke-width="1.5" />
+    <text x="110" y="355" text-anchor="end">0.0</text>
+    <line x1="115" y1="310" x2="125" y2="310" stroke="#888" stroke-width="1.5" />
+    <text x="110" y="315" text-anchor="end">0.1</text>
+    <line x1="115" y1="270" x2="125" y2="270" stroke="#888" stroke-width="1.5" />
+    <text x="110" y="275" text-anchor="end">0.2</text>
+    <line x1="115" y1="230" x2="125" y2="230" stroke="#888" stroke-width="1.5" />
+    <text x="110" y="235" text-anchor="end">0.3</text>
+    <line x1="115" y1="190" x2="125" y2="190" stroke="#888" stroke-width="1.5" />
+    <text x="110" y="195" text-anchor="end">0.4</text>
+    <line x1="115" y1="150" x2="125" y2="150" stroke="#888" stroke-width="1.5" />
+    <text x="110" y="155" text-anchor="end">0.5</text>
+  </g>
+
+  <!-- Bars -->
+  <g fill="#0E5B35">
+    <rect x="180" y="196" width="120" height="154" rx="6" aria-label="Day 1 fuel 0.4 ounces" />
+    <rect x="340" y="196" width="120" height="154" rx="6" aria-label="Day 2 fuel 0.4 ounces" />
+    <rect x="500" y="159" width="120" height="191" rx="6" aria-label="Day 3 fuel between 0.4 and 0.5 ounces" />
+  </g>
+
+  <!-- Bar labels -->
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#0E5B35" font-weight="600">
+    <text x="240" y="184" text-anchor="middle">0.4 oz</text>
+    <text x="400" y="184" text-anchor="middle">0.4 oz</text>
+    <text x="560" y="147" text-anchor="middle">0.4–0.5 oz</text>
+  </g>
+
+  <!-- X-axis labels -->
+  <g font-family="Inter, Arial, sans-serif" font-size="14" fill="#4a4a4a">
+    <text x="240" y="372" text-anchor="middle">Day 1</text>
+    <text x="400" y="372" text-anchor="middle">Day 2</text>
+    <text x="560" y="372" text-anchor="middle">Day 3</text>
+  </g>
+
+  <!-- Note box -->
+  <rect x="560" y="90" width="210" height="56" fill="#f8f8f8" stroke="#bcbcbc" stroke-width="1.5" rx="8" />
+  <text x="575" y="118" font-family="Inter, Arial, sans-serif" font-size="13" fill="#0E5B35">Add +20% in high wind / below 45°F.</text>
+</svg>
