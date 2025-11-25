@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" aria-labelledby="title desc" role="img">
+  <title id="title">Avalanche Red Flags (Simplified)</title>
+  <desc id="desc">Infographic showing four avalanche red flags and reminder to turn back.</desc>
+  <style>
+    .box { fill: none; stroke: #111; stroke-width: 2; }
+    .label { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #111; }
+    .text-strong { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #111; }
+    .icon { fill: none; stroke: #111; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <!-- Grid boxes -->
+  <rect class="box" x="60" y="50" width="300" height="210" rx="12" />
+  <rect class="box" x="440" y="50" width="300" height="210" rx="12" />
+  <rect class="box" x="60" y="300" width="300" height="210" rx="12" />
+  <rect class="box" x="440" y="300" width="300" height="210" rx="12" />
+
+  <!-- Box labels -->
+  <text class="label" x="210" y="80" text-anchor="middle">Cracking / Whoomphing</text>
+  <text class="label" x="590" y="80" text-anchor="middle">Recent Avalanches</text>
+  <text class="label" x="210" y="330" text-anchor="middle">Steep Open Slopes</text>
+  <text class="label" x="590" y="330" text-anchor="middle">Terrain Traps</text>
+
+  <!-- Icon 1: mountain slope with cracks -->
+  <g class="icon" transform="translate(120 100)">
+    <path d="M0 140 L90 40 L170 140 Z" />
+    <path d="M70 90 l-20 30" />
+    <path d="M100 75 l-12 20" />
+    <path d="M120 105 l-8 15" />
+    <path d="M90 40 l20 30" />
+    <path d="M40 140 l25 -20" />
+    <path d="M120 140 l-20 -18" />
+  </g>
+
+  <!-- Icon 2: recent avalanches -->
+  <g class="icon" transform="translate(500 100)">
+    <path d="M0 140 L90 35 L180 140 Z" />
+    <path d="M90 35 l-18 28" />
+    <path d="M72 63 Q90 75 90 100 Q90 120 70 140" />
+    <path d="M90 100 Q120 110 135 140" />
+    <circle cx="60" cy="150" r="5" />
+    <circle cx="110" cy="150" r="5" />
+  </g>
+
+  <!-- Icon 3: steep open slopes -->
+  <g class="icon" transform="translate(120 350)">
+    <path d="M10 120 L160 10" />
+    <path d="M50 140 L170 40" />
+    <path d="M10 120 h40" />
+    <path d="M160 10 L180 40" />
+    <path d="M150 30 l-30 20" />
+  </g>
+
+  <!-- Icon 4: terrain traps -->
+  <g class="icon" transform="translate(500 350)">
+    <path d="M10 30 Q70 20 120 40 Q170 60 210 40" />
+    <path d="M60 40 Q90 110 90 190" />
+    <path d="M150 40 Q120 110 120 190" />
+    <path d="M90 190 Q105 205 120 190" />
+    <path d="M0 200 H220" />
+  </g>
+
+  <!-- Footer message -->
+  <text class="text-strong" x="400" y="560" text-anchor="middle">Any red flag → Turn back.</text>
+</svg>
