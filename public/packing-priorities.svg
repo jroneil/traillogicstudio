@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <title>Packing Priorities</title>
+  <rect x="1.5" y="1.5" width="957" height="317" rx="18" ry="18" fill="none"/>
+  <!-- panel dividers -->
+  <line x1="240" y1="10" x2="240" y2="310"/>
+  <line x1="480" y1="10" x2="480" y2="310"/>
+  <line x1="720" y1="10" x2="720" y2="310"/>
+  <!-- Panel 1: Redundancy -->
+  <g transform="translate(60 60)">
+    <!-- stacked gloves -->
+    <path d="M32 84c-3 14 4 30 20 32 23 2 44-22 44-46 0-14-10-26-24-26-8 0-16 5-20 12l-8-10c-10 0-18 7-18 18 0 6 3 12 6 20z"/>
+    <path d="M18 70c-3 14 4 30 20 32 23 2 44-22 44-46 0-14-10-26-24-26-8 0-16 5-20 12l-8-10c-10 0-18 7-18 18 0 6 3 12 6 20z" opacity="0.8"/>
+    <!-- lighter -->
+    <rect x="110" y="70" width="32" height="58" rx="5"/>
+    <path d="M126 60c6 6 8 11 8 16 0 8-5 14-12 14s-12-6-12-14c0-5 2-10 8-16"/>
+    <line x1="110" y1="88" x2="142" y2="88"/>
+  </g>
+  <text x="120" y="280" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">Redundancy</text>
+
+  <!-- Panel 2: Moisture Control -->
+  <g transform="translate(300 56)">
+    <!-- dry bag -->
+    <path d="M30 32h64l-8 12v124c0 10-8 18-18 18H56c-10 0-18-8-18-18V44z"/>
+    <path d="M30 32l14-12h36l14 12"/>
+    <line x1="40" y1="66" x2="84" y2="66"/>
+    <!-- baselayer shirt -->
+    <path d="M130 50l-18 8-10 26v56c0 10 8 18 18 18h20c10 0 18-8 18-18V84l-10-26-18-8"/>
+    <line x1="120" y1="92" x2="146" y2="106"/>
+    <line x1="160" y1="92" x2="134" y2="106"/>
+  </g>
+  <text x="360" y="280" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">Moisture Control</text>
+
+  <!-- Panel 3: Food Density -->
+  <g transform="translate(540 60)">
+    <!-- jar -->
+    <rect x="20" y="50" width="70" height="104" rx="10"/>
+    <rect x="32" y="36" width="46" height="16" rx="4"/>
+    <path d="M32 96c10 12 40 12 50 0"/>
+    <!-- energy bar -->
+    <rect x="110" y="34" width="50" height="140" rx="8"/>
+    <line x1="110" y1="62" x2="160" y2="62"/>
+    <path d="M118 122l34-34"/>
+  </g>
+  <text x="600" y="280" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">Food Density</text>
+
+  <!-- Panel 4: Dry Clothes First -->
+  <g transform="translate(780 52)">
+    <!-- insulated jacket -->
+    <path d="M30 52l18-12h36l18 12 10 28-14 14-6 70c0 8-6 14-14 14H54c-8 0-14-6-14-14l-6-70-14-14z"/>
+    <path d="M66 40c0 8 4 22 14 22s14-14 14-22"/>
+    <line x1="80" y1="62" x2="80" y2="160"/>
+    <line x1="52" y1="94" x2="108" y2="94"/>
+    <!-- shell jacket outline -->
+    <path d="M132 60l14-16h32l14 16 8 20-12 12-4 64c0 7-6 12-12 12h-32c-7 0-12-5-12-12l-4-64-12-12z" opacity="0.85"/>
+    <path d="M160 40c0 8 4 18 12 18s12-10 12-18" opacity="0.85"/>
+    <line x1="172" y1="76" x2="172" y2="152" opacity="0.85"/>
+  </g>
+  <text x="840" y="280" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">Dry Clothes First</text>
+</svg>
