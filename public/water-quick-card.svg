@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">TrailLogic Water Card</title>
+  <desc id="desc">Quick reference card for carrying, finding, and treating water in the backcountry.</desc>
+  <style>
+    text { font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0E5B35; }
+    .title { font-size: 28px; font-weight: 700; }
+    .block-title { font-size: 22px; font-weight: 700; }
+    .item { font-size: 18px; font-weight: 500; }
+    .footer { font-size: 12px; font-weight: 500; }
+  </style>
+  <rect x="12" y="12" width="776" height="426" rx="18" ry="18" fill="#fff" stroke="#0E5B35" stroke-width="4" />
+  <text x="400" y="55" text-anchor="middle" class="title">TrailLogic Water Card</text>
+  <g transform="translate(60, 95)">
+    <rect x="0" y="0" width="200" height="250" rx="14" ry="14" fill="#F6FBF8" stroke="#0E5B35" stroke-width="3" />
+    <text x="100" y="38" text-anchor="middle" class="block-title">Carry</text>
+    <text x="20" y="78" class="item">• 2–2.5 L starting out</text>
+    <text x="20" y="110" class="item">• 3–4 L for camp</text>
+    <text x="20" y="142" class="item">• Refill every 3–5 hours</text>
+  </g>
+  <g transform="translate(300, 95)">
+    <rect x="0" y="0" width="200" height="250" rx="14" ry="14" fill="#F6FBF8" stroke="#0E5B35" stroke-width="3" />
+    <text x="100" y="38" text-anchor="middle" class="block-title">Find</text>
+    <text x="20" y="78" class="item">• Major streams</text>
+    <text x="20" y="110" class="item">• Lakes &amp; ponds</text>
+    <text x="20" y="142" class="item">• Drainages / tributaries</text>
+    <text x="20" y="174" class="item">• Avoid ridge tops</text>
+  </g>
+  <g transform="translate(540, 95)">
+    <rect x="0" y="0" width="200" height="250" rx="14" ry="14" fill="#F6FBF8" stroke="#0E5B35" stroke-width="3" />
+    <text x="100" y="38" text-anchor="middle" class="block-title">Treat</text>
+    <text x="20" y="78" class="item">• Sawyer filter</text>
+    <text x="20" y="110" class="item">• Tablets backup</text>
+    <text x="20" y="142" class="item">• Boil only if needed</text>
+  </g>
+  <text x="400" y="392" text-anchor="middle" class="footer">TrailLogic Studio • Water Safety Essentials</text>
+</svg>
