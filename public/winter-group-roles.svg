@@ -1,96 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" aria-labelledby="title desc" role="img">
-  <title id="title">Winter Group Roles</title>
-  <desc id="desc">Line-art infographic showing four winter hiking group roles with monochrome icons and captions.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" aria-labelledby="title" role="img">
+  <title>Winter Group Roles</title>
   <style>
-    text { font-family: "Inter", "Segoe UI", system-ui, sans-serif; fill: #0f172a; }
-    .label { font-size: 20px; font-weight: 600; text-anchor: middle; }
-    .caption { font-size: 18px; text-anchor: middle; }
-    .title { font-size: 32px; font-weight: 700; text-anchor: middle; }
-    .icon { stroke: #0f172a; stroke-width: 2.5; fill: none; }
-    .muted { stroke: #0f172a; stroke-width: 2.5; fill: rgba(15, 23, 42, 0.05); }
+    .frame { fill: none; stroke: #0f172a; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .fill { fill: #0f172a; }
+    .label { font: 600 16px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+    .caption { font: 14px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+    .title { font: 700 24px 'Inter', 'Helvetica Neue', Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
   </style>
 
-  <text class="title" x="600" y="60">Winter Group Roles</text>
+  <text x="480" y="40" class="title">Winter Group Roles</text>
 
   <!-- Pace Leader -->
-  <g transform="translate(150 100)">
-    <g class="icon" aria-label="Pace Leader icon">
-      <circle cx="70" cy="70" r="18"/>
-      <path d="M70 88v44"/>
-      <path d="M70 112l-26 24"/>
-      <path d="M70 112l28 24"/>
-      <path d="M44 136l-16 40"/>
-      <path d="M98 136l16 40"/>
-      <path d="M90 76l24 -8"/>
-      <path d="M114 68l34 -10"/>
-      <polyline points="148,58 170,68 148,78"/>
-    </g>
-    <text class="label" x="90" y="210">Pace Leader</text>
+  <g transform="translate(120, 110)">
+    <circle class="frame" cx="0" cy="40" r="18" />
+    <path class="frame" d="M0 58v36m-14 36 14-36 14 36" />
+    <path class="frame" d="M-8 44c-14 12-30 36-30 36l14 8" />
+    <path class="frame" d="M12 44c14 12 30 36 30 36l-14 8" />
+    <path class="frame" d="M36 34h56m-12-12 12 12-12 12" />
+    <text x="0" y="150" class="label">Pace Leader</text>
   </g>
 
   <!-- Navigator -->
-  <g transform="translate(380 100)">
-    <g class="icon" aria-label="Navigator icon">
-      <polygon points="20,96 88,58 156,96 88,134"/>
-      <line x1="88" y1="58" x2="88" y2="134"/>
-      <circle cx="118" cy="94" r="28"/>
-      <circle cx="118" cy="94" r="6" fill="none"/>
-      <line x1="118" y1="66" x2="118" y2="78"/>
-      <line x1="118" y1="110" x2="118" y2="122"/>
-      <line x1="90" y1="94" x2="102" y2="94"/>
-      <line x1="134" y1="94" x2="146" y2="94"/>
-      <polyline points="40,110 20,144 60,140"/>
-      <polyline points="136,110 156,144 116,140"/>
-    </g>
-    <text class="label" x="90" y="210">Navigator</text>
+  <g transform="translate(330, 110)">
+    <rect class="frame" x="-50" y="-10" width="100" height="120" rx="10" />
+    <path class="frame" d="M-30 24 0 -2 30 24 0 50Z" />
+    <circle class="frame" cx="0" cy="24" r="8" />
+    <path class="frame" d="M-52 52h104" />
+    <circle class="frame" cx="32" cy="74" r="18" />
+    <path class="frame" d="M32 56v36m-10 0h20m-10-20 10 6" />
+    <text x="0" y="150" class="label">Navigator</text>
   </g>
 
   <!-- Sweep -->
-  <g transform="translate(610 100)">
-    <g class="icon" aria-label="Sweep icon">
-      <circle cx="70" cy="70" r="18"/>
-      <path d="M70 88v44"/>
-      <path d="M70 112l-26 24"/>
-      <path d="M70 112l28 24"/>
-      <path d="M44 136l-16 40"/>
-      <path d="M98 136l16 40"/>
-      <polyline points="94,64 120,48 120,78"/>
-      <line x1="120" y1="48" x2="140" y2="42"/>
-    </g>
-    <text class="label" x="90" y="210">Sweep</text>
+  <g transform="translate(540, 110)">
+    <circle class="frame" cx="-24" cy="30" r="16" />
+    <path class="frame" d="M-24 46v28m-12 36 12-36 12 36" />
+    <path class="frame" d="M-36 68c-18 12-28 32-28 32l12 8" />
+    <path class="frame" d="M-12 68c18 12 28 32 28 32l-12 8" />
+    <path class="frame" d="M22 10v42l20-10V0Z" />
+    <line class="frame" x1="22" y1="10" x2="6" y2="-12" />
+    <text x="0" y="150" class="label">Sweep</text>
   </g>
 
   <!-- Rotation Lead -->
-  <g transform="translate(840 100)">
-    <g aria-label="Rotation Lead icon">
-      <g class="muted">
-        <circle cx="30" cy="80" r="15"/>
-        <path d="M30 95v34"/>
-        <path d="M30 112l-14 18"/>
-        <path d="M30 112l14 18"/>
-        <path d="M16 130l-10 26"/>
-        <path d="M44 130l10 26"/>
-      </g>
-      <g class="muted" transform="translate(44 12)">
-        <circle cx="30" cy="80" r="15"/>
-        <path d="M30 95v34"/>
-        <path d="M30 112l-14 18"/>
-        <path d="M30 112l14 18"/>
-        <path d="M16 130l-10 26"/>
-        <path d="M44 130l10 26"/>
-      </g>
-      <g class="icon" transform="translate(88 -4)">
-        <circle cx="30" cy="80" r="18"/>
-        <path d="M30 98v40"/>
-        <path d="M30 118l-18 22"/>
-        <path d="M30 118l18 22"/>
-        <path d="M12 140l-10 26"/>
-        <path d="M48 140l10 26"/>
-        <polyline points="18,62 30,54 42,62"/>
-      </g>
+  <g transform="translate(780, 110)">
+    <path class="frame" d="M-70 100h140" />
+    <g transform="translate(-50, 24)">
+      <circle class="frame" cx="0" cy="0" r="14" />
+      <path class="frame" d="M0 14v30m-10 32 10-32 10 32" />
     </g>
-    <text class="label" x="110" y="210">Rotation Lead</text>
+    <g transform="translate(-10, 24)">
+      <circle class="frame" cx="0" cy="0" r="14" />
+      <path class="frame" d="M0 14v30m-10 32 10-32 10 32" />
+    </g>
+    <g transform="translate(30, 10)">
+      <circle class="frame fill" cx="0" cy="0" r="14" />
+      <path class="frame" d="M0 14v34m-10 32 10-32 10 32" />
+      <path class="frame" d="M-12 18c-12 10-20 24-20 24l10 6" />
+      <path class="frame" d="M12 18c12 10 20 24 20 24l-10 6" />
+    </g>
+    <text x="0" y="150" class="label">Rotation Lead</text>
   </g>
 
-  <text class="caption" x="600" y="470">Clear roles = safer winter travel.</text>
+  <text x="480" y="320" class="caption">Clear roles = safer winter travel.</text>
 </svg>
