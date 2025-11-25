@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" aria-labelledby="title">
+  <title>Snowshoe Technique</title>
+  <style>
+    text { font-family: 'Arial', sans-serif; font-size: 14px; fill: #111; }
+    .label { font-size: 13px; }
+    .line { stroke: #111; stroke-width: 2; fill: none; }
+    .callout { stroke: #111; stroke-width: 1.5; fill: none; }
+    .arrow { marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 z" fill="#111" />
+    </marker>
+  </defs>
+
+  <!-- Ground hint -->
+  <path class="line" d="M60 320 Q 300 340 540 320" stroke-dasharray="6 8" />
+
+  <!-- Snowshoes -->
+  <path class="line" d="M215 130 Q180 200 215 270 Q250 310 275 265 Q300 200 275 135 Q250 90 215 130 Z" />
+  <path class="line" d="M385 130 Q350 200 385 270 Q420 310 445 265 Q470 200 445 135 Q420 90 385 130 Z" />
+
+  <!-- Bindings -->
+  <ellipse class="line" cx="245" cy="195" rx="26" ry="16" />
+  <ellipse class="line" cx="415" cy="205" rx="26" ry="16" />
+  <path class="line" d="M228 195 L262 195" />
+  <path class="line" d="M398 205 L432 205" />
+
+  <!-- Footprints / steps direction -->
+  <path class="line arrow" d="M300 210 L350 210" />
+  <text x="320" y="200" class="label">forward</text>
+
+  <!-- Poles -->
+  <g stroke-linecap="round">
+    <path class="line" d="M130 80 L95 260" />
+    <circle cx="130" cy="80" r="6" fill="none" stroke="#111" stroke-width="2" />
+    <path class="line" d="M470 80 L505 260" />
+    <circle cx="470" cy="80" r="6" fill="none" stroke="#111" stroke-width="2" />
+  </g>
+
+  <!-- Callouts -->
+  <g class="callout">
+    <line x1="300" y1="250" x2="360" y2="300" />
+    <text x="365" y="305" class="label">Slightly wider stance</text>
+  </g>
+
+  <g class="callout">
+    <line x1="340" y1="185" x2="420" y2="150" />
+    <text x="425" y="148" class="label">Short, smooth steps</text>
+  </g>
+
+  <g class="callout">
+    <line x1="470" y1="200" x2="520" y2="230" />
+    <text x="525" y="232" class="label">Poles wide for balance</text>
+  </g>
+</svg>
