@@ -1,0 +1,16 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="32" fill="#F4F0E6"/>
+  <path d="M140 160H480" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 240H620" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M140 320H520" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <rect x="180" y="120" width="480" height="360" rx="24" fill="white" stroke="#2F4F3A" stroke-width="8"/>
+  <rect x="220" y="180" width="200" height="28" rx="12" fill="#E3D8BD" />
+  <rect x="220" y="240" width="340" height="22" rx="10" fill="#DEE7E2" />
+  <rect x="220" y="280" width="300" height="22" rx="10" fill="#DEE7E2" />
+  <rect x="220" y="320" width="260" height="22" rx="10" fill="#DEE7E2" />
+  <rect x="220" y="360" width="180" height="22" rx="10" fill="#DEE7E2" />
+  <circle cx="520" cy="220" r="34" fill="#C5A45A" opacity="0.2" />
+  <path d="M500 220L520 240L560 190" stroke="#C5A45A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="540" y="380" width="120" height="36" rx="14" fill="#2F4F3A" />
+  <text x="600" y="405" fill="white" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" font-weight="700" text-anchor="middle">3-Day Plan</text>
+</svg>

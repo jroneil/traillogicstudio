@@ -1,23 +1,31 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getBlogPost, getBlogPosts, markdownToHtml } from "@/lib/blog";
-
-export const metadata = {
-  title: "Trail Logic Studio Blog",
-};
+import { MDXRenderer } from "@/components/MDXRenderer";
+import { getPostBySlug, getPostSlugs } from "@/lib/posts";
 
 export function generateStaticParams() {
-  return getBlogPosts().map((post) => ({ slug: post.slug }));
+  return getPostSlugs().map((slug) => ({ slug }));
+}
+
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const post = getPostBySlug(params.slug);
+  if (!post) {
+    return { title: "Post not found" };
+  }
+
+  return {
+    title: `${post.frontmatter.title} | Trail Logic Studio Blog`,
+    description: post.frontmatter.description ?? post.frontmatter.title,
+  };
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getBlogPost(params.slug);
+  const post = getPostBySlug(params.slug);
 
   if (!post) {
     notFound();
   }
-
-  const html = markdownToHtml(post.content);
 
   return (
     <article className="section">
@@ -31,10 +39,10 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
         <div className="space-y-4">
           <p className="text-sm font-semibold uppercase tracking-wide text-primary">Trail Notes</p>
-          <h1 className="text-4xl font-bold text-primary-dark">{post.title}</h1>
+          <h1 className="text-4xl font-bold text-primary-dark">{post.frontmatter.title}</h1>
         </div>
 
-        <div className="prose max-w-none" dangerouslySetInnerHTML={{ __html: html }} />
+        <MDXRenderer html={post.html} />
       </div>
     </article>
   );
