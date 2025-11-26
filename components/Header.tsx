@@ -6,7 +6,9 @@ import { Button } from "./UI/Button";
 
 const NAV_ITEMS = [
   { label: "Home", href: "/" },
+  { label: "Store", href: "/store" },
   { label: "Products", href: "/products" },
+  { label: "Blog", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Resources", href: "/resources" },
   { label: "Contact", href: "/contact" },
@@ -31,7 +33,7 @@ export function Header() {
               {item.label}
             </Link>
           ))}
-          <Button href="/products" variant="primary" className="text-sm">
+          <Button href="/store" variant="primary" className="text-sm">
             View Products
           </Button>
         </nav>
@@ -61,7 +63,7 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <Button href="/products" className="w-full justify-center">
+            <Button href="/store" className="w-full justify-center">
               Shop Products
             </Button>
           </div>

@@ -1,0 +1,13 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="32" fill="#F7F4ED"/>
+  <rect x="230" y="110" width="440" height="380" rx="32" fill="#FFFFFF" stroke="#2F4F3A" stroke-width="8"/>
+  <path d="M320 200H580" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M320 250H540" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M320 300H520" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="360" cy="380" r="48" fill="#E3D8BD"/>
+  <path d="M360 340L340 400H380L360 340Z" fill="#2F4F3A"/>
+  <path d="M420 360L400 420H450L420 360Z" fill="#C5A45A" opacity="0.6"/>
+  <path d="M470 330L450 410H500L470 330Z" fill="#2F4F3A" opacity="0.8"/>
+  <rect x="370" y="430" width="180" height="28" rx="12" fill="#2F4F3A"/>
+  <text x="460" y="450" fill="white" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" font-weight="700" text-anchor="middle">Ultralight checklist</text>
+</svg>

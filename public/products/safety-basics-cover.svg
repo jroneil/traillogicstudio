@@ -1,0 +1,13 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="32" fill="#F7F4ED"/>
+  <rect x="210" y="120" width="480" height="360" rx="28" fill="#FFFFFF" stroke="#2F4F3A" stroke-width="8"/>
+  <path d="M260 200H620" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M260 245H520" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M260 290H560" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M260 335H480" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="610" cy="270" r="64" fill="#E3D8BD"/>
+  <path d="M610 220L630 260H590L610 220Z" fill="#2F4F3A"/>
+  <path d="M610 260V320" stroke="#2F4F3A" stroke-width="10" stroke-linecap="round"/>
+  <rect x="360" y="410" width="200" height="30" rx="12" fill="#2F4F3A" />
+  <text x="460" y="430" fill="white" font-family="'Inter', 'Helvetica', sans-serif" font-size="16" font-weight="700" text-anchor="middle">Safety cards</text>
+</svg>
